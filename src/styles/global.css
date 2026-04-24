@@ -445,9 +445,15 @@ p, h1, h2, h3, h4, h5, h6, li, summary {
 .hero-sub {
   font-size: 1rem;
   color: var(--ink-soft);
-  max-width: 560px;
-  line-height: 1.8;
+  max-width: 500px;
+  line-height: 1.9;
   margin: 0 auto 2rem 0;
+  word-break: normal;
+  overflow-wrap: break-word;
+  white-space: pre-line;   /* respect future \n breaks if copy adds them */
+}
+@media (min-width: 769px) {
+  .hero-sub { max-width: 520px; }
 }
 
 /* ============================================================
