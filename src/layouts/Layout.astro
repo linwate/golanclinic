@@ -69,18 +69,18 @@ const modalTitle = modal.title?.[lang] ?? ''
 const modalCtaLabel = modal.cta_label?.[lang] ?? ''
 const modalCtaUrl = modal.cta_url ?? ''
 
-// Per-language ticker speed (desktop only — mobile stays fixed at 24s).
-// CJK glyphs are wider than Latin, so fewer chars pass the 1000px window
-// per second. Shorter duration = more characters per second = compensates
-// for wider glyphs. English gets a longer duration so narrow Latin text
-// doesn't feel like it's flying by.
-const baseSpeed = 20
-const tickerSpeed =
-  lang === 'zh'
-    ? baseSpeed
-    : lang === 'ja'
-      ? Math.round(baseSpeed * 1.1)
-      : Math.round(baseSpeed * 1.4)
+// Per-language ticker speed. Desktop and mobile are tuned independently
+// because desktop's single-pass 1000px window has different pacing from
+// mobile's seamless full-width loop. Wider CJK glyphs need a faster
+// duration to keep characters-per-second readable; narrow Latin text
+// needs a slower duration so it doesn't feel rushed.
+const tickerSpeedMap: Record<Lang, { desktop: number; mobile: number }> = {
+  zh: { desktop: 24, mobile: 24 },
+  ja: { desktop: 26, mobile: 26 },
+  en: { desktop: 30, mobile: 26 },
+}
+const tickerSpeedDesktop = tickerSpeedMap[lang].desktop
+const tickerSpeedMobile = tickerSpeedMap[lang].mobile
 
 const htmlLang: Record<Lang, string> = {
   zh: 'zh-Hant',
@@ -208,7 +208,11 @@ const hreflangOf: Record<Lang, string> = {
   <body>
     <a href="#main" class="skip-link">Skip to content</a>
     {activeAnns.length > 0 && (
-      <div class="announcement-ticker" role="status" style={`--ticker-speed: ${tickerSpeed}s`}>
+      <div
+        class="announcement-ticker"
+        role="status"
+        style={`--ticker-speed: ${tickerSpeedDesktop}s; --ticker-speed-mobile: ${tickerSpeedMobile}s`}
+      >
         <div class="ticker-inner">
           <div class="ticker-track">
             {[0, 1, 2, 3].map((rep) => (

@@ -304,9 +304,10 @@ body:has(.announcement-ticker) .hero { padding-top: calc(4rem + 36px); }
   .ticker-inner { max-width: 100%; }
   .ticker-text { font-size: 0.98rem; padding: 0 1.3rem; }
   .ticker-sep { font-size: 0.98rem; padding: 0 0.7rem; }
-  /* Mobile uses seamless-loop keyframes at a fixed 24s duration */
+  /* Mobile seamless-loop keyframes; duration driven by
+     `--ticker-speed-mobile` (injected per-language by Layout.astro). */
   .ticker-track {
-    animation: ticker-scroll 24s linear infinite;
+    animation: ticker-scroll var(--ticker-speed-mobile, 24s) linear infinite;
   }
 }
 @media (min-width: 769px) {
