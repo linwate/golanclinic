@@ -931,21 +931,20 @@ a.training-item:focus-visible .training-read {
   .training-read { opacity: 1; }
 }
 .training-country {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   flex-shrink: 0;
-  width: 2.8rem;
-  height: 2.8rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #fff;
-  border: 1px solid var(--line-soft);
-  border-radius: 50%;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  width: 2rem;
+  text-align: center;
+  line-height: 1;
   margin-top: 0.2rem;
   /* Pre-Twemoji fallback; after parse, <img.emoji> takes over inside. */
   font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji',
     'Twemoji Mozilla', 'EmojiOne Color', 'Segoe UI Symbol', sans-serif;
+  border: none;
+  background: none;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
 }
 .training-body { flex: 1; min-width: 0; }
 .training-name {
