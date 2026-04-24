@@ -177,7 +177,7 @@ export const en = {
         num: '04',
         title: 'Treatment Plan',
         nhi: 'Basic treatment options and medication discussed. Proceeds after your decision.',
-        self: 'For complex or chronic pain, a full explanation of advanced options — ultrasound-guided injection, PRP, hydrodissection, BMAC, amniotic matrix, and other regenerative therapies. Transparent pricing. Treatment only begins after your agreement, no pressure.',
+        self: 'For complex or chronic pain, a full explanation of advanced options - ultrasound-guided injection, PRP, hydrodissection, BMAC, amniotic matrix, and other regenerative therapies. Transparent pricing. Treatment only begins after your agreement, no pressure.',
       },
     ],
   },
