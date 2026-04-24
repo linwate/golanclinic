@@ -5,17 +5,17 @@
   "announcements": [
     {
       "id": 1,
-      "zh": "測試測設測試測設測試測設測試測設",
-      "en": "Test Setup Test Setup Test Setup Test Setup",
-      "ja": "テスト設定テスト設定テスト設定テスト設定",
+      "zh": "",
+      "en": "",
+      "ja": "",
       "color": "#ffffff",
       "expires_at": "2026-04-28T17:36:00.000Z"
     },
     {
       "id": 2,
-      "zh": "測試測設測試測設測試測設測試測設 2222測試測設測試測設測試測設測試測設",
-      "en": "Test setup test setup test setup test setup 2222 test setup test setup test setup test setup",
-      "ja": "テストセットアップテストセットアップテストセットアップテストセットアップ 2222テストセットアップテストセットアップテストセットアップテストセットアップ",
+      "zh": "",
+      "en": "",
+      "ja": "",
       "color": "#ffd700",
       "expires_at": "2026-05-08T17:39:00.000Z"
     }
