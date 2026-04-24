@@ -92,7 +92,7 @@ export const en = {
             label: 'Foundation Repair',
             desc: 'Suitable for first-time regenerative therapy, moderate injury, chronic pain',
             items: [
-              { name: 'PRP Therapy', desc: 'Platelet-rich plasma for tissue repair' },
+              { name: 'Joint Hyaluronic Acid Injection', desc: 'Joint lubrication and basic degenerative pain relief' },
               { name: 'Hydrodissection', desc: 'Precise nerve release under ultrasound' },
               { name: 'Ultrasound-Guided Injection', desc: 'Real-time imaging for accurate delivery' },
               { name: 'Prolotherapy', desc: 'Strengthening ligaments and joint stability' },
@@ -104,10 +104,12 @@ export const en = {
             label: 'Advanced Regeneration',
             desc: 'For severe degeneration, refractory pain, or cases needing stronger regenerative power',
             items: [
+              { name: 'PRP Therapy', desc: 'Platelet-rich plasma for moderate to severe tissue repair' },
+              { name: 'SportVis Hyaluronic Acid', desc: 'Soft tissue HA for tendon and ligament repair' },
               { name: 'BMAC', desc: 'Bone marrow concentrate - strongest regenerative option' },
               { name: 'Amniotic Matrix', desc: 'Natural growth factors for tissue repair' },
               { name: 'Autologous Fat Cell Injection', desc: 'Fat-derived cells for joint and tissue repair' },
-              { name: 'TAME (Micro-Arterial Embolization)', desc: 'Vascular-based pain control for degenerative arthritis and tendinopathy' },
+              { name: 'TAME', desc: 'Vascular-based pain control for refractory arthritis and tendinopathy' },
             ],
           },
         ],
