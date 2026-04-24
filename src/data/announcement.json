@@ -1,6 +1,5 @@
 {
   "settings": {
-    "expires_at": null,
     "speed": 18,
     "active": true
   },
@@ -10,14 +9,16 @@
       "zh": "",
       "en": "",
       "ja": "",
-      "color": "#f2f0eb"
+      "color": "#f2f0eb",
+      "expires_at": null
     },
     {
       "id": 2,
       "zh": "",
       "en": "",
       "ja": "",
-      "color": "#ffd700"
+      "color": "#ffd700",
+      "expires_at": null
     }
   ]
 }

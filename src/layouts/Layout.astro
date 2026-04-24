@@ -18,7 +18,6 @@ const canonical = `https://golanclinic.com/${lang}/`
 const ogImage = 'https://golanclinic.com/images/doctor.webp'
 
 interface Settings {
-  expires_at?: string | null
   speed?: number
   active?: boolean
 }
@@ -28,19 +27,23 @@ interface Announcement {
   en: string
   ja: string
   color?: string
+  expires_at?: string | null
 }
 
 const settings = (announcementData as { settings?: Settings }).settings ?? {}
 const announcementsRaw = (announcementData as { announcements?: Announcement[] }).announcements ?? []
 
-// Group-level gate: active + not-expired. Below that, per-ann filter just
-// checks the current lang has text (empty slots stay hidden).
+// Group toggle gates everything; then each ann is filtered by its own
+// expires_at and non-empty text in the current language.
 const nowIso = new Date().toISOString()
-const groupActive =
-  settings.active !== false &&
-  (!settings.expires_at || settings.expires_at > nowIso)
+const groupActive = settings.active !== false
 const activeAnns: Announcement[] = groupActive
-  ? announcementsRaw.filter((a) => a[lang] && a[lang].trim() !== '')
+  ? announcementsRaw.filter(
+      (a) =>
+        a[lang] &&
+        a[lang].trim() !== '' &&
+        (!a.expires_at || a.expires_at > nowIso),
+    )
   : []
 const tickerSpeed = settings.speed ?? 18
 
