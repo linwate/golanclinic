@@ -10,6 +10,17 @@
       "color": "#ffffff",
       "font_size": "0.95rem",
       "speed": 12
+    },
+    {
+      "id": 1777051417195,
+      "zh": "測試 測試 測試 測試 測試 測試",
+      "en": "",
+      "ja": "",
+      "active": true,
+      "expires_at": "2026-05-24T17:17:00.000Z",
+      "color": "#ffd700",
+      "font_size": "1.05rem",
+      "speed": 12
     }
   ]
 }
