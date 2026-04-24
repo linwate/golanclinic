@@ -1439,7 +1439,6 @@ details[open] .faq-q::after {
   .section-title {
     font-size: clamp(1.5rem, 6vw, 2rem);
     margin-bottom: 1.5rem;
-    word-break: keep-all;
   }
 
   /* Nav — keep logo from overflowing, shrink CTAs */
@@ -1482,14 +1481,12 @@ details[open] .faq-q::after {
     font-size: clamp(2.2rem, 9vw, 3.5rem);
     line-height: 1.2;
     margin-bottom: 1rem;
-    word-break: keep-all;
     overflow-wrap: break-word;
   }
   .hero-sub {
     font-size: 0.95rem;
     line-height: 1.85;
     margin-bottom: 2rem;
-    word-break: keep-all;
   }
   .btn-primary {
     width: 100%;
@@ -1509,12 +1506,10 @@ details[open] .faq-q::after {
   .problem-item {
     font-size: 0.98rem;
     line-height: 1.7;
-    word-break: keep-all;
   }
   .problem-close {
     font-size: 1rem;
     line-height: 1.7;
-    word-break: keep-all;
   }
 
   /* Services */
@@ -1530,7 +1525,7 @@ details[open] .faq-q::after {
   .process-step { gap: 0.8rem; padding: 1.2rem 0; }
   .process-num { font-size: 1.3rem; width: 2rem; }
   .process-title { font-size: 0.98rem; }
-  .process-desc { font-size: 0.88rem; word-break: keep-all; }
+  .process-desc { font-size: 0.88rem; }
   .process-split { grid-template-columns: 1fr; gap: 0.6rem; }
   .process-type-tabs { flex-direction: column; gap: 0.6rem; }
   .process-type { padding: 0.6rem 1rem; width: 100%; }
@@ -1546,24 +1541,23 @@ details[open] .faq-q::after {
   .doctor-title {
     font-size: clamp(1.8rem, 7vw, 3rem);
     margin-bottom: 1rem;
-    word-break: keep-all;
   }
-  .doctor-desc { font-size: 0.92rem; word-break: keep-all; }
+  .doctor-desc { font-size: 0.92rem; }
   .doctor-accent { display: none; }
 
   /* Credentials */
   .credentials { padding: 3.5rem 0; }
   .credentials-grid { grid-template-columns: 1fr; gap: 2rem; }
-  .credential-name { font-size: 0.9rem; word-break: keep-all; }
-  .training-name { font-size: 0.9rem; word-break: keep-all; }
-  .training-desc { font-size: 0.82rem; word-break: keep-all; }
+  .credential-name { font-size: 0.9rem; }
+  .training-name { font-size: 0.9rem; }
+  .training-desc { font-size: 0.82rem; }
 
   /* Blog */
   .blog-section { padding: 3rem 0; }
   .blog-inner { flex-direction: column; text-align: center; gap: 1.5rem; }
   .blog-number { font-size: 4rem; }
-  .blog-desc { font-size: 0.95rem; word-break: keep-all; }
-  .blog-note { font-size: 0.82rem; word-break: keep-all; }
+  .blog-desc { font-size: 0.95rem; }
+  .blog-note { font-size: 0.82rem; }
   .blog-section .btn-primary { width: 100%; text-align: center; }
   .blog-section .section-title::after { margin: 0.8rem auto 0; }
 
@@ -1573,10 +1567,9 @@ details[open] .faq-q::after {
     font-size: 0.92rem;
     padding: 1.2rem 0;
     gap: 0.8rem;
-    word-break: keep-all;
     line-height: 1.6;
   }
-  .faq-a { font-size: 0.88rem; word-break: keep-all; line-height: 1.8; }
+  .faq-a { font-size: 0.88rem; line-height: 1.8; }
 
   /* Hours */
   .hours { padding: 3rem 0; }
@@ -1588,11 +1581,9 @@ details[open] .faq-q::after {
   .book-inner { padding: 0 1.2rem; }
   .book-title {
     font-size: clamp(1.6rem, 7vw, 2.5rem);
-    word-break: keep-all;
   }
   .book-sub {
     font-size: 0.92rem;
-    word-break: keep-all;
     line-height: 1.85;
   }
   .book-addr { font-size: 0.78rem; line-height: 1.6; }
