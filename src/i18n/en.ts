@@ -20,6 +20,12 @@ export const en = {
     sub: "From a neurologist's perspective — precision ultrasound assessment to find the true source of pain and chronic inflammation, then regenerative medicine to restore function.",
     cta: 'Book an Evaluation',
   },
+  stats: [
+    { num: '200+', label: 'Medical Articles' },
+    { num: '10+', label: 'Years Experience' },
+    { num: '4', label: 'Clinic Locations' },
+    { num: 'CIPS', label: "Int'l Pain Certification" },
+  ],
   problem: {
     title: 'Do Any of These Sound Familiar?',
     items: [

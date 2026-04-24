@@ -342,6 +342,54 @@ summary { cursor: pointer; }
 }
 
 /* ============================================================
+   Stats bar (punchy cobalt strip between Hero and Problem)
+   ============================================================ */
+.stats-bar {
+  background: var(--cobalt);
+  padding: 2.5rem 0;
+  border-bottom: 1px solid rgba(244, 241, 234, 0.1);
+}
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: rgba(244, 241, 234, 0.1);
+}
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 1rem;
+  background: var(--cobalt);
+  gap: 0.5rem;
+  transition: background 0.2s ease;
+}
+.stat-item:hover {
+  background: var(--cobalt-light);
+}
+.stat-num {
+  font-family: var(--sans);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  color: var(--cobalt-ink);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.stat-label {
+  font-size: 0.78rem;
+  color: rgba(244, 241, 234, 0.6);
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 1.5;
+}
+@media (max-width: 768px) {
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .stat-item { padding: 1.2rem 0.8rem; }
+  .stat-num { font-size: 1.8rem; }
+}
+
+/* ============================================================
    Problem
    ============================================================ */
 .problem {
