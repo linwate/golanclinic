@@ -212,6 +212,17 @@ export const zh = {
       },
     ],
   },
+  hours: {
+    title: '門診時間',
+    note: '採預約制，請先透過 LINE 確認門診時間',
+    slots: [
+      { day: '週一至週五', time: '時段確認中' },
+      { day: '週六', time: '時段確認中' },
+      { day: '週日', time: '休診' },
+    ],
+    phone: '電話號碼確認中',
+    emergency: '急症請透過 LINE 聯繫',
+  },
   book: {
     title: '準備好了嗎？',
     sub: '如果你的疼痛超過 3 個月、治療過但沒好、想找到真正原因——建議先做一次精準評估。',

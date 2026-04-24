@@ -197,6 +197,23 @@ const trainingFlags = ['🇰🇷', '🇯🇵', '🇰🇷', '🌍', '🇰🇷']
     </div>
   </section>
 
+  <!-- HOURS -->
+  <section class="hours" id="hours">
+    <div class="container">
+      <h2 class="section-title">{t.hours.title}</h2>
+      <p class="hours-note">{t.hours.note}</p>
+      <div class="hours-grid">
+        {t.hours.slots.map((slot) => (
+          <div class="hours-row">
+            <span class="hours-day">{slot.day}</span>
+            <span class="hours-time">{slot.time}</span>
+          </div>
+        ))}
+      </div>
+      <p class="hours-emergency">{t.hours.emergency}</p>
+    </div>
+  </section>
+
   <!-- BOOK -->
   <section class="book" id="book">
     <div class="container book-inner">

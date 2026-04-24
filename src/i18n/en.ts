@@ -260,6 +260,17 @@ export const en = {
       },
     ],
   },
+  hours: {
+    title: 'Clinic Hours',
+    note: 'By appointment only. Please confirm via LINE.',
+    slots: [
+      { day: 'Mon – Fri', time: 'To be confirmed' },
+      { day: 'Saturday', time: 'To be confirmed' },
+      { day: 'Sunday', time: 'Closed' },
+    ],
+    phone: 'To be confirmed',
+    emergency: 'For urgent matters, please contact via LINE',
+  },
   book: {
     title: 'Ready to Find Answers?',
     sub: "If your pain has lasted more than 3 months, previous treatments haven't worked, or you want to find the real cause — start with a precision evaluation.",

@@ -880,6 +880,52 @@ details[open] .faq-q::after {
 }
 
 /* ============================================================
+   Hours (clinic schedule — before booking CTA)
+   ============================================================ */
+.hours {
+  padding: 5rem 0;
+  background: var(--bg-alt);
+  border-top: 1px solid var(--line-soft);
+}
+.hours-note {
+  color: var(--ink-mute);
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+  line-height: 1.85;
+  max-width: 560px;
+}
+.hours-grid {
+  max-width: 480px;
+  border-top: 1px solid var(--line-soft);
+}
+.hours-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--line-soft);
+  font-size: 0.95rem;
+}
+.hours-day {
+  color: var(--ink);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.hours-time {
+  color: var(--ink-mute);
+}
+.hours-emergency {
+  font-size: 0.82rem;
+  color: var(--ink-mute);
+  margin-top: 1.5rem;
+  letter-spacing: 0.02em;
+}
+@media (min-width: 900px) {
+  .hours { padding: 7rem 0; }
+}
+
+/* ============================================================
    Book
    ============================================================ */
 .book {
