@@ -92,17 +92,41 @@ const trainingFlags = ['🇰🇷', '🇯🇵', '🇰🇷', '🌍', '🇰🇷']
     <div class="container">
       <h2 class="section-title">{t.process.title}</h2>
       <p class="process-sub">{t.process.sub}</p>
-      <ol class="process-steps">
-        {t.process.steps.map((s, i) => (
-          <li class="process-step">
-            <span class="process-n">{String(i + 1).padStart(2, '0')}</span>
-            <div class="process-body">
-              <h3 class="process-step-title">{s.title}</h3>
-              <p class="process-step-desc">{s.desc}</p>
+
+      <div class="process-type-tabs">
+        <div class="process-type">
+          <span class="process-type-label nhi">{t.process.nhiLabel}</span>
+          <span class="process-type-note">{t.process.nhiNote}</span>
+        </div>
+        <div class="process-type">
+          <span class="process-type-label self">{t.process.selfLabel}</span>
+          <span class="process-type-note">{t.process.selfNote}</span>
+        </div>
+      </div>
+
+      <div class="process-steps">
+        {t.process.steps.map((step) => (
+          <div class="process-step">
+            <span class="process-num">{step.num}</span>
+            <div class="process-content">
+              <h3 class="process-title">{step.title}</h3>
+              {step.desc && <p class="process-desc">{step.desc}</p>}
+              {step.nhi && (
+                <div class="process-split">
+                  <div class="split-item nhi-item">
+                    <span class="split-label">{t.process.nhiLabel}</span>
+                    <p>{step.nhi}</p>
+                  </div>
+                  <div class="split-item self-item">
+                    <span class="split-label">{t.process.selfLabel}</span>
+                    <p>{step.self}</p>
+                  </div>
+                </div>
+              )}
             </div>
-          </li>
+          </div>
         ))}
-      </ol>
+      </div>
     </div>
   </section>
 
