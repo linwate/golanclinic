@@ -220,8 +220,35 @@ export const ja = {
     title: '疼痛ナレッジベース',
     desc: '林瑋德医師が自ら執筆した200本以上の疼痛・神経・再生医療に関する記事',
     link: 'https://twmedpro.tw',
-    cta: '記事を読む',
+    cta: 'すべての記事を読む',
     note: '神経痛・足底筋膜炎・五十肩・PRP・動脈硬化・糖尿病性神経障害',
+    featured: [
+      {
+        title: '足底筋膜炎はどのくらいで治る？早期vs慢性の治療期間',
+        tag: '足の痛み',
+        url: 'https://twmedpro.tw/plantar-fasciitis-recovery-time/',
+      },
+      {
+        title: '手のしびれ：手根管症候群の超音波診断と治療',
+        tag: '神経',
+        url: 'https://twmedpro.tw/hand-numbness-causes/',
+      },
+      {
+        title: '肩の痛み：腱板断裂vs五十肩vs頸椎圧迫の鑑別',
+        tag: '肩・首',
+        url: 'https://twmedpro.tw/shoulder-pain-causes-frozen-shoulder-rotator-cuff/',
+      },
+      {
+        title: 'PRP療法完全ガイド：適応症・期間・費用',
+        tag: '再生医療',
+        url: 'https://twmedpro.tw/prp-treatment-guide/',
+      },
+      {
+        title: '糖尿病性神経障害：ダブルクラッシュ症候群を見逃さない',
+        tag: '神経障害',
+        url: 'https://twmedpro.tw/diabetic-neuropathy-foot-numbness-burning-guide/',
+      },
+    ],
   },
   faq: {
     title: 'よくある質問',
