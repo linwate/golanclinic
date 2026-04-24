@@ -6,8 +6,8 @@
     {
       "id": 1,
       "zh": "留空中文內容代表不顯示此則公告。",
-      "en": "",
-      "ja": "",
+      "en": "Leaving the Chinese content blank means this announcement will not be displayed.",
+      "ja": "中国語の内容を空白のままにすると、このお知らせは表示されません。",
       "color": "#ffd700",
       "expires_at": "2026-05-07T17:36:00.000Z"
     },
