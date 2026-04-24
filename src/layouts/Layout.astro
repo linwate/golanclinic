@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css'
 import { useTranslations, type Lang } from '../i18n'
+import announcementData from '../data/announcement.json'
 
 export interface Props {
   lang: Lang
@@ -15,6 +16,14 @@ const title = Astro.props.title || t.site.title
 const description = Astro.props.description || t.site.description
 const canonical = `https://golanclinic.com/${lang}/`
 const ogImage = 'https://golanclinic.com/images/doctor.webp'
+
+const announcement = announcementData as {
+  zh: string
+  en: string
+  ja: string
+  active: boolean
+}
+const announcementText = announcement.active ? announcement[lang] : ''
 
 const lineUrl = 'https://line.me/R/ti/p/@golanclinic'
 
@@ -143,6 +152,20 @@ const hreflangOf: Record<Lang, string> = {
   </head>
   <body>
     <a href="#main" class="skip-link">Skip to content</a>
+    {announcementText && (
+      <div class="announcement-bar" role="status">
+        <div class="announcement-inner">
+          <span class="announcement-icon" aria-hidden="true">📢</span>
+          <span class="announcement-text">{announcementText}</span>
+          <button
+            type="button"
+            class="announcement-close"
+            aria-label="關閉公告"
+            onclick="this.closest('.announcement-bar').style.display='none'"
+          >✕</button>
+        </div>
+      </div>
+    )}
     <nav class="nav" aria-label="Primary">
       <div class="nav-inner">
         <a href={`/${lang}/`} class="nav-logo">
