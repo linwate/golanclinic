@@ -17,7 +17,7 @@ export const en = {
     tag: 'Luzhou, New Taipei · Neurology · Pain · Regenerative Medicine',
     title: 'Pain Relief',
     title2: 'Is Not the Same as Repair',
-    sub: "From a neurologist's perspective — precision ultrasound assessment to find the true source of pain and chronic inflammation, then regenerative medicine to restore function.",
+    sub: "From a neurologist's perspective: precision ultrasound assessment to find the true source of pain and chronic inflammation, then regenerative medicine to restore function.",
     cta: 'Book an Evaluation',
   },
   stats: [
@@ -34,21 +34,21 @@ export const en = {
       'Normal test results, yet still in discomfort',
       'Treatments that never fully resolved the problem',
     ],
-    close: "The problem isn't effort — it's not finding the real cause.",
+    close: "The problem isn't effort. It's not finding the real cause.",
   },
   approach: {
     tag: 'Integrated View',
     title: 'Pain × Arterial Stiffness',
     title2: 'Two faces of the same chronic inflammation',
-    desc: "From a neurologist's clinical perspective, stubborn pain and vascular stiffening often share one root: chronic inflammation. Golan integrates both assessments so you can see the whole picture — not just treat one symptom at a time.",
+    desc: "From a neurologist's clinical perspective, stubborn pain and vascular stiffening often share one root: chronic inflammation. Golan integrates both assessments so you can see the whole picture, not just treat one symptom at a time.",
     points: [
       {
         label: 'Neurology Lens',
-        text: 'Grounded in headache, dizziness, numbness, insomnia, and post-stroke care — understanding how the nervous system connects to systemic inflammation.',
+        text: 'Grounded in headache, dizziness, numbness, insomnia, and post-stroke care, understanding how the nervous system connects to systemic inflammation.',
       },
       {
         label: 'Structural Pain Assessment',
-        text: 'Ultrasound-guided localization of true compression and inflammation sites — not guesswork from imaging reports alone.',
+        text: 'Ultrasound-guided localization of true compression and inflammation sites, not guesswork from imaging reports alone.',
       },
       {
         label: 'Vascular Health',
@@ -68,7 +68,7 @@ export const en = {
       {
         key: 'nhi',
         title: 'NHI Clinic',
-        desc: 'Standard appointment — ideal for initial evaluation and routine follow-up.',
+        desc: 'Standard appointment, ideal for initial evaluation and routine follow-up.',
         items: [
           {
             name: 'General Neurology Clinic',
@@ -85,7 +85,7 @@ export const en = {
       {
         key: 'private',
         title: 'Self-Pay Appointment',
-        desc: 'Focused on pain recovery — more time to discuss a personalized treatment plan.',
+        desc: 'Focused on pain recovery, with more time to discuss a personalized treatment plan.',
         items: [
           {
             name: 'PRP Therapy',
@@ -137,11 +137,11 @@ export const en = {
       {
         key: 'signature',
         title: 'Signature Integrated Evaluation',
-        desc: "Golan's differentiator — vessels and pain on the same assessment blueprint.",
+        desc: "Golan's differentiator: vessels and pain on the same assessment blueprint.",
         items: [
           {
             name: 'Arterial Stiffness × Chronic Pain Integrated Evaluation',
-            desc: 'NHI and self-pay combined as indicated — linking chronic inflammation with the root of pain for a whole-body view.',
+            desc: 'NHI and self-pay combined as indicated, linking chronic inflammation with the root of pain for a whole-body view.',
             scope: 'hybrid',
           },
         ],
@@ -170,7 +170,7 @@ export const en = {
         num: '03',
         title: 'Live Ultrasound',
         nhi: 'Focused ultrasound on key areas',
-        self: 'Full ultrasound evaluation — real-time imaging, no waiting for reports.',
+        self: 'Full ultrasound evaluation. Real-time imaging, no waiting for reports.',
       },
       {
         num: '04',
@@ -186,7 +186,7 @@ export const en = {
   },
   credentials: {
     title: 'Credentials & International Training',
-    sub: 'Continuous learning — to bring more tools and perspectives to every patient',
+    sub: 'Continuous learning, bringing more tools and perspectives to every patient',
     licenses: {
       title: 'Medical Licenses',
       items: [
@@ -200,11 +200,11 @@ export const en = {
         },
         {
           name: 'CIPS Certified Physician',
-          note: 'World Institute of Pain (WIP) — ultrasound-guided interventional pain certification',
+          note: 'World Institute of Pain (WIP): ultrasound-guided interventional pain certification',
         },
         {
           name: 'Needle Knife Specialist',
-          note: 'Taiwan Needle Knife Medical Association — fascial adhesion release',
+          note: 'Taiwan Needle Knife Medical Association: fascial adhesion release',
         },
       ],
     },
@@ -213,25 +213,25 @@ export const en = {
       items: [
         {
           country: '🇰🇷',
-          name: 'Korea University Pain Training — International Certification',
+          name: 'Korea University Pain Training · International Certification',
           desc: 'One-year international pain training: ultrasound-guided injection, MSK anatomy, non-surgical pain management',
           link: 'https://twmedpro.tw/korea_pain_training_202404/',
         },
         {
           country: '🇯🇵',
-          name: 'Okuno Clinic — TAME Observational Course',
+          name: 'Okuno Clinic · TAME Observational Course',
           desc: 'On-site training in Transcatheter Arterial Micro-Embolization (TAME) under pioneer Dr. Okuno',
           link: 'https://twmedpro.tw/tame_2024_jp/',
         },
         {
           country: '🇰🇷',
           name: 'Kyoto MSK Ultrasound Asian Meeting 2025',
-          desc: 'Asian conference on musculoskeletal ultrasound — advanced ultrasound-guided techniques',
+          desc: 'Asian conference on musculoskeletal ultrasound, advanced ultrasound-guided techniques',
           link: 'https://twmedpro.tw/kyoto-osaka-msk-ultrasound-2025/',
         },
         {
           country: '🌍',
-          name: 'VIPS 2025 — Interventional Pain Symposium',
+          name: 'VIPS 2025 · Interventional Pain Symposium',
           desc: '3-day intensive training in cutting-edge interventional pain treatment and clinical application',
           link: 'https://twmedpro.tw/vips-2025-interventional-pain-symposium-review/',
         },
@@ -264,7 +264,7 @@ export const en = {
       },
       {
         q: 'Is arterial stiffness evaluation self-pay?',
-        a: 'It depends on NHI criteria. When indications are met, NHI covers the evaluation. If you want a more complete assessment of vascular age and inflammation markers, a self-pay option is available — costs are explained in clinic.',
+        a: 'It depends on NHI criteria. When indications are met, NHI covers the evaluation. If you want a more complete assessment of vascular age and inflammation markers, a self-pay option is available. Costs are explained in clinic.',
       },
       {
         q: 'Will I receive treatment on my first visit?',
@@ -272,11 +272,11 @@ export const en = {
       },
       {
         q: 'How many sessions will I need?',
-        a: 'This varies by condition. After 1–3 assessments, we will have a clear plan — no indefinite follow-up without purpose.',
+        a: 'This varies by condition. After 1–3 assessments, we will have a clear plan. No indefinite follow-up without purpose.',
       },
       {
         q: 'Who is a good candidate for Amniotic Matrix or BMAC?',
-        a: 'Amniotic matrix suits moderate tissue damage with limited PRP response. BMAC is for severe degenerative arthritis, cartilage defects, or refractory pain — an advanced regenerative option recommended after thorough assessment.',
+        a: 'Amniotic matrix suits moderate tissue damage with limited PRP response. BMAC is for severe degenerative arthritis, cartilage defects, or refractory pain, an advanced regenerative option recommended after thorough assessment.',
       },
     ],
   },
@@ -293,7 +293,7 @@ export const en = {
   },
   book: {
     title: 'Ready to Find Answers?',
-    sub: "If your pain has lasted more than 3 months, previous treatments haven't worked, or you want to find the real cause — start with a precision evaluation.",
+    sub: "If your pain has lasted more than 3 months, previous treatments haven't worked, or you want to find the real cause. Start with a precision evaluation.",
     cta: 'Book via LINE',
     addr: "No. 6, Ln. 58, Sec. 2, Yong'an N. Rd., Luzhou Dist., New Taipei City",
     hours: 'Mon–Sat · NHI neurology + self-pay by appointment',
