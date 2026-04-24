@@ -234,22 +234,24 @@ p, h1, h2, h3, h4, h5, h6, li, summary {
   align-items: center;
   white-space: nowrap;
   width: max-content;
-  animation: ticker-scroll 30s linear infinite;
+  animation: ticker-scroll var(--ticker-speed, 18s) linear infinite;
+  flex-shrink: 0;
+}
+/* Each .ticker-copy wraps the full announcement set. The viewport-wide
+   right padding sits on the copy (not the individual spans) so
+   announcements within one copy stay tight while the seamless loop
+   gap still guarantees track ≥ 2× viewport. */
+.ticker-copy {
+  display: inline-flex;
+  align-items: center;
+  padding-right: 100vw;
   flex-shrink: 0;
 }
 .ticker-text {
-  font-size: 0.85rem;
   letter-spacing: 0.04em;
-  padding-left: 1rem;
-  /* 100vw gap after each copy — guarantees each copy is wider than
-     the viewport, so track (2 copies) is always >= 2× viewport and
-     the marquee loops seamlessly regardless of how short the text
-     is. 50vw was too little for short CJK announcements on mobile
-     (each copy ≈ content + 50vw < viewport → gaps in animation). */
-  padding-right: 100vw;
+  padding: 0 1rem;
   flex-shrink: 0;
-  /* Override the global mobile `span { max-width: 100% }` rule so
-     the padding is not clipped. */
+  /* Override the global mobile `span { max-width: 100% }` rule. */
   max-width: none;
 }
 .ticker-close {
@@ -282,7 +284,7 @@ body:has(.announcement-ticker) .hero { padding-top: calc(4rem + 36px); }
 
 @media (max-width: 768px) {
   .announcement-ticker { height: 32px; }
-  .ticker-text { font-size: 0.78rem; padding: 0 0.75rem; }
+  .ticker-text { padding: 0 0.75rem; }
   .announcement-ticker + .nav { top: 32px; }
   body:has(.announcement-ticker) .hero { padding-top: calc(4rem + 32px); }
 }
@@ -297,8 +299,13 @@ body:has(.announcement-ticker) .hero { padding-top: calc(4rem + 36px); }
     justify-content: center;
     width: 100%;
   }
-  .ticker-track .ticker-text:nth-of-type(n+2),
-  .ticker-track .ticker-sep { display: none; }
+  .ticker-copy {
+    padding-right: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* Hide the duplicate copy used for the loop seam */
+  .ticker-track .ticker-copy:nth-of-type(n+2) { display: none; }
 }
 
 /* ============================================================

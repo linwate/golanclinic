@@ -24,6 +24,9 @@ interface Announcement {
   ja: string
   active: boolean
   expires_at: string | null
+  color?: string
+  font_size?: string
+  speed?: number
 }
 
 const announcementsRaw = (announcementData as { announcements?: Announcement[] }).announcements ?? []
@@ -34,13 +37,7 @@ const activeAnnouncements = announcementsRaw.filter((a) => {
   const exp = Date.parse(a.expires_at)
   return Number.isNaN(exp) ? true : exp > nowMs
 })
-const announcementTexts = activeAnnouncements
-  .map((a) => a[lang])
-  .filter((s): s is string => Boolean(s && s.trim()))
-// Join multiple announcements with a visual separator — stays one
-// `.ticker-text` node so the existing marquee CSS (padding-right: 100vw
-// on the single span) continues to produce a clean seamless loop.
-const announcementText = announcementTexts.join('　·　')
+const tickerSpeed = activeAnnouncements[0]?.speed ?? 18
 
 const lineUrl = 'https://line.me/R/ti/p/@golanclinic'
 
@@ -169,11 +166,25 @@ const hreflangOf: Record<Lang, string> = {
   </head>
   <body>
     <a href="#main" class="skip-link">Skip to content</a>
-    {announcementText && (
-      <div class="announcement-ticker" role="status">
+    {activeAnnouncements.length > 0 && (
+      <div class="announcement-ticker" role="status" style={`--ticker-speed: ${tickerSpeed}s`}>
         <div class="ticker-track">
-          <span class="ticker-text">{announcementText}</span>
-          <span class="ticker-text" aria-hidden="true">{announcementText}</span>
+          <div class="ticker-copy">
+            {activeAnnouncements.map((ann) => (
+              <span
+                class="ticker-text"
+                style={`color: ${ann.color || '#f2f0eb'}; font-size: ${ann.font_size || '0.82rem'};`}
+              >{ann[lang]}</span>
+            ))}
+          </div>
+          <div class="ticker-copy" aria-hidden="true">
+            {activeAnnouncements.map((ann) => (
+              <span
+                class="ticker-text"
+                style={`color: ${ann.color || '#f2f0eb'}; font-size: ${ann.font_size || '0.82rem'};`}
+              >{ann[lang]}</span>
+            ))}
+          </div>
         </div>
         <button
           type="button"
