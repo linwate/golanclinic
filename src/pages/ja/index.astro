@@ -84,17 +84,39 @@ const trainingFlags = ['🇰🇷', '🇯🇵', '🇰🇷', '🌍', '🇰🇷']
         <div class="section-block">
           <h3 class="section-sub-title">{group.title}</h3>
           <p class="section-sub-desc">{group.desc}</p>
-          <div class={group.key === 'nhi' ? 'nhi-grid' : group.key === 'private' ? 'self-pay-grid' : 'feature-grid'}>
-            {group.items.map((s) => (
-              <article class="service-card">
-                <span class={`service-badge service-badge-${s.scope}`}>
-                  {t.services.scopes[s.scope as Scope]}
-                </span>
-                <h4 class="service-name">{s.name}</h4>
-                <p class="service-desc">{s.desc}</p>
-              </article>
-            ))}
-          </div>
+          {'subgroups' in group ? (
+            group.subgroups.map((sub) => (
+              <div class="service-group">
+                <div class="service-group-header">
+                  <span class="service-group-label">{sub.label}</span>
+                  <span class="service-group-desc">{sub.desc}</span>
+                </div>
+                <div class="self-pay-grid">
+                  {sub.items.map((s) => (
+                    <article class="service-card">
+                      <span class="service-badge service-badge-private">
+                        {t.services.scopes.private}
+                      </span>
+                      <h4 class="service-name">{s.name}</h4>
+                      <p class="service-desc">{s.desc}</p>
+                    </article>
+                  ))}
+                </div>
+              </div>
+            ))
+          ) : (
+            <div class={group.key === 'nhi' ? 'nhi-grid' : 'feature-grid'}>
+              {group.items.map((s) => (
+                <article class="service-card">
+                  <span class={`service-badge service-badge-${s.scope}`}>
+                    {t.services.scopes[s.scope as Scope]}
+                  </span>
+                  <h4 class="service-name">{s.name}</h4>
+                  <p class="service-desc">{s.desc}</p>
+                </article>
+              ))}
+            </div>
+          )}
         </div>
       ))}
     </div>

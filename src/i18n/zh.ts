@@ -87,16 +87,28 @@ export const zh = {
         key: 'private',
         title: '自費約診',
         desc: '以疼痛修復為核心，時間較充裕，可深入討論治療計畫。',
-        items: [
-          { name: 'PRP 增生療法', desc: '自體血小板促進組織修復', scope: 'private' },
-          { name: '神經解套注射', desc: '精準釋放受壓迫的神經', scope: 'private' },
-          { name: '超音波導引注射', desc: '即時影像確認，精準到位', scope: 'private' },
-          { name: '增生療法（Prolotherapy）', desc: '強化韌帶與關節穩定度', scope: 'private' },
-          { name: '肉毒桿菌止痛', desc: '慢性疼痛的進階選項', scope: 'private' },
-          { name: '針刀整合治療', desc: '中西醫整合的結構鬆解', scope: 'private' },
-          { name: '羊膜基質注射', desc: '天然修復因子，促進組織再生與抗發炎', scope: 'private' },
-          { name: '骨髓細胞濃縮液（BMAC）', desc: '頑固性退化的進階再生選項，自體骨髓萃取', scope: 'private' },
-          { name: '自體脂肪細胞注射', desc: '自身脂肪萃取，用於關節修復與組織再生', scope: 'private' },
+        subgroups: [
+          {
+            label: '基礎修復',
+            desc: '適合初次嘗試再生醫學、中度損傷、慢性疼痛',
+            items: [
+              { name: 'PRP 增生療法', desc: '自體血小板促進組織修復' },
+              { name: '神經解套注射', desc: '精準釋放受壓迫的神經' },
+              { name: '超音波導引注射', desc: '即時影像確認，精準到位' },
+              { name: '增生療法（Prolotherapy）', desc: '強化韌帶與關節穩定度' },
+              { name: '肉毒桿菌止痛', desc: '慢性疼痛的進階選項' },
+              { name: '針刀整合治療', desc: '中西醫整合的結構鬆解' },
+            ],
+          },
+          {
+            label: '進階再生',
+            desc: '適合嚴重退化、反覆治療無效、需要更強再生力的患者',
+            items: [
+              { name: '骨髓細胞濃縮液（BMAC）', desc: '頑固性退化的最強再生選項，自體骨髓萃取' },
+              { name: '羊膜基質注射', desc: '天然修復因子，促進組織再生與抗發炎' },
+              { name: '自體脂肪細胞注射', desc: '自身脂肪萃取，用於關節修復與組織再生' },
+            ],
+          },
         ],
       },
       {

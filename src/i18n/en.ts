@@ -85,53 +85,29 @@ export const en = {
       },
       {
         key: 'private',
-        title: 'Self-Pay Appointment',
-        desc: 'Focused on pain recovery, with more time to discuss a personalized treatment plan.',
-        items: [
+        title: 'Private Appointment',
+        desc: 'Pain repair focused. More time for in-depth discussion.',
+        subgroups: [
           {
-            name: 'PRP Therapy',
-            desc: 'Autologous platelet-rich plasma to stimulate tissue repair',
-            scope: 'private',
+            label: 'Foundation Repair',
+            desc: 'Suitable for first-time regenerative therapy, moderate injury, chronic pain',
+            items: [
+              { name: 'PRP Therapy', desc: 'Platelet-rich plasma for tissue repair' },
+              { name: 'Hydrodissection', desc: 'Precise nerve release under ultrasound' },
+              { name: 'Ultrasound-Guided Injection', desc: 'Real-time imaging for accurate delivery' },
+              { name: 'Prolotherapy', desc: 'Strengthening ligaments and joint stability' },
+              { name: 'Botulinum Toxin', desc: 'Advanced option for chronic pain' },
+              { name: 'Needle Knife', desc: 'Integrated structural release' },
+            ],
           },
           {
-            name: 'Hydrodissection',
-            desc: 'Precise nerve release under ultrasound guidance',
-            scope: 'private',
-          },
-          {
-            name: 'Ultrasound-Guided Injection',
-            desc: 'Real-time imaging for accurate delivery',
-            scope: 'private',
-          },
-          {
-            name: 'Prolotherapy',
-            desc: 'Strengthening ligaments and joint stability',
-            scope: 'private',
-          },
-          {
-            name: 'Botulinum Toxin',
-            desc: 'Advanced option for chronic pain',
-            scope: 'private',
-          },
-          {
-            name: 'Needle Knife',
-            desc: 'Integrated TCM and modern structural release',
-            scope: 'private',
-          },
-          {
-            name: 'Amniotic Matrix Injection',
-            desc: 'Natural regenerative factors for tissue repair and anti-inflammation',
-            scope: 'private',
-          },
-          {
-            name: 'BMAC (Bone Marrow Aspirate Concentrate)',
-            desc: 'Advanced regenerative option for severe degeneration, autologous bone marrow extract',
-            scope: 'private',
-          },
-          {
-            name: 'Autologous Fat Cell Injection',
-            desc: 'Harvested from your own fat tissue for joint repair and tissue regeneration',
-            scope: 'private',
+            label: 'Advanced Regeneration',
+            desc: 'For severe degeneration, refractory pain, or cases needing stronger regenerative power',
+            items: [
+              { name: 'BMAC', desc: 'Bone marrow concentrate - strongest regenerative option' },
+              { name: 'Amniotic Matrix', desc: 'Natural growth factors for tissue repair' },
+              { name: 'Autologous Fat Cell Injection', desc: 'Fat-derived cells for joint and tissue repair' },
+            ],
           },
         ],
       },
