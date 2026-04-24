@@ -228,7 +228,9 @@ p, h1, h2, h3, h4, h5, h6, li, summary {
 }
 /* Inner viewport — caps the scroll window on desktop at the content
    container width (1000px), full width on mobile. The track animates
-   inside this element so content stays aligned with the page grid. */
+   inside this element so content stays aligned with the page grid.
+   `container-type: inline-size` unlocks the `cqw` unit so the desktop
+   keyframes can start the track exactly one container-width off-right. */
 .ticker-inner {
   width: 100%;
   max-width: 1000px;
@@ -237,6 +239,7 @@ p, h1, h2, h3, h4, h5, h6, li, summary {
   overflow: hidden;
   display: flex;
   align-items: center;
+  container-type: inline-size;
 }
 /* Track is as wide as its content naturally demands. `width: max-content`
    is the magic — without it, flex would constrain track to parent width
@@ -267,9 +270,13 @@ p, h1, h2, h3, h4, h5, h6, li, summary {
   flex-shrink: 0;
 }
 /* Desktop: single-pass sweep across the 1000px window (enters from
-   right edge, exits past left edge). */
+   right edge, exits past left edge).
+   Start offset is `100cqw` (one container-inline-size to the right) so
+   the track enters the window immediately. If we used `translateX(100%)`
+   instead, "100%" would mean the track's own width — with long content
+   that's several thousand px of dead space before anything appears. */
 @keyframes ticker-desktop {
-  0%   { transform: translateX(100%); }
+  0%   { transform: translateX(100cqw); }
   100% { transform: translateX(-100%); }
 }
 /* Mobile: seamless loop — track is duplicated so translating by -50%
