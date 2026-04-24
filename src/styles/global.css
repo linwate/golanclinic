@@ -1720,6 +1720,8 @@ details[open] .faq-q::after {
 /* Featured article cards — border-based dividers (avoids the
    gap+background trick that broke the previous attempt on some
    viewports). */
+/* Featured article cards — light-blue cards with dark text on the
+   cobalt blog section. Borders handle dividers (no gap+bg trick). */
 .blog-featured {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -1727,29 +1729,29 @@ details[open] .faq-q::after {
   margin: 2.5rem auto 0;
   width: 100%;
   max-width: 1000px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 2px;
   overflow: hidden;
 }
 .blog-card {
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--bg-blue);
   padding: 1.5rem;
   text-decoration: none;
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
   transition: background 0.2s;
-  border-right: 1px solid rgba(255, 255, 255, 0.12);
+  border-right: 1px solid rgba(26, 47, 110, 0.12);
 }
 .blog-card:last-child { border-right: none; }
 .blog-card:hover,
 .blog-card:focus-visible {
-  background: rgba(255, 255, 255, 0.1);
+  background: #ffffff;
   outline: none;
 }
 .blog-card-tag {
   font-size: 0.72rem;
-  color: var(--gold);
+  color: var(--cobalt);
   letter-spacing: 0.1em;
   text-transform: uppercase;
   font-weight: 700;
@@ -1757,7 +1759,7 @@ details[open] .faq-q::after {
 }
 .blog-card-title {
   font-size: 0.9rem;
-  color: #f2f0eb;
+  color: var(--ink);
   line-height: 1.65;
   flex: 1;
   margin: 0;
@@ -1766,22 +1768,20 @@ details[open] .faq-q::after {
 }
 .blog-card-arrow {
   font-size: 0.82rem;
-  color: rgba(242, 240, 235, 0.35);
+  color: rgba(26, 47, 110, 0.45);
   transition: color 0.2s, transform 0.2s;
   display: inline-block;
   align-self: flex-end;
 }
 .blog-card:hover .blog-card-arrow,
 .blog-card:focus-visible .blog-card-arrow {
-  color: var(--gold);
+  color: var(--cobalt);
   transform: translateX(4px);
 }
 
 @media (max-width: 900px) {
   .blog-featured { grid-template-columns: repeat(2, 1fr); }
-  /* Reset the default :last-child no-border then re-apply only to
-     odd cards so the 2-col layout gets a clean vertical line. */
-  .blog-card { border-right: 1px solid rgba(255, 255, 255, 0.12); }
+  .blog-card { border-right: 1px solid rgba(26, 47, 110, 0.12); }
   .blog-card:nth-child(even) { border-right: none; }
   .blog-card:last-child { border-right: none; }
 }
@@ -1792,7 +1792,7 @@ details[open] .faq-q::after {
   }
   .blog-card {
     border-right: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    border-bottom: 1px solid rgba(26, 47, 110, 0.12);
     padding: 1.2rem;
   }
   .blog-card:last-child { border-bottom: none; }
