@@ -1774,6 +1774,22 @@ details[open] .faq-q::after {
   color: var(--gold);
   transform: translateX(4px);
 }
+/* Row dividers for multi-row grid. Current card count is 6 →
+   desktop 3-col shows 2 rows, so the first 3 cards need a bottom
+   border to separate row 1 from row 2. */
+@media (min-width: 901px) {
+  .blog-card:nth-child(-n+3) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 900px) {
+  /* 2-col layout (6 cards = 3 rows of 2). Cards 1-4 finish rows 1-2. */
+  .blog-card:nth-child(-n+4) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  }
+}
+
 @media (max-width: 900px) {
   .blog-featured { grid-template-columns: repeat(2, 1fr); }
   .blog-card { border-right: 1px solid rgba(255, 255, 255, 0.12); }
