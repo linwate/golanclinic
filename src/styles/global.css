@@ -849,11 +849,41 @@ summary { cursor: pointer; }
   flex-direction: column;
   border-top: 1px solid var(--line-soft);
 }
-.training-item {
+a.training-item {
   display: flex;
   gap: 1rem;
-  padding: 1rem 0;
+  padding: 1rem;
+  margin: 0 -1rem;
   border-bottom: 1px solid var(--line-soft);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+a.training-item:hover,
+a.training-item:focus-visible {
+  background: var(--bg-alt);
+}
+a.training-item:hover .training-name,
+a.training-item:focus-visible .training-name {
+  color: var(--cobalt);
+}
+.training-read {
+  display: inline-block;
+  font-size: 0.78rem;
+  color: var(--cobalt);
+  margin-top: 0.45rem;
+  letter-spacing: 0.06em;
+  font-weight: 500;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+a.training-item:hover .training-read,
+a.training-item:focus-visible .training-read {
+  opacity: 1;
+}
+@media (max-width: 768px) {
+  .training-read { opacity: 1; }
 }
 .training-country {
   font-size: 1.8rem;

@@ -174,13 +174,19 @@ const trainingFlags = ['🇰🇷', '🇯🇵', '🇰🇷', '🌍', '🇰🇷']
           <h3 class="credentials-col-title">{t.credentials.training.title}</h3>
           <div class="training-list">
             {t.credentials.training.items.map((item, i) => (
-              <div class="training-item">
+              <a
+                href={item.link}
+                class="training-item"
+                target="_blank"
+                rel="noopener"
+              >
                 <span class="training-country" aria-hidden="true">{trainingFlags[i]}</span>
                 <div class="training-body">
                   <p class="training-name">{item.name}</p>
                   <p class="training-desc">{item.desc}</p>
+                  <span class="training-read">閱讀進修心得 →</span>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         </div>
