@@ -16,10 +16,10 @@ export const en = {
   },
   hero: {
     tag: 'Luzhou, New Taipei · Neurology · Pain · Regenerative Medicine',
-    title: 'Pain Relief',
-    title2: 'Is Not the Same as Repair',
+    title: 'Symptoms are gone,',
+    title2: 'but is your body truly healed?',
     sub: "From a neurologist's perspective: precision ultrasound assessment to find the true source of pain and chronic inflammation, then regenerative medicine to restore function.",
-    cta: 'Book an Evaluation',
+    cta: "Find your pain's true source",
   },
   stats: [
     { num: '200+', label: 'Medical Articles' },
