@@ -1339,7 +1339,7 @@ details[open] .faq-q::after {
 
 /* Tablet+ — tightened section paddings (denser visual rhythm) */
 @media (min-width: 769px) {
-  .hero { padding: 6rem 2rem 3rem; }
+  .hero { padding: 6rem 0 3rem; }
   .problem { padding: 5rem 0; }
   .approach { padding: 5rem 0; }
   .services { padding: 5rem 0; }
@@ -1772,13 +1772,11 @@ details[open] .faq-q::after {
      base font-size slightly for comfortable reading on large
      displays
    ============================================================ */
-@media (min-width: 1200px) {
-  .hero {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-  .hero-inner { padding-left: 1rem; }
-}
+/* @1200px+ block removed — it forced asymmetric padding-left: 1rem
+   on .hero-inner while padding-right stayed at the base value, so
+   hero text was 16px further left than container text. .hero-inner
+   already mirrors .container's padding via var(--pad-x), no extra
+   breathing room needed at this breakpoint. */
 
 @media (min-width: 1600px) {
   :root { --max: 1100px; }
