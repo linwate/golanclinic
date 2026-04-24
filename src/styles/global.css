@@ -241,11 +241,16 @@ p, h1, h2, h3, h4, h5, h6, li, summary {
   font-size: 0.85rem;
   letter-spacing: 0.04em;
   padding-left: 1rem;
-  /* 50vw gap after each copy → guarantees track > 2× viewport so
-     the marquee is continuous on any screen size, regardless of how
-     short/long the announcement text is. */
-  padding-right: 50vw;
+  /* 100vw gap after each copy — guarantees each copy is wider than
+     the viewport, so track (2 copies) is always >= 2× viewport and
+     the marquee loops seamlessly regardless of how short the text
+     is. 50vw was too little for short CJK announcements on mobile
+     (each copy ≈ content + 50vw < viewport → gaps in animation). */
+  padding-right: 100vw;
   flex-shrink: 0;
+  /* Override the global mobile `span { max-width: 100% }` rule so
+     the padding is not clipped. */
+  max-width: none;
 }
 .ticker-close {
   background: rgba(0, 0, 0, 0.15);
