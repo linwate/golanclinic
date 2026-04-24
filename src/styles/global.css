@@ -301,9 +301,9 @@ body:has(.announcement-ticker) .hero { padding-top: calc(4rem + 36px); }
   .ticker-inner { max-width: 100%; }
   .ticker-text { font-size: 0.98rem; padding: 0 1.3rem; }
   .ticker-sep { font-size: 0.98rem; padding: 0 0.7rem; }
-  /* Mobile uses seamless-loop keyframes at a fixed 18s duration */
+  /* Mobile uses seamless-loop keyframes at a fixed 24s duration */
   .ticker-track {
-    animation: ticker-scroll 18s linear infinite;
+    animation: ticker-scroll 24s linear infinite;
   }
 }
 @media (min-width: 769px) {
