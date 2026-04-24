@@ -230,7 +230,7 @@ export const en = {
     note: 'Topics: neuropathy · plantar fasciitis · frozen shoulder · PRP · arterial health · diabetic neuropathy',
     featured: [
       {
-        title: 'How Long Does Plantar Fasciitis Take to Heal?',
+        title: 'What is Plantar Fasciitis? Why the First Step Out of Bed Hurts Most',
         tag: 'Foot Pain',
         url: 'https://twmedpro.tw/plantar-fasciitis-first-step-pain/',
       },

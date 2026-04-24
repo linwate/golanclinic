@@ -218,7 +218,7 @@ export const zh = {
     note: '涵蓋：神經痛・足底筋膜炎・五十肩・PRP・動脈硬化・糖尿病神經病變',
     featured: [
       {
-        title: '足底筋膜炎多久會好？早期 vs 慢性的治療時程完全不同',
+        title: '什麼是足底筋膜炎？為何下床第一步最痛？原因、症狀、治療與預防',
         tag: '足部疼痛',
         url: 'https://twmedpro.tw/plantar-fasciitis-first-step-pain/',
       },

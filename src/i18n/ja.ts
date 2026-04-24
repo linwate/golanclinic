@@ -224,7 +224,7 @@ export const ja = {
     note: '神経痛・足底筋膜炎・五十肩・PRP・動脈硬化・糖尿病性神経障害',
     featured: [
       {
-        title: '足底筋膜炎はどのくらいで治る？',
+        title: '足底筋膜炎とは？なぜ朝の一歩目が最も痛いのか',
         tag: '足の痛み',
         url: 'https://twmedpro.tw/plantar-fasciitis-first-step-pain/',
       },
