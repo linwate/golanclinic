@@ -69,8 +69,6 @@ const modalTitle = modal.title?.[lang] ?? ''
 const modalCtaLabel = modal.cta_label?.[lang] ?? ''
 const modalCtaUrl = modal.cta_url ?? ''
 
-const lineUrl = 'https://line.me/R/ti/p/@golanclinic'
-
 const htmlLang: Record<Lang, string> = {
   zh: 'zh-Hant',
   en: 'en',
@@ -286,17 +284,6 @@ const hreflangOf: Record<Lang, string> = {
     </nav>
 
     <main id="main"><slot /></main>
-
-    <a
-      href={lineUrl}
-      class="line-float"
-      target="_blank"
-      rel="noopener"
-      aria-label={t.nav.book}
-    >
-      <span class="line-float-dot" aria-hidden="true"></span>
-      <span>{t.nav.book}</span>
-    </a>
 
     <a href="#book" class="floating-cta" aria-label={t.nav.book}>
       <span class="floating-dot" aria-hidden="true"></span>

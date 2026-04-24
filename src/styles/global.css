@@ -1500,38 +1500,6 @@ details[open] .faq-q::after {
 }
 
 /* ============================================================
-   Floating LINE CTA (mobile)
-   ============================================================ */
-.line-float {
-  display: none;
-  position: fixed;
-  right: max(1rem, env(safe-area-inset-right));
-  bottom: max(1rem, env(safe-area-inset-bottom));
-  z-index: 90;
-  background: #06c755;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 999px;
-  padding: 0.85rem 1.35rem;
-  font-size: 0.88rem;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  box-shadow: 0 10px 26px rgba(6, 199, 85, 0.35), 0 2px 6px rgba(0, 0, 0, 0.12);
-  min-height: 48px;
-  align-items: center;
-  gap: 0.55rem;
-  transition: transform 0.1s ease;
-}
-.line-float:active { transform: translateY(1px); }
-.line-float-dot {
-  width: 8px;
-  height: 8px;
-  background: #fff;
-  border-radius: 50%;
-  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.28);
-}
-
-/* ============================================================
    Footer
    ============================================================ */
 .footer {
@@ -1600,7 +1568,6 @@ details[open] .faq-q::after {
 @media (max-width: 899px) {
   .nav-links { display: none; }
   .nav-mobile-cta { display: inline-flex; }
-  .line-float { display: inline-flex; }
   .btn-primary { width: 100%; }
   .book { padding-bottom: 7rem; }
 }
@@ -1686,11 +1653,16 @@ details[open] .faq-q::after {
 }
 
 /* ============================================================
-   Floating CTA (mobile-only, pulses to draw attention to #book)
-   — shown alongside existing .line-float; collision is by design
-     pending user decision to keep one or both
+   Floating CTA (mobile-only) — the single anchored "book now" button.
+   Base rule hides it; the mobile media query below enables it.
+   Desktop has !important guard further down to keep it hidden even
+   if some future rule flips display at base.
    ============================================================ */
 .floating-cta { display: none; }
+
+@media (min-width: 769px) {
+  .floating-cta { display: none !important; }
+}
 
 /* ============================================================
    Mobile optimization (≤ 768px) — tuned for small-screen CJK
