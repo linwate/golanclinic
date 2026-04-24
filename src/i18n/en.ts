@@ -142,6 +142,28 @@ export const en = {
       },
     ],
   },
+  process: {
+    title: 'Your First Visit',
+    sub: 'Know exactly what to expect before you come in',
+    steps: [
+      {
+        title: 'Check In',
+        desc: 'Bring prior imaging (X-ray, MRI) if you have it — not required.',
+      },
+      {
+        title: 'Detailed Consultation',
+        desc: 'The doctor takes 15–20 minutes to hear your history, past treatments, and concerns.',
+      },
+      {
+        title: 'Real-Time Ultrasound',
+        desc: 'In-clinic ultrasound lets us locate the issue on the spot — no waiting for reports.',
+      },
+      {
+        title: 'Treatment Plan',
+        desc: 'Clear explanation of options and costs. Treatment only begins after you agree.',
+      },
+    ],
+  },
   doctor: {
     title: 'Dr. Lin Wei-de',
     sub: 'Neurology · Pain Medicine · Regenerative Medicine',

@@ -85,6 +85,25 @@ const trainingFlags = ['🇰🇷', '🇯🇵', '🇰🇷', '🌍', '🇰🇷']
     </div>
   </section>
 
+  <!-- PROCESS -->
+  <section class="process" id="process">
+    <div class="container">
+      <h2 class="section-title">{t.process.title}</h2>
+      <p class="process-sub">{t.process.sub}</p>
+      <ol class="process-steps">
+        {t.process.steps.map((s, i) => (
+          <li class="process-step">
+            <span class="process-n">{String(i + 1).padStart(2, '0')}</span>
+            <div class="process-body">
+              <h3 class="process-step-title">{s.title}</h3>
+              <p class="process-step-desc">{s.desc}</p>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
   <!-- DOCTOR -->
   <section class="doctor" id="about">
     <div class="container doctor-inner">

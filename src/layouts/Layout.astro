@@ -63,6 +63,32 @@ const hreflangOf: Record<Lang, string> = {
       rel="stylesheet"
     />
     <title>{pageTitle}</title>
+    <!-- Local SEO — MedicalClinic structured data for Google search result rich cards -->
+    <script type="application/ld+json" is:inline set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'MedicalClinic',
+      name: '鈷嵐診所',
+      alternateName: ['Golan Clinic', 'ゴラン診療所'],
+      description: t.site.description,
+      url: 'https://golanclinic.com',
+      image: 'https://golanclinic.com/images/doctor.webp',
+      telephone: '',
+      priceRange: '$$',
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: '永安北路二段58巷6號',
+        addressLocality: '蘆洲區',
+        addressRegion: '新北市',
+        addressCountry: 'TW',
+      },
+      hasMap: 'https://maps.app.goo.gl/WYC9Hb8qjyi6CbLj8',
+      medicalSpecialty: ['Neurology', 'PainMedicine', 'RegenerativeMedicine'],
+      openingHoursSpecification: [{
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+      }],
+      sameAs: [],
+    })} />
     <!-- Twemoji: replace native emoji with SVG for consistent rendering on all OS.
          Default MaxCDN base is dead, so we pin `base` to jsDelivr. -->
     <script src="https://cdn.jsdelivr.net/npm/twemoji@14/dist/twemoji.min.js" crossorigin="anonymous" is:inline></script>
