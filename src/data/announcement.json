@@ -6,11 +6,11 @@
   "announcements": [
     {
       "id": 1,
-      "zh": "",
-      "en": "",
-      "ja": "",
-      "color": "#f2f0eb",
-      "expires_at": null
+      "zh": "測試測設測試測設測試測設測試測設",
+      "en": "Test Setup Test Setup Test Setup Test Setup",
+      "ja": "テスト設定テスト設定テスト設定テスト設定",
+      "color": "#ffffff",
+      "expires_at": "2026-04-28T17:36:00.000Z"
     },
     {
       "id": 2,
