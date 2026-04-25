@@ -1186,7 +1186,7 @@ body:has(.announcement-ticker) .hero { padding-top: calc(4rem + 36px); }
    ============================================================ */
 .clinic-env {
   padding: 3rem 0;
-  background: var(--bg);
+  background: #ece8df;
 }
 .clinic-env-sub {
   color: var(--ink-mute);
