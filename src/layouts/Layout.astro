@@ -190,6 +190,23 @@ const hreflangOf: Record<Lang, string> = {
       },
       sameAs: [],
     })} />
+
+    <!-- FAQPage structured data — built from the same i18n source as the
+         visible FAQ list, so the rendered Q&A and the schema can never
+         drift apart. Each locale emits its own answers. -->
+    <script type="application/ld+json" is:inline set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: t.faq.items.map((item) => ({
+        '@type': 'Question',
+        name: item.q,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: item.a,
+        },
+      })),
+    })} />
+
     <!-- Twemoji: replace native emoji with SVG for consistent rendering on all OS.
          Default MaxCDN base is dead, so we pin `base` to jsDelivr. -->
     <script src="https://cdn.jsdelivr.net/npm/twemoji@14/dist/twemoji.min.js" crossorigin="anonymous" is:inline></script>
