@@ -563,6 +563,37 @@ body:has(.announcement-ticker) .hero { padding-top: calc(4rem + 36px); }
   position: relative;
   z-index: 301;
 }
+/* Hamburger button — hidden on desktop, shown on mobile by media query
+   below. Three stacked bars; tap target ≥ 44×44 for accessibility. */
+.nav-burger {
+  display: none;
+  background: none;
+  border: 0;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  padding: 0;
+  margin-left: auto;
+}
+.nav-burger-bar {
+  width: 22px;
+  height: 2px;
+  background: var(--cobalt);
+  border-radius: 2px;
+  transition: transform 0.2s, opacity 0.2s;
+}
+.nav-burger[aria-expanded="true"] .nav-burger-bar:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.nav-burger[aria-expanded="true"] .nav-burger-bar:nth-child(2) { opacity: 0; }
+.nav-burger[aria-expanded="true"] .nav-burger-bar:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
 .nav-links a {
   color: var(--ink-soft);
   text-decoration: none;
@@ -1890,10 +1921,55 @@ details[open] .faq-q::after {
 
 /* Mobile-only behavior */
 @media (max-width: 899px) {
-  .nav-links { display: none; }
+  .nav-burger { display: inline-flex; }
   .nav-mobile-cta { display: inline-flex; }
   .btn-primary { width: 100%; }
   .book { padding-bottom: 7rem; }
+
+  /* Mobile menu panel — collapses below the nav bar; toggled by JS via
+     `.open` class. z-index 350 sits above page content (300 nav, modal
+     1000 stays on top). */
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(244, 241, 234, 0.98);
+    backdrop-filter: blur(14px) saturate(140%);
+    -webkit-backdrop-filter: blur(14px) saturate(140%);
+    border-bottom: 1px solid var(--line);
+    padding: 0.5rem 1.25rem 1rem;
+    transform: translateY(-12px);
+    opacity: 0;
+    visibility: hidden;
+    transition: transform 0.2s ease, opacity 0.2s ease, visibility 0s linear 0.2s;
+    z-index: 350;
+  }
+  .nav-links.open {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+    transition: transform 0.2s ease, opacity 0.2s ease, visibility 0s linear 0s;
+  }
+  .nav-links a {
+    padding: 0.95rem 0.25rem;
+    font-size: 1rem;
+    border-bottom: 1px solid var(--line-soft);
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+  .nav-links a:last-child { border-bottom: none; }
+  /* Hide the duplicate book CTA inside the open menu — the inline
+     `nav-mobile-cta` button already lives in the bar. */
+  .nav-links .nav-cta { display: none; }
+
+  /* When menu open, lock body scroll */
+  body.nav-open { overflow: hidden; }
 }
 
 /* Blog section */

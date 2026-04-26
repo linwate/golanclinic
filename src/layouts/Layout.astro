@@ -329,7 +329,19 @@ const hreflangOf: Record<Lang, string> = {
           <span class="nav-logo-mark" aria-hidden="true"></span>
           <span class="nav-logo-text">{t.nav_logo}</span>
         </a>
-        <div class="nav-links">
+        <button
+          type="button"
+          id="nav-burger"
+          class="nav-burger"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+          aria-controls="primary-nav-links"
+        >
+          <span class="nav-burger-bar"></span>
+          <span class="nav-burger-bar"></span>
+          <span class="nav-burger-bar"></span>
+        </button>
+        <div class="nav-links" id="primary-nav-links">
           <a href={`${navHome}#approach`}>{t.nav.approach}</a>
           <a href={`${navHome}#services`}>{t.nav.services}</a>
           <a href={`${navHome}#about`}>{t.nav.about}</a>
@@ -345,6 +357,38 @@ const hreflangOf: Record<Lang, string> = {
         </div>
       </div>
     </nav>
+    <script is:inline>
+      (function () {
+        var btn = document.getElementById('nav-burger');
+        var menu = document.getElementById('primary-nav-links');
+        if (!btn || !menu) return;
+        function close() {
+          menu.classList.remove('open');
+          btn.setAttribute('aria-expanded', 'false');
+          document.body.classList.remove('nav-open');
+        }
+        function open() {
+          menu.classList.add('open');
+          btn.setAttribute('aria-expanded', 'true');
+          document.body.classList.add('nav-open');
+        }
+        btn.addEventListener('click', function () {
+          if (menu.classList.contains('open')) close(); else open();
+        });
+        // Close after tapping any link inside the menu
+        menu.addEventListener('click', function (e) {
+          var t = e.target;
+          while (t && t !== menu) {
+            if (t.tagName === 'A') { close(); break; }
+            t = t.parentNode;
+          }
+        });
+        // Close on Esc
+        document.addEventListener('keydown', function (e) {
+          if (e.key === 'Escape' && menu.classList.contains('open')) close();
+        });
+      })();
+    </script>
 
     <main id="main"><slot /></main>
 
