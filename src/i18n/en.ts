@@ -11,7 +11,7 @@ export const en = {
     about: 'About',
     approach: 'Approach',
     services: 'Services',
-    faq: 'FAQ',
+    faq: 'Visit FAQ',
     book: 'Book Now',
     first_visit: 'First Visit',
     treatment_faq: 'Treatment FAQ',

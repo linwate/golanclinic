@@ -11,7 +11,7 @@ export const ja = {
     about: '院長について',
     approach: '統合的な視点',
     services: '診療メニュー',
-    faq: 'よくある質問',
+    faq: '受診FAQ',
     book: 'ご予約',
     first_visit: '初めての方へ',
     treatment_faq: '治療FAQ',
