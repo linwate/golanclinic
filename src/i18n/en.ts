@@ -303,6 +303,14 @@ export const en = {
         q: 'Who is a good candidate for Amniotic Matrix or BMAC?',
         a: 'Amniotic matrix suits moderate tissue damage with limited PRP response. BMAC is for severe degenerative arthritis, cartilage defects, or refractory pain, an advanced regenerative option recommended after thorough assessment.',
       },
+      {
+        q: 'Do you accept travel or international health insurance?',
+        a: 'If you have international travel or health insurance, we recommend contacting your insurance provider in advance to confirm whether treatment in Taiwan is covered. Please note that our clinic does not directly bill international insurance providers. However, we can provide the necessary documentation, including itemized receipts and medical summaries in English, to support your reimbursement claim. Please contact us in advance to discuss arrangements.',
+      },
+      {
+        q: 'What payment methods do you accept?',
+        a: 'We accept cash in New Taiwan Dollars (NTD) and major credit cards, including Visa and Mastercard. All fees will be clearly explained before any treatment begins.',
+      },
     ],
   },
   hours: {
