@@ -2386,7 +2386,8 @@ details[open] .faq-q::after {
     text-overflow: ellipsis;
     white-space: nowrap;
   }
-  .nav-links { display: none; }
+  /* (.nav-links display kept by the mobile menu rules in the
+     max-width:899px block — do NOT override here.) */
   .lang-switch { flex-shrink: 0; }
   .nav-mobile-cta { flex-shrink: 0; white-space: nowrap; }
 
