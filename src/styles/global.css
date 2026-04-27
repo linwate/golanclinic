@@ -1879,27 +1879,104 @@ details[open] .faq-q::after {
 }
 
 /* ============================================================
-   Footer
+   Footer — three-column top, divider, two-column bottom
    ============================================================ */
 .footer {
-  border-top: 1px solid var(--line-soft);
-  padding: 1.5rem 1.25rem;
-  padding-bottom: max(1.5rem, env(safe-area-inset-bottom));
-  background: var(--bg-alt);
+  background-color: #f0ede8;
+  border-top: 2px solid #c9b99a;
+  font-family: 'Noto Serif TC', 'Georgia', serif;
+  color: #4a3f35;
+  padding: 2.5rem 1.25rem;
+  padding-bottom: max(2.5rem, env(safe-area-inset-bottom));
 }
 .footer-inner {
   max-width: var(--max);
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.footer-top {
+  display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem 0.9rem;
+  gap: 1.75rem 2.5rem;
+  align-items: flex-start;
+}
+.footer-col {
+  flex: 1 1 0;
+  min-width: 200px;
+  line-height: 1.8;
+}
+.footer-col-brand { flex: 1.2 1 0; }
+.footer-brand {
+  font-family: 'Noto Serif TC', 'Georgia', serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2c2620;
+  letter-spacing: 0.06em;
+  margin: 0 0 0.35rem;
+}
+.footer-tagline {
+  font-size: 0.92rem;
+  color: #6b5e4f;
+  letter-spacing: 0.04em;
+  margin: 0;
+}
+.footer-col-title {
+  font-family: 'Noto Serif TC', 'Georgia', serif;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #8a7960;
+  margin: 0 0 0.5rem;
+}
+.footer-col p {
+  font-size: 0.92rem;
+  color: #4a3f35;
+  margin: 0;
+}
+.footer-col p + p { margin-top: 0.25rem; }
+.footer-note {
+  font-size: 0.85rem !important;
+  color: #6b5e4f !important;
+}
+.footer-rule {
+  height: 1px;
+  background: #d8ccb6;
+}
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
-  font-size: 0.8rem;
-  color: var(--ink-mute);
-  line-height: 1.7;
+  gap: 0.5rem 1.5rem;
+  font-size: 0.85rem;
+  color: #6b5e4f;
   letter-spacing: 0.02em;
 }
-.footer-divider { color: var(--ink-faint); }
+.footer-mail {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 1px;
+  transition: color 0.2s ease;
+}
+.footer-mail:hover,
+.footer-mail:focus-visible {
+  color: #2c2620;
+}
+
+@media (max-width: 768px) {
+  .footer { padding: 2rem 1.2rem; }
+  .footer-top { gap: 1.5rem; }
+  .footer-col { min-width: 100%; flex-basis: 100%; }
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
 
 /* ============================================================
    Breakpoints
@@ -2461,13 +2538,7 @@ details[open] .faq-q::after {
   .hours-grid { max-width: 100%; }
 
 
-  /* Footer */
-  .footer-inner {
-    flex-direction: column;
-    gap: 0.3rem;
-    font-size: 0.75rem;
-  }
-  .footer-divider { display: none; }
+  /* (Footer mobile rules now live next to the footer block above.) */
 }
 
 /* ============================================================

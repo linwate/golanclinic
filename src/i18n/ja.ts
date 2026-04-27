@@ -308,6 +308,16 @@ export const ja = {
       },
     ],
   },
+  footer: {
+    brand: 'ゴラン診療所',
+    tagline: '神経科・疼痛治療・再生医学',
+    addr_label: '住所',
+    hours_label: '診療時間',
+    hours_main: '月〜土',
+    hours_sub: '疼痛科・神経科 健保診療',
+    reservation_note: '自費診療はご予約ください',
+    copyright_brand: 'ゴラン診療所｜新北市蘆洲区',
+  },
   hours: {
     title: '診療時間',
     note: '完全予約制。LINEにてご確認ください。',

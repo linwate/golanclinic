@@ -298,6 +298,16 @@ export const zh = {
       },
     ],
   },
+  footer: {
+    brand: '鈷嵐診所',
+    tagline: '神經科・疼痛治療・再生醫學',
+    addr_label: '地址',
+    hours_label: '門診時間',
+    hours_main: '週一至週六',
+    hours_sub: '疼痛科・神經科健保門診',
+    reservation_note: '自費項目請先預約',
+    copyright_brand: '鈷嵐診所｜新北市蘆洲區',
+  },
   hours: {
     title: '門診時間',
     note: '採預約制，請先透過 LINE 確認門診時間',

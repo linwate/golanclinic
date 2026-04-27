@@ -314,6 +314,16 @@ export const en = {
       },
     ],
   },
+  footer: {
+    brand: 'Golan Clinic',
+    tagline: 'Neurology · Pain Medicine · Regenerative Therapy',
+    addr_label: 'Address',
+    hours_label: 'Hours',
+    hours_main: 'Mon – Sat',
+    hours_sub: 'Pain Medicine · Neurology NHI Clinic',
+    reservation_note: 'Private appointments by reservation',
+    copyright_brand: 'Golan Clinic｜Luzhou, New Taipei',
+  },
   hours: {
     title: 'Clinic Hours',
     note: 'By appointment only. Please confirm via LINE.',
