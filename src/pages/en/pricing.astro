@@ -1,0 +1,111 @@
+---
+import Layout from '../../layouts/Layout.astro'
+
+const lang = 'en' as const
+
+const lineUrl = 'https://line.me/R/ti/p/@twmedpro'
+const waUrl = 'https://wa.me/886900000000'
+const mailUrl = 'mailto:info@golanclinic.com'
+
+const tiers = [
+  {
+    label: 'Tier 0 · Private Consultation',
+    items: 'Private appointment including consultation and single-zone ultrasound assessment. Additional zone +NT$500.',
+    fee: 'From NT$800',
+    desc: 'Private appointments are by reservation. Consultations are unhurried, with real-time ultrasound assessment as standard.',
+  },
+  {
+    label: 'Tier 1 · Foundation Injection Therapy',
+    items: 'Ultrasound-guided injection, prolotherapy, acupotomy, intra-articular hyaluronic acid',
+    fee: 'NT$1,500–$6,500 (TBC)',
+    desc: 'Suitable for first-time regenerative medicine patients, mild to moderate injury, or chronic pain. Priced by treatment site and number of injections.',
+  },
+  {
+    label: 'Tier 2 · Blood-Based & Vascular Therapy',
+    items: 'PRP, SportVis, TAME',
+    fee: 'NT$12,000–$30,000 (TBC)',
+    desc: 'Autologous blood or vascular intervention therapies. Suitable for moderate to severe injury, tendon degeneration, and chronic joint pain.',
+  },
+  {
+    label: 'Tier 3 · Cell Regeneration Therapy',
+    items: 'BMAC, Amniotic Matrix',
+    fee: 'NT$25,000–$75,000 (TBC)',
+    desc: 'Advanced regenerative options for severe degeneration, treatment-resistant pain, or cases where PRP has shown limited effect.',
+  },
+  {
+    label: 'Tier 4 · Combination Procedures',
+    items: 'Custom combination therapy, PRP + localized autologous fat injection (with SVF)',
+    fee: 'From NT$70,000 / by assessment (TBC)',
+    desc: 'For complex or multi-site conditions. A personalized treatment plan is designed by your doctor after assessment.',
+  },
+  {
+    label: 'Tier 5 · Neuromodulation Therapy',
+    items: 'Nerve hydrodissection (with B12), botulinum toxin',
+    fee: 'NT$1,500–$25,000+ (TBC)',
+    desc: 'For nerve compression, chronic neuropathic pain, and muscle spasm-related conditions.',
+  },
+]
+---
+
+<Layout
+  lang={lang}
+  pathname="pricing"
+  title="Treatment Fees｜Golan Clinic・Luzhou Pain Medicine"
+  description="Self-pay treatment fees at Golan Clinic, including ultrasound-guided injections, PRP, BMAC, TAME, nerve hydrodissection, and regenerative medicine procedures."
+>
+  <section class="fv-hero">
+    <div class="container">
+      <h1>Treatment Fees</h1>
+    </div>
+  </section>
+
+  <section class="fv-section">
+    <div class="container">
+      <p>The following outlines our self-pay treatment fee tiers. All fees are explained clearly by your doctor before any treatment begins. Actual costs depend on the treatment site, procedure complexity, and materials used. The ranges below are for reference.</p>
+      <div class="fv-notice">
+        <strong>⚠️ Note:</strong> Fee ranges listed are planning estimates. Final pricing will be confirmed before opening. For inquiries, please contact us via LINE, WhatsApp, or Email.
+      </div>
+    </div>
+  </section>
+
+  <section class="fv-section">
+    <div class="container">
+      <h2>Fee Tiers</h2>
+      {tiers.map((tier) => (
+        <div class="fv-tier">
+          <div class="fv-tier-head">
+            <span class="fv-tier-label">{tier.label}</span>
+            <span class="fv-tier-fee">{tier.fee}</span>
+          </div>
+          <p class="fv-tier-items">{tier.items}</p>
+          <p class="fv-tier-desc">{tier.desc}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="fv-section">
+    <div class="container">
+      <h2>Payment & Fee Notes</h2>
+      <ul>
+        <li>All fees are explained in full before treatment. Procedures only proceed with your consent.</li>
+        <li>Registration and consultation fees are cash only.</li>
+        <li>Private treatment procedures accept cash (NTD) and major credit cards (Visa, Mastercard).</li>
+        <li>For pre-paid multi-session packages, unused sessions are refundable upon request.</li>
+        <li>Any fee changes will be announced in advance.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="fv-section">
+    <div class="container">
+      <h2>Fee Inquiries</h2>
+      <div class="fv-cta-row">
+        <a href={lineUrl} class="fv-cta fv-cta-line" target="_blank" rel="noopener">LINE Consultation</a>
+        <a href={waUrl} class="fv-cta fv-cta-wa" target="_blank" rel="noopener">WhatsApp</a>
+        <a href={mailUrl} class="fv-cta fv-cta-mail">Email Us</a>
+        <a href={`/${lang}/first-visit/`} class="fv-cta fv-cta-ghost">First Visit Guide</a>
+      </div>
+    </div>
+  </section>
+</Layout>

@@ -1399,6 +1399,60 @@ body:has(.announcement-ticker) .fv-hero { padding-top: calc(6rem + 40px); }
   line-height: 1.85;
 }
 
+/* Pricing page — tier cards + notice box */
+.fv-tier {
+  background: var(--bg-card);
+  border: 1px solid var(--line-soft);
+  border-left: 4px solid var(--cobalt);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.4rem;
+  margin-bottom: 0.9rem;
+}
+.fv-tier-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  margin-bottom: 0.6rem;
+}
+.fv-tier-label {
+  font-family: 'Source Han Sans TC', 'Noto Sans TC', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--cobalt);
+  letter-spacing: 0.04em;
+}
+.fv-tier-fee {
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--ink);
+  white-space: nowrap;
+}
+.fv-tier-items {
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+  line-height: 1.7;
+  margin: 0 0 0.5rem;
+}
+.fv-tier-desc {
+  font-size: 0.88rem;
+  color: var(--ink-mute);
+  line-height: 1.75;
+  margin: 0;
+}
+.fv-notice {
+  background: #fff8e1;
+  border-left: 4px solid #d4a017;
+  border-radius: var(--radius);
+  padding: 0.9rem 1.1rem;
+  font-size: 0.9rem;
+  color: #5b4a1d;
+  line-height: 1.75;
+  margin-top: 0.5rem;
+}
+
 .fv-cta-row {
   display: flex;
   flex-wrap: wrap;

@@ -1,0 +1,109 @@
+---
+import Layout from '../../layouts/Layout.astro'
+
+const lang = 'zh' as const
+
+const lineUrl = 'https://line.me/R/ti/p/@twmedpro'
+const mailUrl = 'mailto:info@golanclinic.com'
+
+const tiers = [
+  {
+    label: '第零層 ・ 自費特約門診',
+    items: '掛號診察（含一區超音波檢查），第二區起 +$500',
+    fee: '$800 起',
+    desc: '自費約診採預約制，時間較充裕，可深入討論治療計畫。超音波即時評估為標準配備。',
+  },
+  {
+    label: '第一層 ・ 基礎注射治療',
+    items: '超音波導引注射、增生療法、針刀整合治療、關節內玻尿酸',
+    fee: '$1,500–$6,500（待確認）',
+    desc: '適合初次嘗試再生醫學、輕中度損傷、慢性疼痛的患者。依治療部位與注射次數計費。',
+  },
+  {
+    label: '第二層 ・ 血液再生與血管治療',
+    items: 'PRP、SportVis、TAME',
+    fee: '$12,000–$30,000（待確認）',
+    desc: '自體血液或血管介入治療，適合中重度損傷、肌腱退化、慢性關節疼痛。',
+  },
+  {
+    label: '第三層 ・ 細胞再生治療',
+    items: 'BMAC、羊膜基質',
+    fee: '$25,000–$75,000（待確認）',
+    desc: '進階再生選項，適合嚴重退化、頑固性疼痛、PRP 效果有限的患者。',
+  },
+  {
+    label: '第四層 ・ 複合術式',
+    items: '客製複合療程、PRP + 局部自體脂肪注射（含 SVF）',
+    fee: '依評估 / $70,000 起（待確認）',
+    desc: '針對複雜或多部位損傷，由醫師評估後設計個人化治療計畫。',
+  },
+  {
+    label: '第五層 ・ 神經調控治療',
+    items: '神經解套注射（含 B12）、肉毒桿菌',
+    fee: '$1,500–$25,000 起（待確認）',
+    desc: '針對神經壓迫、慢性神經痛、肌肉痙攣等神經調控需求。',
+  },
+]
+---
+
+<Layout
+  lang={lang}
+  pathname="pricing"
+  title="自費診療費用說明｜鈷嵐診所・蘆洲疼痛治療"
+  description="鈷嵐診所自費診療項目費用說明，包含超音波導引注射、PRP、BMAC、TAME、神經解套等再生醫學療程收費標準。"
+>
+  <section class="fv-hero">
+    <div class="container">
+      <h1>自費診療費用說明</h1>
+    </div>
+  </section>
+
+  <section class="fv-section">
+    <div class="container">
+      <p>以下為鈷嵐診所各項自費診療的收費層級說明。所有費用於治療前會由醫師完整說明，確認後才進行治療。實際費用依治療部位、療程複雜度與材料用量而定，以下為參考區間。</p>
+      <div class="fv-notice">
+        <strong>⚠️ 注意：</strong>目前費用區間為規劃參考值，正式收費標準將於開業前公告。如需諮詢，歡迎透過 LINE 或 Email 詢問。
+      </div>
+    </div>
+  </section>
+
+  <section class="fv-section">
+    <div class="container">
+      <h2>費用層級表</h2>
+      {tiers.map((tier) => (
+        <div class="fv-tier">
+          <div class="fv-tier-head">
+            <span class="fv-tier-label">{tier.label}</span>
+            <span class="fv-tier-fee">{tier.fee}</span>
+          </div>
+          <p class="fv-tier-items">{tier.items}</p>
+          <p class="fv-tier-desc">{tier.desc}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="fv-section">
+    <div class="container">
+      <h2>費用相關說明</h2>
+      <ul>
+        <li>所有費用均於治療前完整說明，患者同意後才進行</li>
+        <li>掛號及診察費僅接受現金付款</li>
+        <li>自費治療項目接受現金及信用卡（Visa、Mastercard）</li>
+        <li>預付多次療程中尚未施作的次數，可依消費者保護法申請退費</li>
+        <li>費用如有調整將提前公告</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="fv-section">
+    <div class="container">
+      <h2>費用諮詢</h2>
+      <div class="fv-cta-row">
+        <a href={lineUrl} class="fv-cta fv-cta-line" target="_blank" rel="noopener">LINE 諮詢費用</a>
+        <a href={mailUrl} class="fv-cta fv-cta-mail">Email 詢問</a>
+        <a href={`/${lang}/first-visit/`} class="fv-cta fv-cta-ghost">查看初診說明</a>
+      </div>
+    </div>
+  </section>
+</Layout>
