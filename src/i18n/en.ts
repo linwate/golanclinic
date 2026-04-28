@@ -16,6 +16,7 @@ export const en = {
     first_visit: 'First Visit',
     treatment_faq: 'Tx FAQ',
     fees: 'Fees',
+    find_symptom: 'Find Your Symptom',
   },
   hero: {
     tag: 'Luzhou, New Taipei · Neurology · Pain · Regenerative Medicine',

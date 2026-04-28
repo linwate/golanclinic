@@ -628,6 +628,17 @@ body:has(.announcement-ticker) .hero { padding-top: calc(4rem + 36px); }
   transition: color 0.2s;
 }
 .nav-links a:hover { color: var(--cobalt); }
+.nav-external { display: inline-flex; align-items: center; gap: 0.25rem; }
+.nav-external-icon {
+  font-size: 0.75em;
+  color: var(--ink-mute);
+  transition: color 0.2s, transform 0.2s;
+  display: inline-block;
+}
+.nav-external:hover .nav-external-icon {
+  color: var(--cobalt);
+  transform: translate(2px, -2px);
+}
 .nav-cta {
   color: var(--cobalt-ink) !important;
   background: var(--cobalt);

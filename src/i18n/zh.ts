@@ -16,6 +16,7 @@ export const zh = {
     first_visit: '初診說明',
     treatment_faq: '治療常見問題',
     fees: '費用參考',
+    find_symptom: '症狀查詢',
   },
   hero: {
     tag: '新北市蘆洲區・神經科・疼痛・再生醫學',
