@@ -3100,14 +3100,27 @@ details[open] .faq-q::after {
 }
 
 .fv-hero {
-  padding: 3.5rem 0 2.5rem;
+  padding: 3.5rem 0 3rem;
   background: linear-gradient(135deg, #f5f3ef 0%, #ffffff 100%);
   border-bottom: 1px solid #e5e0d8;
 }
 
-/* pricing 頁面的注意事項區塊 */
-.pricing-notice {
-  margin-bottom: 1.5rem;
+/* Hero 緊接的第一個 section 留出呼吸空間 */
+.fv-hero + .fv-section {
+  padding-top: 2.5rem;
+}
+
+/* H2 之間（同一 section 內多個 h2）需要上方間距 */
+.fv-section .container h2:not(:first-child) {
+  margin-top: 2rem;
+}
+
+/* pricing 頁面的注意事項區塊上下間距 */
+.pricing-notice,
+[class*="notice"],
+[class*="warning"] {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 /* ── CTA 區塊 ───────────────────────────── */
