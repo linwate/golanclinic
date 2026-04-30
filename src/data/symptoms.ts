@@ -28,12 +28,12 @@ export type LocalizedSymptom = {
 export const zh: Record<string, LocalizedSymptom> = {
   shoulder: {
     metaTitle: "肩膀疼痛｜鈷嵐診所・蘆洲疼痛治療",
-    metaDescription: "五十肩、旋轉肌撕裂、肩夾擠，超音波精準評估找出真正原因，非手術修復。",
+    metaDescription: "五十肩、旋轉肌撕裂、肩峰下夾擠，超音波精準評估找出真正原因，非手術修復。",
     h1: "肩膀疼痛",
     heroSub: "舉手會痛、夜間痛醒、肩膀卡住？找出真正原因才能修復。",
     introParagraphs: [
       "醫師，我肩膀已經快三個月了，手舉起來會痛，晚上翻身也會痛，連穿衣服都很困難。",
-      "肩膀痛的原因很多，五十肩、旋轉肌撕裂、肩夾擠，每一種的處理方式都不一樣。打錯針不只沒效，有時候讓問題更嚴重。旋轉肌如果已經撕裂，繼續拉筋伸展可能讓裂口更大。",
+      "肩膀痛的原因很多，五十肩、旋轉肌撕裂、肩峰下夾擠，每一種的處理方式都不一樣。打錯針不只沒效，有時候讓問題更嚴重。旋轉肌如果已經撕裂，繼續拉筋伸展可能讓裂口更大。",
       "超音波可以在門診當場確認問題在哪裡，不用等報告，不用靠猜。"
     ],
     clinicNote: "很多治療只是暫時止痛，但如果沒有修復受損的結構，問題很容易反覆。在這裡，我們的目標不只是讓你不痛，而是讓你能夠回到原本的生活。",
@@ -47,14 +47,14 @@ export const zh: Record<string, LocalizedSymptom> = {
       cards: [
         { name: "五十肩（沾黏性關節囊炎）", description: "關節囊攣縮造成手臂舉不高、夜間疼痛", note: "通常會越來越卡，而不是突然發生", link: "https://twmedpro.tw/frozen-shoulder-adhesive-capsulitis/" },
         { name: "旋轉肌撕裂", description: "肩膀舉重物或過頭會痛，肌腱退化或急性撕裂", note: "繼續復健可能讓撕裂擴大，需要先確認程度", link: "https://twmedpro.tw/shoulder-pain-causes-frozen-shoulder-rotator-cuff/" },
-        { name: "肩夾擠症候群", description: "手臂上舉時肩峰下方疼痛，反覆摩擦造成發炎", note: "常和旋轉肌問題同時存在，需要一起評估", link: "https://twmedpro.tw/frozen-shoulder-adhesive-capsulitis/" },
-        { name: "肩峰下滑囊炎", description: "肩膀深處腫脹痛，靜止時也會不舒服", note: "超音波可以直接看到滑囊積液的狀況", link: "https://twmedpro.tw/frozen-shoulder-adhesive-capsulitis/" },
+        { name: "肩峰下夾擠症候群", description: "手臂上舉時肩峰下方疼痛，反覆摩擦造成發炎", note: "常和旋轉肌問題同時存在，需要一起評估", link: "https://twmedpro.tw/frozen-shoulder-adhesive-capsulitis/" },
+        { name: "肩峰下滑囊炎", description: "肩膀深處腫脹痛，靜止時也會不舒服", note: "超音波可以直接看到滑囊積水的狀況", link: "https://twmedpro.tw/frozen-shoulder-adhesive-capsulitis/" },
       ]
     }
   },
   neck: {
     metaTitle: "頸部疼痛｜鈷嵐診所・蘆洲疼痛治療",
-    metaDescription: "頸椎壓迫、頸因性頭痛、頸部肌筋膜疼痛，神經科背景精準評估，超音波確認壓迫位置。",
+    metaDescription: "頸椎壓迫、頸因性頭痛、頸部肌肉筋膜疼痛，神經科背景精準評估，超音波確認壓迫位置。",
     h1: "頸部疼痛",
     heroSub: "脖子僵硬、手麻、頭痛？這些可能都從頸椎來。",
     introParagraphs: [
@@ -73,14 +73,14 @@ export const zh: Record<string, LocalizedSymptom> = {
       cards: [
         { name: "頸椎神經根壓迫", description: "頸部痛合併手麻、手臂無力，神經傳導異常", note: "肩膀痛合併手麻，優先排除頸椎神經問題", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
         { name: "頸因性頭痛", description: "後頸僵硬造成的頭痛，常被誤診為偏頭痛", note: "治療對象是頸椎，不是頭痛本身", link: "https://twmedpro.tw/cervicogenic-headache/" },
-        { name: "頸部肌筋膜疼痛", description: "頸肩肌肉緊繃、壓痛點明顯，久坐辦公族常見", note: "姿勢問題是根本原因，需要一起改善", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
+        { name: "頸部肌肉筋膜疼痛", description: "頸肩肌肉緊繃、壓痛點明顯，久坐辦公族常見", note: "姿勢問題是根本原因，需要一起改善", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
         { name: "椎間盤突出（頸椎）", description: "頸椎間盤壓迫神經，造成手臂麻木無力", note: "MRI 說輕微，但症狀可能很嚴重，需要實際評估", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
       ]
     }
   },
   back: {
     metaTitle: "下背痛｜鈷嵐診所・蘆洲疼痛治療",
-    metaDescription: "腰椎間盤突出、薦髂關節炎、肌筋膜疼痛，超音波找出壓迫位置，非手術修復。",
+    metaDescription: "腰椎間盤突出、薦髂關節炎、肌肉筋膜疼痛，超音波找出壓迫位置，非手術修復。",
     h1: "下背痛",
     heroSub: "腰痛一直好不了？找到真正壓迫位置，才能有效修復。",
     introParagraphs: [
@@ -100,7 +100,7 @@ export const zh: Record<string, LocalizedSymptom> = {
         { name: "腰椎間盤突出", description: "腰痛合併腳麻、坐骨神經痛，彎腰時加劇", note: "神經壓迫若持續，建議盡早評估", link: "https://twmedpro.tw/lbp/" },
         { name: "薦髂關節炎", description: "臀部上方深處痛，久坐或爬樓梯時加重", note: "常被誤診為腰椎問題，壓痛點位置不同", link: "https://twmedpro.tw/low-back-pain-location/" },
         { name: "坐骨神經痛", description: "從臀部放射至大腿、小腿的麻木刺痛感", note: "不是所有腿麻都是坐骨神經，需要鑑別診斷", link: "https://twmedpro.tw/sciatica-deep-gluteal-syndrome/" },
-        { name: "肌筋膜疼痛", description: "腰背肌肉緊繃、壓痛點明顯，常見於久坐族群", note: "單純肌肉問題通常對物理治療反應較好", link: "https://twmedpro.tw/lbp/" },
+        { name: "肌肉筋膜疼痛", description: "腰背肌肉緊繃、壓痛點明顯，常見於久坐族群", note: "單純肌肉問題通常對物理治療反應較好", link: "https://twmedpro.tw/lbp/" },
       ]
     }
   },
@@ -137,7 +137,7 @@ export const zh: Record<string, LocalizedSymptom> = {
     heroSub: "退化不等於要換關節。找到適合的修復方案，很多人能夠避免手術。",
     introParagraphs: [
       "醫師，我膝蓋退化，骨科說要換關節，但我才五十幾歲，不想換。還有別的選擇嗎？",
-      "退化是一個過程，不是終點。很多人聽到退化就覺得一定要換，但只要關節間隙還在，軟骨環境還沒有完全崩潰，再生醫學就還有介入的空間。",
+      "退化是一個過程，不是終點。很多人聽到退化就覺得一定要換，但只要關節間隙還在，關節軟骨還沒有完全磨損，再生醫學就還有介入的空間。",
       "換關節之前，值得先確認一件事：你的軟骨還剩多少？半月板有沒有問題？用超音波評估實際狀況，再決定治療方向，比直接預約手術更合理。"
     ],
     clinicNote: "很多治療只是暫時止痛，但如果沒有修復受損的結構，問題很容易反覆。在這裡，我們的目標不只是讓你不痛，而是讓你能夠回到原本的生活。",
@@ -178,7 +178,7 @@ export const zh: Record<string, LocalizedSymptom> = {
         { name: "足底筋膜炎", description: "早晨下床第一步最痛，腳跟內側壓痛", note: "超過三個月的慢性案例，修復期比急性期長很多", link: "https://twmedpro.tw/plantar-fasciitis-first-step-pain/" },
         { name: "腳踝扭傷（慢性不穩定）", description: "反覆扭傷、走路不穩，韌帶沒有完全修復", note: "第一次扭傷沒有好好處理，往往造成長期不穩定", link: "https://twmedpro.tw/ankle-sprain-complete-guide/" },
         { name: "跟腱炎", description: "阿基里斯腱疼痛腫脹，跑步或爬坡時加劇", note: "和足底筋膜炎容易混淆，壓痛位置不同", link: "https://twmedpro.tw/plantar-fasciitis-first-step-pain/" },
-        { name: "蹠骨痛（摩頓神經瘤）", description: "前腳掌疼痛麻木，穿鞋走路時明顯", note: "超音波可以直接確認神經瘤位置和大小", link: "https://twmedpro.tw/plantar-fasciitis-first-step-pain/" },
+        { name: "蹠骨痛 / 摩頓神經瘤（趾間神經瘤）", description: "前腳掌疼痛麻木，穿鞋走路時明顯", note: "超音波可以直接確認神經瘤位置和大小", link: "https://twmedpro.tw/plantar-fasciitis-first-step-pain/" },
       ]
     }
   },
