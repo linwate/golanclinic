@@ -2733,6 +2733,13 @@ details[open] .faq-q::after {
   gap: 12px;
 }
 
+@media (min-width: 768px) {
+  .symptom-cat-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+  }
+}
+
 .symptom-cat-card {
   display: flex;
   flex-direction: column;

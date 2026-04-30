@@ -27,14 +27,14 @@ export type LocalizedSymptom = {
 
 export const zh: Record<string, LocalizedSymptom> = {
   shoulder: {
-    metaTitle: "肩頸疼痛｜鈷嵐診所・蘆洲疼痛治療",
-    metaDescription: "五十肩、旋轉肌撕裂、頸椎壓迫、頸因性頭痛，超音波精準評估找出真正原因，非手術修復。",
-    h1: "肩頸疼痛",
-    heroSub: "肩膀卡住、舉不起來，還是一直痛？找出真正原因，才有機會修復。",
+    metaTitle: "肩膀疼痛｜鈷嵐診所・蘆洲疼痛治療",
+    metaDescription: "五十肩、旋轉肌撕裂、肩夾擠，超音波精準評估找出真正原因，非手術修復。",
+    h1: "肩膀疼痛",
+    heroSub: "舉手會痛、夜間痛醒、肩膀卡住？找出真正原因才能修復。",
     introParagraphs: [
-      "醫師，我手舉起來會痛，睡覺翻身也會痛，連穿衣服都很困難。打過針、做過復健，好像有改善，但過一陣子又回來了。",
-      "這是診間最常聽到的描述。肩膀痛的原因很多，五十肩、旋轉肌撕裂、頸椎壓迫神經，每一種的處理方式都不一樣。打錯針、做錯復健，不只沒效，有時候會讓問題更嚴重。",
-      "旋轉肌如果已經撕裂，繼續拉筋伸展可能讓裂口更大。頸椎壓到神經，處理肩膀關節根本沒用。用超音波在門診當場確認，才知道問題出在哪裡，才有辦法做對的事。"
+      "醫師，我肩膀已經快三個月了，手舉起來會痛，晚上翻身也會痛，連穿衣服都很困難。",
+      "肩膀痛的原因很多，五十肩、旋轉肌撕裂、肩夾擠，每一種的處理方式都不一樣。打錯針不只沒效，有時候讓問題更嚴重。旋轉肌如果已經撕裂，繼續拉筋伸展可能讓裂口更大。",
+      "超音波可以在門診當場確認問題在哪裡，不用等報告，不用靠猜。"
     ],
     clinicNote: "很多治療只是暫時止痛，但如果沒有修復受損的結構，問題很容易反覆。在這裡，我們的目標不只是讓你不痛，而是讓你能夠回到原本的生活。",
     brandStatement: "不只是止痛，而是修復。",
@@ -43,12 +43,38 @@ export const zh: Record<string, LocalizedSymptom> = {
     category: {
       slug: "shoulder",
       treatmentIntro: "不同原因，治療方式完全不同。如果沒有確認問題位置，治療效果通常會有限。",
-      treatments: ["神經解套注射", "超音波導引注射", "PRP 增生療法"],
+      treatments: ["超音波導引注射", "PRP 增生療法", "SportVis"],
       cards: [
         { name: "五十肩（沾黏性關節囊炎）", description: "關節囊攣縮造成手臂舉不高、夜間疼痛", note: "通常會越來越卡，而不是突然發生", link: "https://twmedpro.tw/frozen-shoulder-adhesive-capsulitis/" },
         { name: "旋轉肌撕裂", description: "肩膀舉重物或過頭會痛，肌腱退化或急性撕裂", note: "繼續復健可能讓撕裂擴大，需要先確認程度", link: "https://twmedpro.tw/shoulder-pain-causes-frozen-shoulder-rotator-cuff/" },
-        { name: "頸椎神經根壓迫", description: "頸部痛合併手麻、手臂無力，神經傳導異常", note: "肩膀痛合併手麻，優先排除頸椎問題", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
+        { name: "肩夾擠症候群", description: "手臂上舉時肩峰下方疼痛，反覆摩擦造成發炎", note: "常和旋轉肌問題同時存在，需要一起評估", link: "https://twmedpro.tw/frozen-shoulder-adhesive-capsulitis/" },
+        { name: "肩峰下滑囊炎", description: "肩膀深處腫脹痛，靜止時也會不舒服", note: "超音波可以直接看到滑囊積液的狀況", link: "https://twmedpro.tw/frozen-shoulder-adhesive-capsulitis/" },
+      ]
+    }
+  },
+  neck: {
+    metaTitle: "頸部疼痛｜鈷嵐診所・蘆洲疼痛治療",
+    metaDescription: "頸椎壓迫、頸因性頭痛、頸部肌筋膜疼痛，神經科背景精準評估，超音波確認壓迫位置。",
+    h1: "頸部疼痛",
+    heroSub: "脖子僵硬、手麻、頭痛？這些可能都從頸椎來。",
+    introParagraphs: [
+      "醫師，我脖子一直很緊，有時候轉頭會痛，最近開始手麻，睡覺起來頭也會痛。",
+      "頸部疼痛容易被忽略，但頸椎問題影響範圍很廣。頸椎神經根受壓迫，症狀可以出現在肩膀、手臂、甚至手指。頸因性頭痛常被誤診為偏頭痛，治療方向完全不同。",
+      "神經科訓練背景讓林醫師更容易判斷症狀來源是頸椎還是其他位置，超音波可以在門診當場確認壓迫狀況。"
+    ],
+    clinicNote: "頸椎問題如果長期沒有處理，神經壓迫可能越來越嚴重。在這裡，我們的目標不只是讓你不痛，而是讓你能夠回到原本的生活。",
+    brandStatement: "不只是止痛，而是修復。",
+    cardsHeading: "常見原因（不一定只有一種）",
+    treatmentsHeading: "適合的治療選項（依原因不同而調整）",
+    category: {
+      slug: "neck",
+      treatmentIntro: "不同原因，治療方式完全不同。神經壓迫和肌肉問題的處理方式完全不同。",
+      treatments: ["神經解套注射", "超音波導引注射", "PRP 增生療法"],
+      cards: [
+        { name: "頸椎神經根壓迫", description: "頸部痛合併手麻、手臂無力，神經傳導異常", note: "肩膀痛合併手麻，優先排除頸椎神經問題", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
         { name: "頸因性頭痛", description: "後頸僵硬造成的頭痛，常被誤診為偏頭痛", note: "治療對象是頸椎，不是頭痛本身", link: "https://twmedpro.tw/cervicogenic-headache/" },
+        { name: "頸部肌筋膜疼痛", description: "頸肩肌肉緊繃、壓痛點明顯，久坐辦公族常見", note: "姿勢問題是根本原因，需要一起改善", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
+        { name: "椎間盤突出（頸椎）", description: "頸椎間盤壓迫神經，造成手臂麻木無力", note: "MRI 說輕微，但症狀可能很嚴重，需要實際評估", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
       ]
     }
   },
@@ -75,6 +101,32 @@ export const zh: Record<string, LocalizedSymptom> = {
         { name: "薦髂關節炎", description: "臀部上方深處痛，久坐或爬樓梯時加重", note: "常被誤診為腰椎問題，壓痛點位置不同", link: "https://twmedpro.tw/low-back-pain-location/" },
         { name: "坐骨神經痛", description: "從臀部放射至大腿、小腿的麻木刺痛感", note: "不是所有腿麻都是坐骨神經，需要鑑別診斷", link: "https://twmedpro.tw/sciatica-deep-gluteal-syndrome/" },
         { name: "肌筋膜疼痛", description: "腰背肌肉緊繃、壓痛點明顯，常見於久坐族群", note: "單純肌肉問題通常對物理治療反應較好", link: "https://twmedpro.tw/lbp/" },
+      ]
+    }
+  },
+  hip: {
+    metaTitle: "髖臀疼痛｜鈷嵐診所・蘆洲疼痛治療",
+    metaDescription: "髖關節退化、梨狀肌症候群、大轉子疼痛、鼠蹊部拉傷，超音波評估，非手術修復。",
+    h1: "髖臀疼痛",
+    heroSub: "臀部深處痛、走路會跛、久坐站起來很難？找出真正的問題位置。",
+    introParagraphs: [
+      "醫師，我臀部深處一直有悶痛，久坐之後站起來最明顯，爬樓梯也會加重。去骨科說是髖關節問題，但還沒有嚴重到要換關節。",
+      "髖臀部位的疼痛容易被誤判。臀部深處痛不一定是髖關節本身，梨狀肌壓迫坐骨神經、大轉子的肌腱問題、薦髂關節炎，都可能有類似的感覺。",
+      "超音波可以在門診當場評估髖關節、肌腱和周圍軟組織的狀況，確認問題位置後再決定治療方向。"
+    ],
+    clinicNote: "很多治療只是暫時止痛，但如果沒有修復受損的結構，問題很容易反覆。在這裡，我們的目標不只是讓你不痛，而是讓你能夠回到原本的生活。",
+    brandStatement: "不只是止痛，而是修復。",
+    cardsHeading: "常見原因（不一定只有一種）",
+    treatmentsHeading: "適合的治療選項（依原因不同而調整）",
+    category: {
+      slug: "hip",
+      treatmentIntro: "不同原因，治療方式完全不同。髖關節和周圍肌腱問題的處理方式不一樣。",
+      treatments: ["超音波導引注射", "PRP 增生療法", "BMAC 骨髓再生"],
+      cards: [
+        { name: "髖關節退化性關節炎", description: "髖關節軟骨磨損，走路、爬梯、久站後疼痛加重", note: "間隙還在就有機會，不一定要換關節", link: "https://twmedpro.tw/knee-prolo-01/" },
+        { name: "大轉子疼痛症候群（GTPS）", description: "大腿外側上方疼痛，側躺或爬樓梯時加重", note: "常被誤診為髖關節問題，壓痛點位置不同", link: "https://twmedpro.tw/lbp/" },
+        { name: "梨狀肌症候群", description: "臀部深處痛，坐久後放射至大腿，類似坐骨神經痛", note: "不是所有臀部痛都是坐骨神經，需要鑑別診斷", link: "https://twmedpro.tw/sciatica-deep-gluteal-syndrome/" },
+        { name: "髖關節夾擠症候群（FAI）", description: "髖部深處痛，長時間坐著或彎曲髖關節時加重", note: "年輕運動員常見，早期評估效果較好", link: "https://twmedpro.tw/lbp/" },
       ]
     }
   },
@@ -186,14 +238,14 @@ export const zh: Record<string, LocalizedSymptom> = {
 
 export const en: Record<string, LocalizedSymptom> = {
   shoulder: {
-    metaTitle: "Shoulder & Neck Pain | Colan Clinic · Luzhou Pain Treatment",
-    metaDescription: "Frozen shoulder, rotator cuff tear, cervical nerve compression, cervicogenic headache — ultrasound-guided evaluation to find the real cause.",
-    h1: "Shoulder & Neck Pain",
-    heroSub: "Stiff, painful shoulder that won't get better? Finding the real cause is the first step to recovery.",
+    metaTitle: "Shoulder Pain | Colan Clinic · Luzhou Pain Treatment",
+    metaDescription: "Frozen shoulder, rotator cuff tear, subacromial impingement — ultrasound-guided evaluation to find the real cause, non-surgical repair.",
+    h1: "Shoulder Pain",
+    heroSub: "Pain when raising your arm, waking up at night, shoulder stiffness? Finding the real cause is the first step.",
     introParagraphs: [
-      "Doctor, my arm hurts when I raise it, I wake up in pain when I turn over at night, and even getting dressed is difficult. I've had injections and done rehabilitation — things improve for a while, but the pain always comes back.",
-      "This is what we hear most often in our clinic. Shoulder pain has many causes — frozen shoulder, rotator cuff tears, cervical nerve compression — and each requires a completely different approach. Treating the wrong thing doesn't just fail to help, it can sometimes make things worse.",
-      "If the rotator cuff is already torn, continuing to stretch may enlarge the tear. If the cervical spine is compressing a nerve, treating the shoulder joint won't help at all. Real-time ultrasound during the appointment confirms exactly where the problem is, so treatment can actually address it."
+      "Doctor, my shoulder has been painful for about three months. It hurts to raise my arm, I wake up in pain when I turn over at night, and even getting dressed is difficult.",
+      "Shoulder pain has many causes — frozen shoulder, rotator cuff tears, subacromial impingement — and each requires a completely different approach. The wrong treatment doesn't just fail to help; sometimes it makes things worse. If the rotator cuff is already torn, continuing to stretch may enlarge the tear.",
+      "Real-time ultrasound confirms exactly where the problem is during your appointment — no waiting for reports, no guessing."
     ],
     clinicNote: "Many treatments only mask pain temporarily. Without repairing the damaged structure, the problem tends to return. Our goal isn't just to stop the pain — it's to help you get back to the life you had before.",
     brandStatement: "Not just pain relief — repair.",
@@ -202,12 +254,38 @@ export const en: Record<string, LocalizedSymptom> = {
     category: {
       slug: "shoulder",
       treatmentIntro: "Different causes require completely different treatments. Without identifying the source, results are often limited.",
-      treatments: ["Nerve hydrodissection", "Ultrasound-guided injection", "PRP"],
+      treatments: ["Ultrasound-guided injection", "PRP", "SportVis"],
       cards: [
         { name: "Frozen Shoulder", description: "Capsular contracture causing stiffness and night pain", note: "Tends to get progressively stiffer rather than appearing suddenly", link: "https://twmedpro.tw/frozen-shoulder-adhesive-capsulitis/" },
         { name: "Rotator Cuff Tear", description: "Pain when lifting the arm overhead, tendon degeneration or acute tear", note: "Continuing rehabilitation may worsen a tear — confirming severity first is important", link: "https://twmedpro.tw/shoulder-pain-causes-frozen-shoulder-rotator-cuff/" },
-        { name: "Cervical Radiculopathy", description: "Neck pain with arm numbness and weakness, nerve compression", note: "Shoulder pain with hand numbness — rule out cervical spine first", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
+        { name: "Subacromial Impingement", description: "Pain under the shoulder blade when raising the arm, caused by repetitive friction", note: "Often coexists with rotator cuff problems — both should be assessed together", link: "https://twmedpro.tw/frozen-shoulder-adhesive-capsulitis/" },
+        { name: "Subacromial Bursitis", description: "Deep shoulder swelling and pain, uncomfortable even at rest", note: "Ultrasound can directly visualize bursal fluid accumulation", link: "https://twmedpro.tw/frozen-shoulder-adhesive-capsulitis/" },
+      ]
+    }
+  },
+  neck: {
+    metaTitle: "Neck Pain | Colan Clinic · Luzhou Pain Treatment",
+    metaDescription: "Cervical nerve compression, cervicogenic headache, myofascial pain — neurology-trained evaluation, ultrasound confirms compression site.",
+    h1: "Neck Pain",
+    heroSub: "Stiff neck, arm numbness, headaches? These may all be coming from your cervical spine.",
+    introParagraphs: [
+      "Doctor, my neck has been tight for a while. Sometimes turning my head hurts, recently my hand started going numb, and I've been waking up with headaches.",
+      "Neck problems are easy to underestimate, but cervical spine issues have a wide reach. A compressed cervical nerve root can cause symptoms in the shoulder, arm, or fingers. Cervicogenic headaches are frequently misdiagnosed as migraines — and the treatment direction is completely different.",
+      "Dr. Lin's neurology training makes it easier to determine whether symptoms originate from the cervical spine or elsewhere. Ultrasound confirms the compression site during the appointment."
+    ],
+    clinicNote: "Untreated cervical nerve compression tends to worsen over time. Our goal isn't just to stop the pain — it's to help you get back to the life you had before.",
+    brandStatement: "Not just pain relief — repair.",
+    cardsHeading: "Common causes (there may be more than one)",
+    treatmentsHeading: "Treatment options (tailored to the cause)",
+    category: {
+      slug: "neck",
+      treatmentIntro: "Nerve compression and muscle tension require completely different approaches. Identifying the source matters.",
+      treatments: ["Nerve hydrodissection", "Ultrasound-guided injection", "PRP"],
+      cards: [
+        { name: "Cervical Radiculopathy", description: "Neck pain with arm numbness and weakness, nerve compression", note: "Shoulder pain with hand numbness — rule out cervical nerve compression first", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
         { name: "Cervicogenic Headache", description: "Headache originating from neck stiffness, often misdiagnosed as migraine", note: "Treatment targets the cervical spine, not the headache itself", link: "https://twmedpro.tw/cervicogenic-headache/" },
+        { name: "Cervical Myofascial Pain", description: "Neck and shoulder muscle tightness with tender points, common in desk workers", note: "Posture is usually the root cause — needs to be addressed alongside treatment", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
+        { name: "Cervical Disc Herniation", description: "Disc pressing on a nerve, causing arm numbness and weakness", note: "MRI may say mild, but symptoms can be severe — actual evaluation matters", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
       ]
     }
   },
@@ -234,6 +312,32 @@ export const en: Record<string, LocalizedSymptom> = {
         { name: "Sacroiliac Joint Dysfunction", description: "Deep pain above the buttock, worse when sitting or climbing stairs", note: "Often mistaken for a lumbar problem — the tender point is in a different location", link: "https://twmedpro.tw/low-back-pain-location/" },
         { name: "Sciatica", description: "Radiating pain from buttock to thigh and calf, numbness and tingling", note: "Not all leg numbness is sciatica — differential diagnosis is important", link: "https://twmedpro.tw/sciatica-deep-gluteal-syndrome/" },
         { name: "Myofascial Pain", description: "Muscle tightness with tender points, common in desk workers", note: "Pure muscle issues typically respond well to physical therapy", link: "https://twmedpro.tw/lbp/" },
+      ]
+    }
+  },
+  hip: {
+    metaTitle: "Hip & Buttock Pain | Colan Clinic · Luzhou Pain Treatment",
+    metaDescription: "Hip joint degeneration, piriformis syndrome, greater trochanteric pain, groin strain — ultrasound evaluation, non-surgical repair.",
+    h1: "Hip & Buttock Pain",
+    heroSub: "Deep buttock pain, limping when you walk, hard to stand up after sitting? Find out where the problem really is.",
+    introParagraphs: [
+      "Doctor, I've had a deep aching pain in my buttock for a while. It's most noticeable when I stand up after sitting for a long time, and it gets worse going up stairs. The orthopedic surgeon said it's a hip joint issue, but not severe enough for replacement yet.",
+      "Pain in the hip and buttock area is easy to misidentify. Deep buttock pain isn't always the hip joint itself — piriformis muscle compression of the sciatic nerve, greater trochanteric tendon problems, and sacroiliac joint inflammation can all feel similar.",
+      "Ultrasound assesses the hip joint, tendons, and surrounding soft tissue during the appointment, confirming the problem location before deciding on treatment."
+    ],
+    clinicNote: "Many treatments only mask pain temporarily. Without repairing the damaged structure, the problem tends to return. Our goal isn't just to stop the pain — it's to help you get back to the life you had before.",
+    brandStatement: "Not just pain relief — repair.",
+    cardsHeading: "Common causes (there may be more than one)",
+    treatmentsHeading: "Treatment options (tailored to the cause)",
+    category: {
+      slug: "hip",
+      treatmentIntro: "Hip joint and surrounding tendon problems require very different approaches. Identifying the source matters.",
+      treatments: ["Ultrasound-guided injection", "PRP", "BMAC"],
+      cards: [
+        { name: "Hip Osteoarthritis", description: "Cartilage wear in the hip joint, pain worsening with walking, stairs, or prolonged standing", note: "While joint space remains, replacement isn't the only option", link: "https://twmedpro.tw/knee-prolo-01/" },
+        { name: "Greater Trochanteric Pain Syndrome (GTPS)", description: "Outer upper thigh pain, worse when lying on the side or climbing stairs", note: "Often mistaken for hip joint disease — the tender point is in a different location", link: "https://twmedpro.tw/lbp/" },
+        { name: "Piriformis Syndrome", description: "Deep buttock pain radiating down the thigh after sitting, similar to sciatica", note: "Not all buttock pain is sciatica — differential diagnosis is important", link: "https://twmedpro.tw/sciatica-deep-gluteal-syndrome/" },
+        { name: "Femoroacetabular Impingement (FAI)", description: "Deep hip pain, worse after prolonged sitting or hip flexion", note: "Common in younger athletes — earlier evaluation leads to better outcomes", link: "https://twmedpro.tw/lbp/" },
       ]
     }
   },
@@ -345,14 +449,14 @@ export const en: Record<string, LocalizedSymptom> = {
 
 export const ja: Record<string, LocalizedSymptom> = {
   shoulder: {
-    metaTitle: "肩・首の痛み｜ゴラン診療所・蘆洲疼痛治療",
-    metaDescription: "五十肩、腱板断裂、頸椎神経根症、頸因性頭痛。超音波で正確に評価し、本当の原因を特定します。",
-    h1: "肩・首の痛み",
-    heroSub: "肩が上がらない、痛みが続く。本当の原因を見つけることが回復への第一歩です。",
+    metaTitle: "肩の痛み｜ゴラン診療所・蘆洲疼痛治療",
+    metaDescription: "五十肩、腱板断裂、肩峰下インピンジメント。超音波で正確に評価し、本当の原因を特定します。",
+    h1: "肩の痛み",
+    heroSub: "腕を上げると痛い、夜中に目が覚める、肩が固まる？本当の原因を見つけることが回復への第一歩です。",
     introParagraphs: [
-      "先生、腕を上げると痛くて、夜中に寝返りを打つたびに目が覚めます。着替えも辛くて。注射もリハビリもやりましたが、少し良くなってもまた戻ってきます。",
-      "これは診察室で最もよく聞く訴えです。肩の痛みには多くの原因があります。五十肩、腱板断裂、頸椎による神経圧迫、それぞれ対処法がまったく違います。間違った治療は効かないだけでなく、悪化させることもあります。",
-      "腱板がすでに断裂しているなら、ストレッチを続けると断裂が広がる可能性があります。頸椎が神経を圧迫しているなら、肩関節を治療しても意味がありません。診察中に超音波でその場で確認することで、問題がどこにあるかがわかり、正しい対処ができます。"
+      "先生、もう3ヶ月ほど肩が痛くて、腕を上げると痛く、夜中に寝返りで目が覚めます。着替えも辛いです。",
+      "肩の痛みには多くの原因があります。五十肩、腱板断裂、肩峰下インピンジメント、それぞれ対処法がまったく違います。間違った治療は効かないだけでなく、悪化させることもあります。腱板がすでに断裂しているなら、ストレッチを続けると断裂が広がる可能性があります。",
+      "診察中に超音波でその場で問題の場所を確認できます。報告書を待つ必要も、推測する必要もありません。"
     ],
     clinicNote: "多くの治療は一時的な痛みの緩和にとどまります。損傷した構造を修復しなければ、問題は繰り返しやすいです。ここでの目標は、痛みをなくすだけでなく、元の生活に戻れるようにすることです。",
     brandStatement: "止痛だけでなく、修復を。",
@@ -361,12 +465,38 @@ export const ja: Record<string, LocalizedSymptom> = {
     category: {
       slug: "shoulder",
       treatmentIntro: "原因が違えば、治療法もまったく異なります。問題の部位を確認しないと、治療効果が限られることがあります。",
-      treatments: ["神経解套注射", "超音波導引注射", "PRP"],
+      treatments: ["超音波導引注射", "PRP", "SportVis"],
       cards: [
         { name: "五十肩（拘縮性関節包炎）", description: "関節包の拘縮により腕が上がらない、夜間痛がある", note: "突然ではなく、徐々に動きが制限されていくことが多いです", link: "https://twmedpro.tw/frozen-shoulder-adhesive-capsulitis/" },
         { name: "腱板断裂", description: "腕を頭上に挙げると痛い、腱の変性または急性断裂", note: "リハビリを続けると断裂が広がる可能性があります。まず重症度の確認が重要です", link: "https://twmedpro.tw/shoulder-pain-causes-frozen-shoulder-rotator-cuff/" },
-        { name: "頸椎神経根症", description: "首の痛みと腕のしびれ・脱力、神経圧迫", note: "肩の痛みと手のしびれがある場合、まず頸椎の問題を除外する必要があります", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
+        { name: "肩峰下インピンジメント", description: "腕を上げると肩峰下方が痛い、繰り返す摩擦による炎症", note: "腱板の問題と同時に存在することが多く、一緒に評価が必要です", link: "https://twmedpro.tw/frozen-shoulder-adhesive-capsulitis/" },
+        { name: "肩峰下滑液包炎", description: "肩の深部の腫脹痛、安静時にも不快感がある", note: "超音波で滑液包の液体貯留を直接確認できます", link: "https://twmedpro.tw/frozen-shoulder-adhesive-capsulitis/" },
+      ]
+    }
+  },
+  neck: {
+    metaTitle: "頸部の痛み｜ゴラン診療所・蘆洲疼痛治療",
+    metaDescription: "頸椎神経根症、頸因性頭痛、筋膜性疼痛。神経内科専門の評価、超音波で圧迫部位を確認。",
+    h1: "頸部の痛み",
+    heroSub: "首のこわばり、腕のしびれ、頭痛。これらは頸椎から来ている可能性があります。",
+    introParagraphs: [
+      "先生、首がずっと張っていて、頭を回すと痛いことがあります。最近は手がしびれるようになり、朝起きると頭も痛いです。",
+      "頸部の問題は見逃されやすいですが、頸椎の問題は広範囲に影響します。頸椎の神経根が圧迫されると、肩・腕・指に症状が出ることがあります。頸因性頭痛は偏頭痛と誤診されることが多く、治療の方向がまったく異なります。",
+      "林医師の神経内科の背景により、症状が頸椎から来ているかどうかをより正確に判断できます。超音波で診察中に圧迫状況を確認できます。"
+    ],
+    clinicNote: "放置された頸椎の神経圧迫は悪化しやすいです。ここでの目標は、痛みをなくすだけでなく、元の生活に戻れるようにすることです。",
+    brandStatement: "止痛だけでなく、修復を。",
+    cardsHeading: "よくある原因（複数の場合もあります）",
+    treatmentsHeading: "適切な治療選択肢（原因によって異なります）",
+    category: {
+      slug: "neck",
+      treatmentIntro: "神経圧迫と筋緊張では、まったく異なるアプローチが必要です。原因の特定が大切です。",
+      treatments: ["神経解套注射", "超音波導引注射", "PRP"],
+      cards: [
+        { name: "頸椎神経根症", description: "首の痛みと腕のしびれ・脱力、神経圧迫", note: "肩の痛みと手のしびれがある場合、まず頸椎神経を除外する必要があります", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
         { name: "頸因性頭痛", description: "首のこわばりに起因する頭痛、偏頭痛と誤診されることが多い", note: "治療の対象は頭痛ではなく、頸椎です", link: "https://twmedpro.tw/cervicogenic-headache/" },
+        { name: "頸部筋膜性疼痛", description: "頸肩の筋緊張と圧痛点、デスクワーカーに多い", note: "姿勢が根本原因であることが多く、一緒に改善する必要があります", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
+        { name: "頸椎椎間板ヘルニア", description: "椎間板が神経を圧迫し、腕のしびれと脱力を引き起こす", note: "MRIで軽度と言われても症状が強いことがあります。実際の評価が重要です", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
       ]
     }
   },
@@ -393,6 +523,32 @@ export const ja: Record<string, LocalizedSymptom> = {
         { name: "仙腸関節炎", description: "臀部上方の深部痛、座位や階段昇降で増悪", note: "腰椎の問題と間違われやすく、圧痛点の位置が異なります", link: "https://twmedpro.tw/low-back-pain-location/" },
         { name: "坐骨神経痛", description: "臀部から大腿・下腿への放散痛、しびれ・刺痛感", note: "足のしびれがすべて坐骨神経痛とは限りません。鑑別診断が重要です", link: "https://twmedpro.tw/sciatica-deep-gluteal-syndrome/" },
         { name: "筋膜性疼痛", description: "腰背部の筋緊張と圧痛点、デスクワーカーに多い", note: "純粋な筋肉の問題は、理学療法に反応しやすいことが多いです", link: "https://twmedpro.tw/lbp/" },
+      ]
+    }
+  },
+  hip: {
+    metaTitle: "股関節・臀部の痛み｜ゴラン診療所・蘆洲疼痛治療",
+    metaDescription: "股関節変性、梨状筋症候群、大転子疼痛症候群、鼠径部痛。超音波評価、非手術修復。",
+    h1: "股関節・臀部の痛み",
+    heroSub: "臀部深部の痛み、歩くと跛行、座った後に立ち上がりにくい？問題の場所を正確に特定します。",
+    introParagraphs: [
+      "先生、臀部の奥がずっと鈍く痛んでいます。長時間座った後に立ち上がるときが特につらく、階段でも悪化します。整形外科では股関節の問題と言われましたが、人工関節が必要なほどではないと言われました。",
+      "股関節・臀部の痛みは誤診されやすいです。臀部深部の痛みが必ずしも股関節自体の問題とは限りません。梨状筋による坐骨神経の圧迫、大転子の腱の問題、仙腸関節炎も似た感覚を引き起こす可能性があります。",
+      "超音波で股関節・腱・周囲の軟部組織を診察中に評価し、問題の場所を確認してから治療方針を決定します。"
+    ],
+    clinicNote: "多くの治療は一時的な痛みの緩和にとどまります。損傷した構造を修復しなければ、問題は繰り返しやすいです。ここでの目標は、痛みをなくすだけでなく、元の生活に戻れるようにすることです。",
+    brandStatement: "止痛だけでなく、修復を。",
+    cardsHeading: "よくある原因（複数の場合もあります）",
+    treatmentsHeading: "適切な治療選択肢（原因によって異なります）",
+    category: {
+      slug: "hip",
+      treatmentIntro: "股関節と周囲の腱の問題では、まったく異なるアプローチが必要です。原因の特定が大切です。",
+      treatments: ["超音波導引注射", "PRP", "BMAC"],
+      cards: [
+        { name: "股関節変形性関節症", description: "股関節の軟骨摩耗、歩行・階段・長時間立位で痛みが増悪", note: "関節の隙間が残っている限り、人工関節だけが選択肢ではありません", link: "https://twmedpro.tw/knee-prolo-01/" },
+        { name: "大転子疼痛症候群（GTPS）", description: "大腿外側上部の痛み、横向き寝や階段昇降で増悪", note: "股関節疾患と間違われやすく、圧痛点の位置が異なります", link: "https://twmedpro.tw/lbp/" },
+        { name: "梨状筋症候群", description: "臀部深部の痛みが座位後に大腿へ放散、坐骨神経痛に類似", note: "臀部の痛みがすべて坐骨神経痛とは限りません。鑑別診断が重要です", link: "https://twmedpro.tw/sciatica-deep-gluteal-syndrome/" },
+        { name: "股関節インピンジメント（FAI）", description: "股関節深部の痛み、長時間座位や股関節屈曲で増悪", note: "若いスポーツ選手に多く、早期評価の方が改善しやすいです", link: "https://twmedpro.tw/sciatica-deep-gluteal-syndrome/" },
       ]
     }
   },
