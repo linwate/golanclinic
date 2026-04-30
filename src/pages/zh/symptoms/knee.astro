@@ -10,57 +10,70 @@ const ctaData = cta[lang]
 
 <Layout title={data.metaTitle} description={data.metaDescription} lang={lang} pathname={`symptoms/${slug}`}>
 
-  <div class="fv-hero">
-    <h1>{data.h1}</h1>
-    <p class="fv-tagline">{data.heroSub}</p>
-  </div>
-
-  <div class="fv-section">
-    {data.introParagraphs.map((p) => <p>{p}</p>)}
-  </div>
-
-  <div class="fv-section">
-    <h2>{data.cardsHeading}</h2>
-    <div class="symptom-cards">
-      {data.category.cards.map((card) => (
-        <div class="symptom-card">
-          <h3>{card.name}</h3>
-          <p>{card.description}</p>
-          <p class="card-note">{card.note}</p>
-          <a href={card.link} target="_blank" rel="noopener noreferrer" class="card-link">
-            了解更多 →
-          </a>
-        </div>
-      ))}
+  <section class="fv-hero">
+    <div class="container">
+      <h1>{data.h1}</h1>
+      <p class="fv-tagline">{data.heroSub}</p>
     </div>
-  </div>
+  </section>
 
-  <div class="fv-section">
-    <h2>{data.treatmentsHeading}</h2>
-    <p class="treatment-intro">{data.category.treatmentIntro}</p>
-    <ul class="treatment-list">
-      {data.category.treatments.map((t) => (
-        <li><a href="/zh/treatment-faq/">{t}</a></li>
-      ))}
-    </ul>
-  </div>
-
-  <div class="fv-section"
-       style="background:#f5f3ef;border-left:4px solid #0b3a6f;padding:16px 20px;margin:24px 0;">
-    <p style="margin:0 0 10px 0;">{data.clinicNote}</p>
-    <p style="margin:0;font-weight:700;color:#0b3a6f;">{data.brandStatement}</p>
-  </div>
-
-  <div class="fv-section fv-cta-section">
-    <h2>{ctaData.heading}</h2>
-    <p class="fv-reply-note">{ctaData.subheading}</p>
-    <p>{ctaData.description}</p>
-    <div class="fv-cta-row">
-      <a href={ctaData.line.href} class="fv-cta fv-cta-line"
-         target="_blank" rel="noopener noreferrer">{ctaData.line.label}</a>
-      <a href={ctaData.email.href} class="fv-cta fv-cta-mail">{ctaData.email.label}</a>
-      <a href={ctaData.firstVisit.href} class="fv-cta fv-cta-ghost">{ctaData.firstVisit.label}</a>
+  <section class="fv-section">
+    <div class="container">
+      {data.introParagraphs.map((p) => <p>{p}</p>)}
     </div>
-  </div>
+  </section>
+
+  <section class="fv-section">
+    <div class="container">
+      <h2>{data.cardsHeading}</h2>
+      <div class="symptom-cards">
+        {data.category.cards.map((card) => (
+          <div class="symptom-card">
+            <h3>{card.name}</h3>
+            <p>{card.description}</p>
+            <p class="card-note">{card.note}</p>
+            <a href={card.link} target="_blank" rel="noopener noreferrer" class="card-link">
+              了解更多 →
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="fv-section">
+    <div class="container">
+      <h2>{data.treatmentsHeading}</h2>
+      <p class="treatment-intro">{data.category.treatmentIntro}</p>
+      <ul class="treatment-list">
+        {data.category.treatments.map((t) => (
+          <li><a href="/zh/treatment-faq/">{t}</a></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="fv-section">
+    <div class="container">
+      <div style="background:#f5f3ef;border-left:4px solid #0b3a6f;padding:16px 20px;margin:24px 0;">
+        <p style="margin:0 0 10px 0;">{data.clinicNote}</p>
+        <p style="margin:0;font-weight:700;color:#0b3a6f;">{data.brandStatement}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="fv-section fv-cta-section">
+    <div class="container">
+      <h2>{ctaData.heading}</h2>
+      <p class="fv-reply-note">{ctaData.subheading}</p>
+      <p>{ctaData.description}</p>
+      <div class="fv-cta-row">
+        <a href={ctaData.line.href} class="fv-cta fv-cta-line"
+           target="_blank" rel="noopener noreferrer">{ctaData.line.label}</a>
+        <a href={ctaData.email.href} class="fv-cta fv-cta-mail">{ctaData.email.label}</a>
+        <a href={ctaData.firstVisit.href} class="fv-cta fv-cta-ghost">{ctaData.firstVisit.label}</a>
+      </div>
+    </div>
+  </section>
 
 </Layout>

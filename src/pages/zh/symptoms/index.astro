@@ -8,24 +8,29 @@ const slugs = ['shoulder', 'back', 'knee', 'foot', 'elbow-wrist', 'neuropathy']
 ---
 
 <Layout title={meta.title} description={meta.description} lang={lang} pathname="symptoms">
-  <div class="fv-hero">
-    <h1>{meta.h1}</h1>
-    <p class="fv-tagline">{meta.intro}</p>
-  </div>
-  <div class="fv-section">
-    <div class="symptom-index-grid">
-      {slugs.map((slug) => {
-        const d = zh[slug]
-        return (
-          <a href={`/zh/symptoms/${slug}/`} class="symptom-index-card">
-            <h2>{d.h1}</h2>
-            <p>{d.heroSub}</p>
-            <ul>
-              {d.category.cards.slice(0, 3).map((c) => <li>{c.name}</li>)}
-            </ul>
-          </a>
-        )
-      })}
+  <section class="fv-hero">
+    <div class="container">
+      <h1>{meta.h1}</h1>
+      <p class="fv-tagline">{meta.intro}</p>
     </div>
-  </div>
+  </section>
+
+  <section class="fv-section">
+    <div class="container">
+      <div class="symptom-index-grid">
+        {slugs.map((slug) => {
+          const d = zh[slug]
+          return (
+            <a href={`/zh/symptoms/${slug}/`} class="symptom-index-card">
+              <h2>{d.h1}</h2>
+              <p>{d.heroSub}</p>
+              <ul>
+                {d.category.cards.slice(0, 3).map((c) => <li>{c.name}</li>)}
+              </ul>
+            </a>
+          )
+        })}
+      </div>
+    </div>
+  </section>
 </Layout>
