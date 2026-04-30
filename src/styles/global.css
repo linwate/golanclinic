@@ -2843,22 +2843,42 @@ details[open] .faq-q::after {
 .cta-left-dual {
   flex-direction: column;
   cursor: default;
+  padding: 0;
 }
 
 .cta-icons-row {
   display: flex;
   flex-direction: row;
-  gap: 14px;
-  align-items: center;
+  gap: 0;
+  align-items: stretch;
+  width: 100%;
+  height: 100%;
 }
 
 .cta-icons-row a {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 56px;
   color: #ffffff;
-  transition: opacity 0.15s;
+  transition: background 0.15s;
+  gap: 3px;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.cta-icons-row a:first-child {
+  background-color: #1a2f5e;
+  border-right: 1px solid rgba(255,255,255,0.2);
+}
+
+.cta-icons-row a:last-child {
+  background-color: #25a244;
 }
 
 .cta-icons-row a:active {
-  opacity: 0.7;
+  opacity: 0.8;
 }
