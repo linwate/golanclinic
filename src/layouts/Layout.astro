@@ -351,9 +351,7 @@ const hreflangOf: Record<Lang, string> = {
           <span class="nav-burger-bar"></span>
         </button>
         <div class="nav-links" id="primary-nav-links">
-          <a href="https://twmedpro.tw" target="_blank" rel="noopener" class="nav-external">
-            {t.nav.find_symptom}<span class="nav-external-icon" aria-hidden="true">↗</span>
-          </a>
+          <a href={`/${lang}/symptoms/`}>{t.nav.find_symptom}</a>
           <a href={`${navHome}#services`}>{t.nav.services}</a>
           <a href={`/${lang}/pricing/`}>{t.nav.fees}</a>
           <a href={`/${lang}/first-visit/`}>{t.nav.first_visit}</a>
