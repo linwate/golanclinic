@@ -2838,3 +2838,27 @@ details[open] .faq-q::after {
     display: none;
   }
 }
+
+/* English-version left column: dual LINE+WhatsApp icons */
+.cta-left-dual {
+  flex-direction: column;
+  cursor: default;
+}
+
+.cta-icons-row {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: center;
+}
+
+.cta-icons-row a {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  transition: opacity 0.15s;
+}
+
+.cta-icons-row a:active {
+  opacity: 0.7;
+}
