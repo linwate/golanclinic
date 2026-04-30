@@ -3100,9 +3100,19 @@ details[open] .faq-q::after {
 }
 
 .fv-hero {
-  padding: 3.5rem 0 3rem;
+  padding: 4rem 0 3rem;
   background: linear-gradient(135deg, #f5f3ef 0%, #ffffff 100%);
   border-bottom: 1px solid #e5e0d8;
+}
+
+.fv-eyebrow {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #c9b99a;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 0.6rem 0;
+  line-height: 1;
 }
 
 /* Hero 緊接的第一個 section 留出呼吸空間 */
@@ -3147,7 +3157,7 @@ details[open] .faq-q::after {
 /* 手機版調整 */
 @media (max-width: 640px) {
   .fv-hero {
-    padding: 2.5rem 0 2rem;
+    padding: 3rem 0 2.5rem;
   }
 
   .fv-hero h1 {
