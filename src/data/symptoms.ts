@@ -71,10 +71,10 @@ export const zh: Record<string, LocalizedSymptom> = {
       treatmentIntro: "不同原因，治療方式完全不同。神經壓迫和肌肉問題的處理方式完全不同。",
       treatments: ["神經解套注射", "超音波導引注射", "PRP 增生療法"],
       cards: [
-        { name: "頸椎神經根壓迫", description: "頸部痛合併手麻、手臂無力，神經傳導異常", note: "肩膀痛合併手麻，優先排除頸椎神經問題", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
-        { name: "頸因性頭痛", description: "後頸僵硬造成的頭痛，常被誤診為偏頭痛", note: "治療對象是頸椎，不是頭痛本身", link: "https://twmedpro.tw/cervicogenic-headache/" },
-        { name: "頸部肌肉筋膜疼痛", description: "頸肩肌肉緊繃、壓痛點明顯，久坐辦公族常見", note: "姿勢問題是根本原因，需要一起改善", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
-        { name: "椎間盤突出（頸椎）", description: "頸椎間盤壓迫神經，造成手臂麻木無力", note: "MRI 說輕微，但症狀可能很嚴重，需要實際評估", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
+        { name: "頸椎神經根壓迫", description: "頸部痛合併手麻、手臂無力，神經傳導異常", note: "肩膀痛合併手麻，優先排除頸椎神經問題", link: "https://twmedpro.tw/neck-scapular-pain/" },
+        { name: "頸因性頭痛", description: "後頸僵硬造成的頭痛，常被誤診為偏頭痛", note: "治療對象是頸椎，不是頭痛本身", link: "https://twmedpro.tw/neckpain_compare/" },
+        { name: "頸部肌肉筋膜疼痛", description: "頸肩肌肉緊繃、壓痛點明顯，久坐辦公族常見", note: "姿勢問題是根本原因，需要一起改善", link: "https://twmedpro.tw/neckpain_compare/" },
+        { name: "椎間盤突出（頸椎）", description: "頸椎間盤壓迫神經，造成手臂麻木無力", note: "MRI 說輕微，但症狀可能很嚴重，需要實際評估", link: "https://twmedpro.tw/neck-scapular-pain/" },
       ]
     }
   },
@@ -98,7 +98,7 @@ export const zh: Record<string, LocalizedSymptom> = {
       treatments: ["超音波導引注射", "增生療法", "神經解套注射", "PRP"],
       cards: [
         { name: "腰椎間盤突出", description: "腰痛合併腳麻、坐骨神經痛，彎腰時加劇", note: "神經壓迫若持續，建議盡早評估", link: "https://twmedpro.tw/lbp/" },
-        { name: "薦髂關節炎", description: "臀部上方深處痛，久坐或爬樓梯時加重", note: "常被誤診為腰椎問題，壓痛點位置不同", link: "https://twmedpro.tw/low-back-pain-location/" },
+        { name: "薦髂關節炎", description: "臀部上方深處痛，久坐或爬樓梯時加重", note: "常被誤診為腰椎問題，壓痛點位置不同", link: "https://twmedpro.tw/prolotherapy-sij/" },
         { name: "坐骨神經痛", description: "從臀部放射至大腿、小腿的麻木刺痛感", note: "不是所有腿麻都是坐骨神經，需要鑑別診斷", link: "https://twmedpro.tw/sciatica-deep-gluteal-syndrome/" },
         { name: "肌肉筋膜疼痛", description: "腰背肌肉緊繃、壓痛點明顯，常見於久坐族群", note: "單純肌肉問題通常對物理治療反應較好", link: "https://twmedpro.tw/lbp/" },
       ]
@@ -282,10 +282,10 @@ export const en: Record<string, LocalizedSymptom> = {
       treatmentIntro: "Nerve compression and muscle tension require completely different approaches. Identifying the source matters.",
       treatments: ["Nerve hydrodissection", "Ultrasound-guided injection", "PRP"],
       cards: [
-        { name: "Cervical Radiculopathy", description: "Neck pain with arm numbness and weakness, nerve compression", note: "Shoulder pain with hand numbness — rule out cervical nerve compression first", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
-        { name: "Cervicogenic Headache", description: "Headache originating from neck stiffness, often misdiagnosed as migraine", note: "Treatment targets the cervical spine, not the headache itself", link: "https://twmedpro.tw/cervicogenic-headache/" },
-        { name: "Cervical Myofascial Pain", description: "Neck and shoulder muscle tightness with tender points, common in desk workers", note: "Posture is usually the root cause — needs to be addressed alongside treatment", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
-        { name: "Cervical Disc Herniation", description: "Disc pressing on a nerve, causing arm numbness and weakness", note: "MRI may say mild, but symptoms can be severe — actual evaluation matters", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
+        { name: "Cervical Radiculopathy", description: "Neck pain with arm numbness and weakness, nerve compression", note: "Shoulder pain with hand numbness — rule out cervical nerve compression first", link: "https://twmedpro.tw/neck-scapular-pain/" },
+        { name: "Cervicogenic Headache", description: "Headache originating from neck stiffness, often misdiagnosed as migraine", note: "Treatment targets the cervical spine, not the headache itself", link: "https://twmedpro.tw/neckpain_compare/" },
+        { name: "Cervical Myofascial Pain", description: "Neck and shoulder muscle tightness with tender points, common in desk workers", note: "Posture is usually the root cause — needs to be addressed alongside treatment", link: "https://twmedpro.tw/neckpain_compare/" },
+        { name: "Cervical Disc Herniation", description: "Disc pressing on a nerve, causing arm numbness and weakness", note: "MRI may say mild, but symptoms can be severe — actual evaluation matters", link: "https://twmedpro.tw/neck-scapular-pain/" },
       ]
     }
   },
@@ -309,7 +309,7 @@ export const en: Record<string, LocalizedSymptom> = {
       treatments: ["Ultrasound-guided injection", "Prolotherapy", "Nerve hydrodissection", "PRP"],
       cards: [
         { name: "Lumbar Disc Herniation", description: "Back pain with leg numbness, sciatica, worse when bending", note: "Ongoing nerve compression warrants early evaluation", link: "https://twmedpro.tw/lbp/" },
-        { name: "Sacroiliac Joint Dysfunction", description: "Deep pain above the buttock, worse when sitting or climbing stairs", note: "Often mistaken for a lumbar problem — the tender point is in a different location", link: "https://twmedpro.tw/low-back-pain-location/" },
+        { name: "Sacroiliac Joint Dysfunction", description: "Deep pain above the buttock, worse when sitting or climbing stairs", note: "Often mistaken for a lumbar problem — the tender point is in a different location", link: "https://twmedpro.tw/prolotherapy-sij/" },
         { name: "Sciatica", description: "Radiating pain from buttock to thigh and calf, numbness and tingling", note: "Not all leg numbness is sciatica — differential diagnosis is important", link: "https://twmedpro.tw/sciatica-deep-gluteal-syndrome/" },
         { name: "Myofascial Pain", description: "Muscle tightness with tender points, common in desk workers", note: "Pure muscle issues typically respond well to physical therapy", link: "https://twmedpro.tw/lbp/" },
       ]
@@ -493,10 +493,10 @@ export const ja: Record<string, LocalizedSymptom> = {
       treatmentIntro: "神経圧迫と筋緊張では、まったく異なるアプローチが必要です。原因の特定が大切です。",
       treatments: ["神経解套注射", "超音波導引注射", "PRP"],
       cards: [
-        { name: "頸椎神経根症", description: "首の痛みと腕のしびれ・脱力、神経圧迫", note: "肩の痛みと手のしびれがある場合、まず頸椎神経を除外する必要があります", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
-        { name: "頸因性頭痛", description: "首のこわばりに起因する頭痛、偏頭痛と誤診されることが多い", note: "治療の対象は頭痛ではなく、頸椎です", link: "https://twmedpro.tw/cervicogenic-headache/" },
-        { name: "頸部筋膜性疼痛", description: "頸肩の筋緊張と圧痛点、デスクワーカーに多い", note: "姿勢が根本原因であることが多く、一緒に改善する必要があります", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
-        { name: "頸椎椎間板ヘルニア", description: "椎間板が神経を圧迫し、腕のしびれと脱力を引き起こす", note: "MRIで軽度と言われても症状が強いことがあります。実際の評価が重要です", link: "https://twmedpro.tw/cervical-spine-symptoms/" },
+        { name: "頸椎神経根症", description: "首の痛みと腕のしびれ・脱力、神経圧迫", note: "肩の痛みと手のしびれがある場合、まず頸椎神経を除外する必要があります", link: "https://twmedpro.tw/neck-scapular-pain/" },
+        { name: "頸因性頭痛", description: "首のこわばりに起因する頭痛、偏頭痛と誤診されることが多い", note: "治療の対象は頭痛ではなく、頸椎です", link: "https://twmedpro.tw/neckpain_compare/" },
+        { name: "頸部筋膜性疼痛", description: "頸肩の筋緊張と圧痛点、デスクワーカーに多い", note: "姿勢が根本原因であることが多く、一緒に改善する必要があります", link: "https://twmedpro.tw/neckpain_compare/" },
+        { name: "頸椎椎間板ヘルニア", description: "椎間板が神経を圧迫し、腕のしびれと脱力を引き起こす", note: "MRIで軽度と言われても症状が強いことがあります。実際の評価が重要です", link: "https://twmedpro.tw/neck-scapular-pain/" },
       ]
     }
   },
@@ -520,7 +520,7 @@ export const ja: Record<string, LocalizedSymptom> = {
       treatments: ["超音波導引注射", "増生療法", "神経解套注射", "PRP"],
       cards: [
         { name: "腰椎椎間板ヘルニア", description: "腰痛と足のしびれ・坐骨神経痛、前屈で悪化", note: "神経圧迫が続く場合は、早めの評価をお勧めします", link: "https://twmedpro.tw/lbp/" },
-        { name: "仙腸関節炎", description: "臀部上方の深部痛、座位や階段昇降で増悪", note: "腰椎の問題と間違われやすく、圧痛点の位置が異なります", link: "https://twmedpro.tw/low-back-pain-location/" },
+        { name: "仙腸関節炎", description: "臀部上方の深部痛、座位や階段昇降で増悪", note: "腰椎の問題と間違われやすく、圧痛点の位置が異なります", link: "https://twmedpro.tw/prolotherapy-sij/" },
         { name: "坐骨神経痛", description: "臀部から大腿・下腿への放散痛、しびれ・刺痛感", note: "足のしびれがすべて坐骨神経痛とは限りません。鑑別診断が重要です", link: "https://twmedpro.tw/sciatica-deep-gluteal-syndrome/" },
         { name: "筋膜性疼痛", description: "腰背部の筋緊張と圧痛点、デスクワーカーに多い", note: "純粋な筋肉の問題は、理学療法に反応しやすいことが多いです", link: "https://twmedpro.tw/lbp/" },
       ]
