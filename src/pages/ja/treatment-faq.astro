@@ -223,7 +223,7 @@ const allFaqs = treatments.flatMap((t) => t.faqs)
         ))}
         {tr.contraindications && (
           <div class="contraindication-block">
-            <h4>{tr.contraindications.title}</h4>
+            <h3>{tr.contraindications.title}</h3>
             <ul>
               {tr.contraindications.items.map((item) => <li>{item}</li>)}
             </ul>

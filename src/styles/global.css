@@ -3220,7 +3220,7 @@ details[open] .faq-q::after {
   border-radius: 0 6px 6px 0;
 }
 
-.contraindication-block h4 {
+.contraindication-block h3 {
   font-size: 0.9rem;
   font-weight: 700;
   color: #6b5e4f;
