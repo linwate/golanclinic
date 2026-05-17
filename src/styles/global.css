@@ -3392,3 +3392,179 @@ details[open] .faq-q::after {
   color: #1a2f5e;
   border-color: #1a2f5e;
 }
+
+/* ============================================================
+   Treatment detail pages — suitable/steps/related lists + FAQ
+   ============================================================ */
+.treatment-suitable-list,
+.treatment-related-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.treatment-suitable-list li,
+.treatment-related-list li {
+  padding-left: 1.25rem;
+  position: relative;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #3d3530;
+}
+
+.treatment-suitable-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #0b3a6f;
+  font-weight: 700;
+}
+
+.treatment-related-list li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #c9b99a;
+}
+
+.treatment-related-list li a {
+  color: #0b3a6f;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid #c9b99a;
+  padding-bottom: 1px;
+}
+
+.treatment-related-list li a:hover {
+  color: #1a2f5e;
+  border-color: #1a2f5e;
+}
+
+.treatment-steps-list {
+  padding-left: 1.5rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.treatment-steps-list li {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #3d3530;
+  padding-left: 0.5rem;
+}
+
+.treatment-faq-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #f0ede8;
+}
+
+.treatment-faq-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.treatment-faq-item h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1a2f5e;
+  margin: 0 0 0.6rem 0;
+}
+
+.treatment-faq-item p {
+  font-size: 0.93rem;
+  line-height: 1.75;
+  color: #3d3530;
+  margin: 0;
+  border-left: none;
+  padding-left: 0;
+  font-weight: 400;
+}
+
+/* ============================================================
+   Primary-nav dropdown menus (symptoms + treatments)
+   ============================================================ */
+.nav-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-dropdown-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.nav-dropdown-arrow {
+  font-size: 0.7rem;
+  transition: transform 0.2s;
+}
+
+.nav-dropdown:hover .nav-dropdown-arrow {
+  transform: rotate(180deg);
+}
+
+.nav-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffffff;
+  border: 1px solid #e5e0d8;
+  border-radius: 8px;
+  padding: 0.5rem 0;
+  min-width: 200px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  z-index: 100;
+  margin-top: 8px;
+}
+
+.nav-dropdown:hover .nav-dropdown-menu {
+  display: block;
+}
+
+.nav-dropdown-item {
+  display: block;
+  padding: 8px 16px;
+  font-size: 0.88rem;
+  color: #3d3530;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.15s, color 0.15s;
+}
+
+.nav-dropdown-item:hover {
+  background: #f5f3ef;
+  color: #1a2f5e;
+}
+
+@media (max-width: 768px) {
+  .nav-dropdown-menu {
+    position: static;
+    transform: none;
+    box-shadow: none;
+    border: none;
+    border-top: 1px solid #f0ede8;
+    border-radius: 0;
+    min-width: unset;
+    padding: 0.25rem 0;
+  }
+
+  .nav-dropdown:hover .nav-dropdown-menu {
+    display: block;
+  }
+}

@@ -2,6 +2,8 @@
 import '../styles/global.css'
 import { useTranslations, type Lang } from '../i18n'
 import announcementData from '../data/announcement.json'
+import { treatmentNavLabels, treatmentSlugs } from '../data/treatments'
+import { symptomNavLabels } from '../data/symptoms'
 
 export interface Props {
   lang: Lang
@@ -393,7 +395,32 @@ const hreflangOf: Record<Lang, string> = {
           <span class="nav-burger-bar"></span>
         </button>
         <div class="nav-links" id="primary-nav-links">
-          <a href={`/${lang}/symptoms/`}>{t.nav.find_symptom}</a>
+          <div class="nav-dropdown">
+            <button type="button" class="nav-dropdown-btn">
+              {t.nav.find_symptom}
+              <span class="nav-dropdown-arrow" aria-hidden="true">▾</span>
+            </button>
+            <div class="nav-dropdown-menu">
+              {['shoulder','neck','back','hip','knee','foot','elbow-wrist','neuropathy'].map((slug) => (
+                <a href={`/${lang}/symptoms/${slug}/`} class="nav-dropdown-item">
+                  {symptomNavLabels[lang][slug]}
+                </a>
+              ))}
+            </div>
+          </div>
+          <div class="nav-dropdown">
+            <button type="button" class="nav-dropdown-btn">
+              {lang === 'zh' ? '治療項目' : lang === 'en' ? 'Treatments' : '治療項目'}
+              <span class="nav-dropdown-arrow" aria-hidden="true">▾</span>
+            </button>
+            <div class="nav-dropdown-menu">
+              {treatmentSlugs.map((slug) => (
+                <a href={`/${lang}/treatments/${slug}/`} class="nav-dropdown-item">
+                  {treatmentNavLabels[lang][slug]}
+                </a>
+              ))}
+            </div>
+          </div>
           <a href={`${navHome}#services`}>{t.nav.services}</a>
           <a href={`/${lang}/pricing/`}>{t.nav.fees}</a>
           <a href={`/${lang}/first-visit/`}>{t.nav.first_visit}</a>

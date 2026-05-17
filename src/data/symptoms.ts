@@ -721,3 +721,38 @@ export const indexMeta = {
     intro: "あなたの症状に最も近い分類を選んで、考えられる原因と治療の方向性を確認してください。"
   },
 }
+
+// Short labels for the primary-nav "Find Your Symptom" dropdown.
+// Keyed by the 8 symptom-page slugs; mirrors treatmentNavLabels in treatments.ts.
+export const symptomNavLabels: Record<string, Record<string, string>> = {
+  zh: {
+    shoulder: "肩膀疼痛",
+    neck: "頸部疼痛",
+    back: "下背痛",
+    hip: "髖臀疼痛",
+    knee: "膝蓋退化",
+    foot: "足踝疼痛",
+    "elbow-wrist": "手肘手腕",
+    neuropathy: "神經病變",
+  },
+  en: {
+    shoulder: "Shoulder Pain",
+    neck: "Neck Pain",
+    back: "Lower Back Pain",
+    hip: "Hip & Buttock",
+    knee: "Knee Degeneration",
+    foot: "Foot & Ankle",
+    "elbow-wrist": "Elbow & Wrist",
+    neuropathy: "Neuropathy",
+  },
+  ja: {
+    shoulder: "肩の痛み",
+    neck: "頸部の痛み",
+    back: "腰痛・下背部痛",
+    hip: "股関節・臀部の痛み",
+    knee: "膝関節の変性",
+    foot: "足・足首の痛み",
+    "elbow-wrist": "肘・手首の痛み",
+    neuropathy: "神経障害・神経痛",
+  },
+}
