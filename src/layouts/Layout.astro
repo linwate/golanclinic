@@ -476,16 +476,19 @@ const hreflangOf: Record<Lang, string> = {
 
         dropdownBtns.forEach((btn) => {
           btn.addEventListener('click', (e) => {
-            e.stopPropagation()
             const isOpen = btn.getAttribute('aria-expanded') === 'true'
 
-            // 關閉所有下拉
+            // 關閉所有下拉（包含自己）
             dropdownBtns.forEach((b) => {
               b.setAttribute('aria-expanded', 'false')
             })
 
-            // 切換目前下拉
-            btn.setAttribute('aria-expanded', isOpen ? 'false' : 'true')
+            // 只有原本是關閉的才開啟
+            if (!isOpen) {
+              btn.setAttribute('aria-expanded', 'true')
+              e.stopPropagation()
+            }
+            // 原本是開啟的 → 已經關閉，不需要 stopPropagation
           })
         })
 
