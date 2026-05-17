@@ -16,6 +16,9 @@ Founded by Dr. Lin Wei-De (林瑋德), a physician with neurology training speci
 - First Visit Guide (EN): https://colanclinic.com/en/first-visit/
 - Treatment FAQ (ZH): https://colanclinic.com/zh/treatment-faq/
 - Pricing Reference (ZH): https://colanclinic.com/zh/pricing/
+- About Dr. Lin (ZH): https://colanclinic.com/zh/about/
+- About Dr. Lin (EN): https://colanclinic.com/en/about/
+- ORCID: https://orcid.org/0000-0003-2380-9104
 
 ### Symptom Categories
 - Shoulder Pain: https://colanclinic.com/zh/symptoms/shoulder/

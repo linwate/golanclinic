@@ -214,7 +214,12 @@ const hreflangOf: Record<Lang, string> = {
       },
       medicalSpecialty: ['Neurology', 'Pain Medicine', 'Regenerative Medicine'],
       url: `https://colanclinic.com/${lang}/`,
-      sameAs: ['https://twmedpro.tw'],
+      sameAs: [
+        'https://twmedpro.tw',
+        'https://twmedpro.tw/drlinwate/',
+        'https://orcid.org/0000-0003-2380-9104',
+        'https://www.linkedin.com/in/weide-lin-5268b897/',
+      ],
     })} />
 
     {slug.startsWith('symptoms') && (
@@ -427,6 +432,9 @@ const hreflangOf: Record<Lang, string> = {
           </div>
           <a href={`${navHome}#services`}>{t.nav.services}</a>
           <a href={`/${lang}/pricing/`}>{t.nav.fees}</a>
+          <a href={`/${lang}/about/`}>
+            {lang === 'zh' ? '醫師介紹' : lang === 'en' ? 'About Dr. Lin' : '医師紹介'}
+          </a>
           <a href={`/${lang}/first-visit/`}>{t.nav.first_visit}</a>
           <a href={`${navHome}#about`}>{t.nav.about}</a>
           <a href={`${navHome}#faq`}>{t.nav.faq}</a>
