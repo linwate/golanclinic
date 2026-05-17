@@ -3568,3 +3568,23 @@ details[open] .faq-q::after {
     display: block;
   }
 }
+
+/* JS tap-toggle state (mobile/touch) + symptoms overview link */
+.nav-dropdown.is-open .nav-dropdown-menu {
+  display: block;
+}
+
+.nav-dropdown.is-open .nav-dropdown-arrow {
+  transform: rotate(180deg);
+}
+
+.nav-dropdown-all {
+  font-weight: 600;
+  color: #1a2f5e;
+}
+
+.nav-dropdown-divider {
+  border: none;
+  border-top: 1px solid #f0ede8;
+  margin: 4px 0;
+}
