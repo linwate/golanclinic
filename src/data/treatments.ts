@@ -52,7 +52,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       references: [
         { authors: "Buntragulpoontawee M, Chang KV, et al.", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes: A Systematic Review", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
         { authors: "Lin MT, Wei KC, Wu CH", title: "Effectiveness of Platelet-Rich Plasma Injection in Rotator Cuff Tendinopathy: A Systematic Review and Meta-Analysis of Randomized Controlled Trials", journal: "Diagnostics", year: 2020, doi: "10.3390/diagnostics10040189" },
-        { authors: "Yen YS, Lin CH, Chiang CH, Wu CY", title: "Ultrasound-Guided Sciatic Nerve Hydrodissection Can Improve the Clinical Outcomes of Patients with Deep Gluteal Syndrome", journal: "Diagnostics", year: 2024, doi: "10.3390/diagnostics14070757" },
+        { authors: "Yen YS, Lin CH, Chiang CH, Wu CY", title: "Ultrasound-Guided Sciatic Nerve Hydrodissection Can Improve the Clinical Outcomes of Patients with Deep Gluteal Syndrome: A Case-Series Study", journal: "Diagnostics", year: 2024, doi: "10.3390/diagnostics14070757" },
       ],
       relatedSymptoms: [
         { name: "肩膀疼痛", href: "/zh/symptoms/shoulder/" },
@@ -208,7 +208,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       ],
       references: [
         { authors: "Buntragulpoontawee M, Chang KV, et al.", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes: A Systematic Review", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
-        { authors: "Yen YS, Lin CH, Chiang CH, Wu CY", title: "Ultrasound-Guided Sciatic Nerve Hydrodissection Can Improve the Clinical Outcomes of Patients with Deep Gluteal Syndrome", journal: "Diagnostics", year: 2024, doi: "10.3390/diagnostics14070757" },
+        { authors: "Yen YS, Lin CH, Chiang CH, Wu CY", title: "Ultrasound-Guided Sciatic Nerve Hydrodissection Can Improve the Clinical Outcomes of Patients with Deep Gluteal Syndrome: A Case-Series Study", journal: "Diagnostics", year: 2024, doi: "10.3390/diagnostics14070757" },
         { authors: "Chang KV, et al.", title: "Ultrasound imaging and guidance in peripheral nerve entrapment: hydrodissection highlighted", journal: "Br J Sports Med", year: 2020, doi: "10.1136/bjsports-2018-099740" },
       ],
       relatedSymptoms: [
@@ -584,7 +584,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       references: [
         { authors: "Buntragulpoontawee M, Chang KV, et al.", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes: A Systematic Review", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
         { authors: "Lin MT, Wei KC, Wu CH", title: "Effectiveness of Platelet-Rich Plasma Injection in Rotator Cuff Tendinopathy: A Systematic Review and Meta-Analysis of Randomized Controlled Trials", journal: "Diagnostics", year: 2020, doi: "10.3390/diagnostics10040189" },
-        { authors: "Yen YS, Lin CH, Chiang CH, Wu CY", title: "Ultrasound-Guided Sciatic Nerve Hydrodissection Can Improve the Clinical Outcomes of Patients with Deep Gluteal Syndrome", journal: "Diagnostics", year: 2024, doi: "10.3390/diagnostics14070757" },
+        { authors: "Yen YS, Lin CH, Chiang CH, Wu CY", title: "Ultrasound-Guided Sciatic Nerve Hydrodissection Can Improve the Clinical Outcomes of Patients with Deep Gluteal Syndrome: A Case-Series Study", journal: "Diagnostics", year: 2024, doi: "10.3390/diagnostics14070757" },
       ],
       relatedSymptoms: [
         { name: "Shoulder Pain", href: "/en/symptoms/shoulder/" },
@@ -740,7 +740,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       ],
       references: [
         { authors: "Buntragulpoontawee M, Chang KV, et al.", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes: A Systematic Review", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
-        { authors: "Yen YS, Lin CH, Chiang CH, Wu CY", title: "Ultrasound-Guided Sciatic Nerve Hydrodissection Can Improve the Clinical Outcomes of Patients with Deep Gluteal Syndrome", journal: "Diagnostics", year: 2024, doi: "10.3390/diagnostics14070757" },
+        { authors: "Yen YS, Lin CH, Chiang CH, Wu CY", title: "Ultrasound-Guided Sciatic Nerve Hydrodissection Can Improve the Clinical Outcomes of Patients with Deep Gluteal Syndrome: A Case-Series Study", journal: "Diagnostics", year: 2024, doi: "10.3390/diagnostics14070757" },
         { authors: "Chang KV, et al.", title: "Ultrasound imaging and guidance in peripheral nerve entrapment: hydrodissection highlighted", journal: "Br J Sports Med", year: 2020, doi: "10.1136/bjsports-2018-099740" },
       ],
       relatedSymptoms: [
@@ -1116,7 +1116,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       references: [
         { authors: "Buntragulpoontawee M, Chang KV, et al.", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes: A Systematic Review", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
         { authors: "Lin MT, Wei KC, Wu CH", title: "Effectiveness of Platelet-Rich Plasma Injection in Rotator Cuff Tendinopathy: A Systematic Review and Meta-Analysis of Randomized Controlled Trials", journal: "Diagnostics", year: 2020, doi: "10.3390/diagnostics10040189" },
-        { authors: "Yen YS, Lin CH, Chiang CH, Wu CY", title: "Ultrasound-Guided Sciatic Nerve Hydrodissection Can Improve the Clinical Outcomes of Patients with Deep Gluteal Syndrome", journal: "Diagnostics", year: 2024, doi: "10.3390/diagnostics14070757" },
+        { authors: "Yen YS, Lin CH, Chiang CH, Wu CY", title: "Ultrasound-Guided Sciatic Nerve Hydrodissection Can Improve the Clinical Outcomes of Patients with Deep Gluteal Syndrome: A Case-Series Study", journal: "Diagnostics", year: 2024, doi: "10.3390/diagnostics14070757" },
       ],
       relatedSymptoms: [
         { name: "肩の痛み", href: "/ja/symptoms/shoulder/" },
@@ -1272,7 +1272,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       ],
       references: [
         { authors: "Buntragulpoontawee M, Chang KV, et al.", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes: A Systematic Review", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
-        { authors: "Yen YS, Lin CH, Chiang CH, Wu CY", title: "Ultrasound-Guided Sciatic Nerve Hydrodissection Can Improve the Clinical Outcomes of Patients with Deep Gluteal Syndrome", journal: "Diagnostics", year: 2024, doi: "10.3390/diagnostics14070757" },
+        { authors: "Yen YS, Lin CH, Chiang CH, Wu CY", title: "Ultrasound-Guided Sciatic Nerve Hydrodissection Can Improve the Clinical Outcomes of Patients with Deep Gluteal Syndrome: A Case-Series Study", journal: "Diagnostics", year: 2024, doi: "10.3390/diagnostics14070757" },
         { authors: "Chang KV, et al.", title: "Ultrasound imaging and guidance in peripheral nerve entrapment: hydrodissection highlighted", journal: "Br J Sports Med", year: 2020, doi: "10.1136/bjsports-2018-099740" },
       ],
       relatedSymptoms: [
