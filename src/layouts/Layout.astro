@@ -226,7 +226,7 @@ const hreflangOf: Record<Lang, string> = {
       ],
     })} />
 
-    {slug.startsWith('symptoms') && (
+    {slug && (slug.startsWith('symptoms') || slug.startsWith('treatments')) && (
       <script type="application/ld+json" is:inline set:html={JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',

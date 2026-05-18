@@ -13,6 +13,19 @@ const data = treatments[lang][slug]
   lang={lang}
   pathname={`treatments/${slug}`}
 >
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": data.h1,
+    "description": data.whatIs,
+    "step": data.steps.map((step, index) => ({
+      "@type": "HowToStep",
+      "position": index + 1,
+      "name": `步驟 ${index + 1}`,
+      "text": step
+    }))
+  })} />
+
   <section class="fv-hero">
     <div class="container">
       <p class="fv-eyebrow">{data.eyebrow}</p>
