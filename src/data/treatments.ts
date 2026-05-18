@@ -374,7 +374,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       references: [
         { authors: "Wang B, Liang KW, Chen CH, Wang CK", title: "Transcatheter Arterial Embolization for Alleviating Chronic Musculoskeletal Pain and Improving Physical Function: A Narrative Review", journal: "Diagnostics (Basel)", year: 2022, doi: "10.3390/diagnostics13010134" },
         { authors: "Lin HY, Liang KW, Wang B, Lee CC", title: "Challenges and complications and their management of the transarterial microembolization for chronic musculoskeletal pain", journal: "Eur Radiol", year: 2024, doi: "10.1007/s00330-023-10328-5" },
-        { authors: "Kishore SA, Sheira D, et al.", title: "Transarterial embolization for the treatment of chronic musculoskeletal pain: a systematic review of indications, safety, and efficacy", journal: "Skeletal Radiol", year: 2022, doi: "10.1007/s00256-022-04016-w" },
+        { authors: "Kishore SA, Sheira D, Malin ML, Trost DW, Mandl LA", title: "Transarterial embolization for the treatment of chronic musculoskeletal pain: a systematic review of indications, safety, and efficacy", journal: "ACR Open Rheumatol", year: 2022, doi: "10.1002/acr2.11383" },
       ],
       relatedSymptoms: [
         { name: "膝蓋退化", href: "/zh/symptoms/knee/" },
@@ -906,7 +906,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       references: [
         { authors: "Wang B, Liang KW, Chen CH, Wang CK", title: "Transcatheter Arterial Embolization for Alleviating Chronic Musculoskeletal Pain and Improving Physical Function: A Narrative Review", journal: "Diagnostics (Basel)", year: 2022, doi: "10.3390/diagnostics13010134" },
         { authors: "Lin HY, Liang KW, Wang B, Lee CC", title: "Challenges and complications and their management of the transarterial microembolization for chronic musculoskeletal pain", journal: "Eur Radiol", year: 2024, doi: "10.1007/s00330-023-10328-5" },
-        { authors: "Kishore SA, Sheira D, et al.", title: "Transarterial embolization for the treatment of chronic musculoskeletal pain: a systematic review of indications, safety, and efficacy", journal: "Skeletal Radiol", year: 2022, doi: "10.1007/s00256-022-04016-w" },
+        { authors: "Kishore SA, Sheira D, Malin ML, Trost DW, Mandl LA", title: "Transarterial embolization for the treatment of chronic musculoskeletal pain: a systematic review of indications, safety, and efficacy", journal: "ACR Open Rheumatol", year: 2022, doi: "10.1002/acr2.11383" },
       ],
       relatedSymptoms: [
         { name: "Knee Degeneration", href: "/en/symptoms/knee/" },
@@ -1438,7 +1438,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       references: [
         { authors: "Wang B, Liang KW, Chen CH, Wang CK", title: "Transcatheter Arterial Embolization for Alleviating Chronic Musculoskeletal Pain and Improving Physical Function: A Narrative Review", journal: "Diagnostics (Basel)", year: 2022, doi: "10.3390/diagnostics13010134" },
         { authors: "Lin HY, Liang KW, Wang B, Lee CC", title: "Challenges and complications and their management of the transarterial microembolization for chronic musculoskeletal pain", journal: "Eur Radiol", year: 2024, doi: "10.1007/s00330-023-10328-5" },
-        { authors: "Kishore SA, Sheira D, et al.", title: "Transarterial embolization for the treatment of chronic musculoskeletal pain: a systematic review of indications, safety, and efficacy", journal: "Skeletal Radiol", year: 2022, doi: "10.1007/s00256-022-04016-w" },
+        { authors: "Kishore SA, Sheira D, Malin ML, Trost DW, Mandl LA", title: "Transarterial embolization for the treatment of chronic musculoskeletal pain: a systematic review of indications, safety, and efficacy", journal: "ACR Open Rheumatol", year: 2022, doi: "10.1002/acr2.11383" },
       ],
       relatedSymptoms: [
         { name: "膝関節の変性", href: "/ja/symptoms/knee/" },
