@@ -258,7 +258,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         { q: "BMAC 需要住院嗎？", a: "不需要，整個治療在門診完成，約需 1–2 小時，當天可以回家。" },
       ],
       references: [
-        { authors: "Boffa A, Di Martino A, et al.", title: "Bone marrow aspirate concentrate injections provide similar results versus viscosupplementation up to 24 months of follow-up in patients with symptomatic knee osteoarthritis", journal: "Knee Surg Sports Traumatol Arthrosc", year: 2022, doi: "10.1007/s00167-021-06793-4" },
+        { authors: "Boffa A, Di Martino A, Andriolo L, De Filippis R, Poggi A, Kon E, Zaffagnini S, Filardo G", title: "Bone marrow aspirate concentrate injections provide similar results versus viscosupplementation up to 24 months of follow-up in patients with symptomatic knee osteoarthritis: A randomized controlled trial", journal: "Knee Surg Sports Traumatol Arthrosc", year: 2022, doi: "10.1007/s00167-021-06793-4" },
         { authors: "Han JH, Jung M, et al.", title: "Bone Marrow Aspirate Concentrate Injections for the Treatment of Knee Osteoarthritis: A Systematic Review of Randomized Controlled Trials", journal: "Orthop J Sports Med", year: 2024, doi: "10.1177/23259671241296555" },
         { authors: "Baek JH, Lee SC, et al.", title: "Effectiveness and Complications of Bone Marrow Aspirate Concentrate in Patients with Knee Osteoarthritis of Kellgren-Lawrence Grades II-III", journal: "Medicina (Kaunas)", year: 2024, doi: "10.3390/medicina60060977" },
       ],
@@ -790,7 +790,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         { q: "Does BMAC require hospitalization?", a: "No. The entire procedure is completed in the clinic in approximately 1–2 hours. Patients return home the same day." },
       ],
       references: [
-        { authors: "Boffa A, Di Martino A, et al.", title: "Bone marrow aspirate concentrate injections provide similar results versus viscosupplementation up to 24 months of follow-up in patients with symptomatic knee osteoarthritis", journal: "Knee Surg Sports Traumatol Arthrosc", year: 2022, doi: "10.1007/s00167-021-06793-4" },
+        { authors: "Boffa A, Di Martino A, Andriolo L, De Filippis R, Poggi A, Kon E, Zaffagnini S, Filardo G", title: "Bone marrow aspirate concentrate injections provide similar results versus viscosupplementation up to 24 months of follow-up in patients with symptomatic knee osteoarthritis: A randomized controlled trial", journal: "Knee Surg Sports Traumatol Arthrosc", year: 2022, doi: "10.1007/s00167-021-06793-4" },
         { authors: "Han JH, Jung M, et al.", title: "Bone Marrow Aspirate Concentrate Injections for the Treatment of Knee Osteoarthritis: A Systematic Review of Randomized Controlled Trials", journal: "Orthop J Sports Med", year: 2024, doi: "10.1177/23259671241296555" },
         { authors: "Baek JH, Lee SC, et al.", title: "Effectiveness and Complications of Bone Marrow Aspirate Concentrate in Patients with Knee Osteoarthritis of Kellgren-Lawrence Grades II-III", journal: "Medicina (Kaunas)", year: 2024, doi: "10.3390/medicina60060977" },
       ],
@@ -1322,7 +1322,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         { q: "入院は必要ですか？", a: "不要です。クリニック内で約1〜2時間で治療が完了し、当日帰宅できます。" },
       ],
       references: [
-        { authors: "Boffa A, Di Martino A, et al.", title: "Bone marrow aspirate concentrate injections provide similar results versus viscosupplementation up to 24 months of follow-up in patients with symptomatic knee osteoarthritis", journal: "Knee Surg Sports Traumatol Arthrosc", year: 2022, doi: "10.1007/s00167-021-06793-4" },
+        { authors: "Boffa A, Di Martino A, Andriolo L, De Filippis R, Poggi A, Kon E, Zaffagnini S, Filardo G", title: "Bone marrow aspirate concentrate injections provide similar results versus viscosupplementation up to 24 months of follow-up in patients with symptomatic knee osteoarthritis: A randomized controlled trial", journal: "Knee Surg Sports Traumatol Arthrosc", year: 2022, doi: "10.1007/s00167-021-06793-4" },
         { authors: "Han JH, Jung M, et al.", title: "Bone Marrow Aspirate Concentrate Injections for the Treatment of Knee Osteoarthritis: A Systematic Review of Randomized Controlled Trials", journal: "Orthop J Sports Med", year: 2024, doi: "10.1177/23259671241296555" },
         { authors: "Baek JH, Lee SC, et al.", title: "Effectiveness and Complications of Bone Marrow Aspirate Concentrate in Patients with Knee Osteoarthritis of Kellgren-Lawrence Grades II-III", journal: "Medicina (Kaunas)", year: 2024, doi: "10.3390/medicina60060977" },
       ],
