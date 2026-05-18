@@ -539,6 +539,11 @@ const hreflangOf: Record<Lang, string> = {
                   </a>
                 </li>
               )}
+              {pathname === 'symptoms' && (
+                <li class="breadcrumb-item breadcrumb-current" aria-current="page">
+                  {lang === 'zh' ? '症狀查詢' : lang === 'en' ? 'Symptoms' : '症状から探す'}
+                </li>
+              )}
               {pathname !== 'symptoms' && pathname !== '' && (
                 <li class="breadcrumb-item breadcrumb-current" aria-current="page">
                   {title.split(/[｜|]/)[0].trim()}
