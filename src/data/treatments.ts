@@ -332,7 +332,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         },
       ],
       references: [
-        { authors: "Vines JB, Aliprantis AO, et al.", title: "Cryopreserved Amniotic Suspension for the Treatment of Knee Osteoarthritis", journal: "J Knee Surg", year: 2023, doi: "10.1055/s-0041-1740022" },
+        { authors: "Gomoll AH, Mandelbaum BR, Farr J, Archambault WT, Sherman SL, Tabet SK, Kimmerling KA, Mowry KC", title: "An Initial Injection and a Crossover Injection of Amniotic Suspension Allograft Following Failed Treatment with Hyaluronic Acid or Saline Are Equally Effective in the Treatment of Moderate Symptomatic Knee Osteoarthritis Over 12 Months", journal: "Arthroscopy", year: 2023, doi: "10.1016/j.arthro.2022.06.036" },
         { authors: "Werber B", title: "Amniotic Tissues for the Treatment of Chronic Plantar Fasciitis and Heel Pain", journal: "Foot Ankle Spec", year: 2021, doi: "10.1177/1938640020948098" },
         { authors: "Castellanos R, Tighe S", title: "Injectable Amniotic Fluid and Its Potential Applications in Sports Medicine", journal: "Am J Sports Med", year: 2021, doi: "10.1177/0363546520921605" },
       ],
@@ -864,7 +864,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         },
       ],
       references: [
-        { authors: "Vines JB, Aliprantis AO, et al.", title: "Cryopreserved Amniotic Suspension for the Treatment of Knee Osteoarthritis", journal: "J Knee Surg", year: 2023, doi: "10.1055/s-0041-1740022" },
+        { authors: "Gomoll AH, Mandelbaum BR, Farr J, Archambault WT, Sherman SL, Tabet SK, Kimmerling KA, Mowry KC", title: "An Initial Injection and a Crossover Injection of Amniotic Suspension Allograft Following Failed Treatment with Hyaluronic Acid or Saline Are Equally Effective in the Treatment of Moderate Symptomatic Knee Osteoarthritis Over 12 Months", journal: "Arthroscopy", year: 2023, doi: "10.1016/j.arthro.2022.06.036" },
         { authors: "Werber B", title: "Amniotic Tissues for the Treatment of Chronic Plantar Fasciitis and Heel Pain", journal: "Foot Ankle Spec", year: 2021, doi: "10.1177/1938640020948098" },
         { authors: "Castellanos R, Tighe S", title: "Injectable Amniotic Fluid and Its Potential Applications in Sports Medicine", journal: "Am J Sports Med", year: 2021, doi: "10.1177/0363546520921605" },
       ],
@@ -1396,7 +1396,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         },
       ],
       references: [
-        { authors: "Vines JB, Aliprantis AO, et al.", title: "Cryopreserved Amniotic Suspension for the Treatment of Knee Osteoarthritis", journal: "J Knee Surg", year: 2023, doi: "10.1055/s-0041-1740022" },
+        { authors: "Gomoll AH, Mandelbaum BR, Farr J, Archambault WT, Sherman SL, Tabet SK, Kimmerling KA, Mowry KC", title: "An Initial Injection and a Crossover Injection of Amniotic Suspension Allograft Following Failed Treatment with Hyaluronic Acid or Saline Are Equally Effective in the Treatment of Moderate Symptomatic Knee Osteoarthritis Over 12 Months", journal: "Arthroscopy", year: 2023, doi: "10.1016/j.arthro.2022.06.036" },
         { authors: "Werber B", title: "Amniotic Tissues for the Treatment of Chronic Plantar Fasciitis and Heel Pain", journal: "Foot Ankle Spec", year: 2021, doi: "10.1177/1938640020948098" },
         { authors: "Castellanos R, Tighe S", title: "Injectable Amniotic Fluid and Its Potential Applications in Sports Medicine", journal: "Am J Sports Med", year: 2021, doi: "10.1177/0363546520921605" },
       ],
