@@ -50,7 +50,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         { q: "每次注射都需要超音波嗎？", a: "鈷嵐診所的注射治療都在超音波導引下進行，這是我們的基本標準，不需要額外費用。" },
       ],
       references: [
-        { authors: "Buntragulpoontawee M, Chang KV, et al.", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes: A Systematic Review", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
+        { authors: "Buntragulpoontawee M, Chang KV, Vitoonpong T, Pornjaksawan S, Kitisak K, Saokaew S, Kanchanasurakit S", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes: A Systematic Review", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
         { authors: "Lin MT, Wei KC, Wu CH", title: "Effectiveness of Platelet-Rich Plasma Injection in Rotator Cuff Tendinopathy: A Systematic Review and Meta-Analysis of Randomized Controlled Trials", journal: "Diagnostics", year: 2020, doi: "10.3390/diagnostics10040189" },
         { authors: "Yen YS, Lin CH, Chiang CH, Wu CY", title: "Ultrasound-Guided Sciatic Nerve Hydrodissection Can Improve the Clinical Outcomes of Patients with Deep Gluteal Syndrome: A Case-Series Study", journal: "Diagnostics", year: 2024, doi: "10.3390/diagnostics14070757" },
       ],
@@ -207,7 +207,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         { q: "什麼是雙重夾擠症候群？", a: "同一條神經在兩個或以上的位置受到壓迫，例如頸椎和手腕都有問題。只處理一處效果有限，需要同時評估整條神經的走向。" },
       ],
       references: [
-        { authors: "Buntragulpoontawee M, Chang KV, et al.", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes: A Systematic Review", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
+        { authors: "Buntragulpoontawee M, Chang KV, Vitoonpong T, Pornjaksawan S, Kitisak K, Saokaew S, Kanchanasurakit S", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes: A Systematic Review", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
         { authors: "Yen YS, Lin CH, Chiang CH, Wu CY", title: "Ultrasound-Guided Sciatic Nerve Hydrodissection Can Improve the Clinical Outcomes of Patients with Deep Gluteal Syndrome: A Case-Series Study", journal: "Diagnostics", year: 2024, doi: "10.3390/diagnostics14070757" },
         { authors: "Chang KV, et al.", title: "Ultrasound imaging and guidance in peripheral nerve entrapment: hydrodissection highlighted", journal: "Br J Sports Med", year: 2020, doi: "10.1136/bjsports-2018-099740" },
       ],
@@ -529,7 +529,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       ],
       references: [
         { authors: "Allam AE, et al.", title: "Perineural Platelet-Rich Plasma for Diabetic Neuropathic Pain, Could It Make a Difference?", journal: "Pain Med", year: 2020, doi: "10.1093/pm/pnz140" },
-        { authors: "Buntragulpoontawee M, Chang KV, et al.", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
+        { authors: "Buntragulpoontawee M, Chang KV, Vitoonpong T, Pornjaksawan S, Kitisak K, Saokaew S, Kanchanasurakit S", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
         { authors: "Gupta AD, Edwards S, et al.", title: "A Systematic Review and Meta-Analysis of Efficacy of Botulinum Toxin A for Neuropathic Pain", journal: "Toxins (Basel)", year: 2022, doi: "10.3390/toxins14010036" },
       ],
       relatedSymptoms: [
@@ -582,7 +582,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         { q: "Is ultrasound used for every injection?", a: "At Colan Clinic, all injection treatments are performed under ultrasound guidance. This is our baseline standard, not an add-on service." },
       ],
       references: [
-        { authors: "Buntragulpoontawee M, Chang KV, et al.", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes: A Systematic Review", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
+        { authors: "Buntragulpoontawee M, Chang KV, Vitoonpong T, Pornjaksawan S, Kitisak K, Saokaew S, Kanchanasurakit S", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes: A Systematic Review", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
         { authors: "Lin MT, Wei KC, Wu CH", title: "Effectiveness of Platelet-Rich Plasma Injection in Rotator Cuff Tendinopathy: A Systematic Review and Meta-Analysis of Randomized Controlled Trials", journal: "Diagnostics", year: 2020, doi: "10.3390/diagnostics10040189" },
         { authors: "Yen YS, Lin CH, Chiang CH, Wu CY", title: "Ultrasound-Guided Sciatic Nerve Hydrodissection Can Improve the Clinical Outcomes of Patients with Deep Gluteal Syndrome: A Case-Series Study", journal: "Diagnostics", year: 2024, doi: "10.3390/diagnostics14070757" },
       ],
@@ -739,7 +739,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         { q: "What is double crush syndrome?", a: "Double crush syndrome occurs when the same nerve is compressed at two or more locations — for example, both the cervical spine and wrist. Treating only one site often yields limited results; the entire nerve course needs to be assessed." },
       ],
       references: [
-        { authors: "Buntragulpoontawee M, Chang KV, et al.", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes: A Systematic Review", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
+        { authors: "Buntragulpoontawee M, Chang KV, Vitoonpong T, Pornjaksawan S, Kitisak K, Saokaew S, Kanchanasurakit S", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes: A Systematic Review", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
         { authors: "Yen YS, Lin CH, Chiang CH, Wu CY", title: "Ultrasound-Guided Sciatic Nerve Hydrodissection Can Improve the Clinical Outcomes of Patients with Deep Gluteal Syndrome: A Case-Series Study", journal: "Diagnostics", year: 2024, doi: "10.3390/diagnostics14070757" },
         { authors: "Chang KV, et al.", title: "Ultrasound imaging and guidance in peripheral nerve entrapment: hydrodissection highlighted", journal: "Br J Sports Med", year: 2020, doi: "10.1136/bjsports-2018-099740" },
       ],
@@ -1061,7 +1061,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       ],
       references: [
         { authors: "Allam AE, et al.", title: "Perineural Platelet-Rich Plasma for Diabetic Neuropathic Pain, Could It Make a Difference?", journal: "Pain Med", year: 2020, doi: "10.1093/pm/pnz140" },
-        { authors: "Buntragulpoontawee M, Chang KV, et al.", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
+        { authors: "Buntragulpoontawee M, Chang KV, Vitoonpong T, Pornjaksawan S, Kitisak K, Saokaew S, Kanchanasurakit S", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
         { authors: "Gupta AD, Edwards S, et al.", title: "A Systematic Review and Meta-Analysis of Efficacy of Botulinum Toxin A for Neuropathic Pain", journal: "Toxins (Basel)", year: 2022, doi: "10.3390/toxins14010036" },
       ],
       relatedSymptoms: [
@@ -1114,7 +1114,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         { q: "毎回超音波が必要ですか？", a: "コランクリニックでは、すべての注射治療を超音波ガイド下で行います。これは基本的なスタンダードであり、追加費用はかかりません。" },
       ],
       references: [
-        { authors: "Buntragulpoontawee M, Chang KV, et al.", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes: A Systematic Review", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
+        { authors: "Buntragulpoontawee M, Chang KV, Vitoonpong T, Pornjaksawan S, Kitisak K, Saokaew S, Kanchanasurakit S", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes: A Systematic Review", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
         { authors: "Lin MT, Wei KC, Wu CH", title: "Effectiveness of Platelet-Rich Plasma Injection in Rotator Cuff Tendinopathy: A Systematic Review and Meta-Analysis of Randomized Controlled Trials", journal: "Diagnostics", year: 2020, doi: "10.3390/diagnostics10040189" },
         { authors: "Yen YS, Lin CH, Chiang CH, Wu CY", title: "Ultrasound-Guided Sciatic Nerve Hydrodissection Can Improve the Clinical Outcomes of Patients with Deep Gluteal Syndrome: A Case-Series Study", journal: "Diagnostics", year: 2024, doi: "10.3390/diagnostics14070757" },
       ],
@@ -1271,7 +1271,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         { q: "ダブルクラッシュ症候群とは何ですか？", a: "同じ神経が2か所以上で圧迫される状態です。例えば頸椎と手首の両方に問題がある場合。一か所だけ治療しても効果が限られるため、神経走行全体を評価する必要があります。" },
       ],
       references: [
-        { authors: "Buntragulpoontawee M, Chang KV, et al.", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes: A Systematic Review", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
+        { authors: "Buntragulpoontawee M, Chang KV, Vitoonpong T, Pornjaksawan S, Kitisak K, Saokaew S, Kanchanasurakit S", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes: A Systematic Review", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
         { authors: "Yen YS, Lin CH, Chiang CH, Wu CY", title: "Ultrasound-Guided Sciatic Nerve Hydrodissection Can Improve the Clinical Outcomes of Patients with Deep Gluteal Syndrome: A Case-Series Study", journal: "Diagnostics", year: 2024, doi: "10.3390/diagnostics14070757" },
         { authors: "Chang KV, et al.", title: "Ultrasound imaging and guidance in peripheral nerve entrapment: hydrodissection highlighted", journal: "Br J Sports Med", year: 2020, doi: "10.1136/bjsports-2018-099740" },
       ],
@@ -1593,7 +1593,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       ],
       references: [
         { authors: "Allam AE, et al.", title: "Perineural Platelet-Rich Plasma for Diabetic Neuropathic Pain, Could It Make a Difference?", journal: "Pain Med", year: 2020, doi: "10.1093/pm/pnz140" },
-        { authors: "Buntragulpoontawee M, Chang KV, et al.", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
+        { authors: "Buntragulpoontawee M, Chang KV, Vitoonpong T, Pornjaksawan S, Kitisak K, Saokaew S, Kanchanasurakit S", title: "The Effectiveness and Safety of Commonly Used Injectates for Ultrasound-Guided Hydrodissection Treatment of Peripheral Nerve Entrapment Syndromes", journal: "Front Pharmacol", year: 2021, doi: "10.3389/fphar.2020.621150" },
         { authors: "Gupta AD, Edwards S, et al.", title: "A Systematic Review and Meta-Analysis of Efficacy of Botulinum Toxin A for Neuropathic Pain", journal: "Toxins (Basel)", year: 2022, doi: "10.3390/toxins14010036" },
       ],
       relatedSymptoms: [
