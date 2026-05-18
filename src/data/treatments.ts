@@ -235,7 +235,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       heroSub: "比 PRP 更強效的再生來源，適合嚴重退化的關節和組織。",
       eyebrow: "治療說明",
       whatIs: "BMAC（Bone Marrow Aspirate Concentrate）是從患者骨髓抽取含有間充質幹細胞、生長因子和抗發炎物質的濃縮液，注射到退化的關節或組織。骨髓含有比血液更豐富的修復成分，修復潛力比 PRP 更強。",
-      whyImportant: "對於嚴重的關節退化，PRP 的修復效果可能有限。BMAC 提供更多的幹細胞和生長因子，有機會讓嚴重損傷的組織獲得更多修復機會，延緩或避免手術。",
+      whyImportant: "對於嚴重的關節退化，PRP 的修復效果可能有限。BMAC 提供更多的幹細胞和生長因子，有機會讓嚴重損傷的組織獲得更多修復機會，延緩或避免手術。[1]",
       suitable: [
         "中重度退化性關節炎（膝蓋、髖關節）",
         "PRP 治療後效果有限想升級",
@@ -250,7 +250,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         "超音波導引下注射到目標位置",
         "說明術後護理和恢復期注意事項",
       ],
-      clinicAdvantage: "BMAC 的抽取和注射都需要精準的超音波導引，確保骨髓抽取位置正確，注射也確實到達需要修復的位置。",
+      clinicAdvantage: "BMAC 的抽取和注射都需要精準的超音波導引，確保骨髓抽取位置正確，注射也確實到達需要修復的位置。[2][3]",
       pricingNote: "BMAC 是費用較高的再生治療，但比關節置換手術的費用和恢復時間少很多，請參考費用說明頁面。",
       faqItems: [
         { q: "抽骨髓很痛嗎？", a: "在局部麻醉下進行，抽取過程有壓迫感但不會很痛。抽取後局部可能有 1–2 天的痠痛，一般止痛藥可以處理。" },
@@ -873,7 +873,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       heroSub: "A more potent regenerative source than PRP — for severe joint and tissue degeneration.",
       eyebrow: "Treatment Guide",
       whatIs: "BMAC (Bone Marrow Aspirate Concentrate) is derived from the patient's own bone marrow, which contains mesenchymal stem cells, growth factors, and anti-inflammatory agents. This concentrated aspirate is injected into degenerated joints or tissue. Bone marrow provides a richer mix of regenerative components than blood, offering greater repair potential than PRP.",
-      whyImportant: "For severe joint degeneration, the repair capacity of PRP may be insufficient. BMAC delivers a higher concentration of stem cells and growth factors, offering a greater opportunity for the body to repair severely damaged tissue and potentially delaying or avoiding surgery.",
+      whyImportant: "For severe joint degeneration, the repair capacity of PRP may be insufficient. BMAC delivers a higher concentration of stem cells and growth factors, offering a greater opportunity for the body to repair severely damaged tissue and potentially delaying or avoiding surgery. [1]",
       suitable: [
         "Moderate to severe osteoarthritis (knee, hip)",
         "Patients who have had PRP with limited results and want to escalate",
@@ -888,7 +888,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         "Ultrasound-guided injection into target site",
         "Post-procedure care and recovery instructions",
       ],
-      clinicAdvantage: "Both the aspiration and injection phases of BMAC require precise ultrasound guidance to ensure correct harvest location and accurate delivery to the repair site.",
+      clinicAdvantage: "Both the aspiration and injection phases of BMAC require precise ultrasound guidance to ensure correct harvest location and accurate delivery to the repair site. [2][3]",
       pricingNote: "BMAC is a premium regenerative treatment, but involves significantly less cost and recovery time than joint replacement surgery. Please refer to the pricing page.",
       faqItems: [
         { q: "Is the bone marrow aspiration painful?", a: "The procedure is performed under local anesthesia. There is a pressure sensation during aspiration but no significant pain. The site may be sore for 1–2 days afterward, manageable with standard pain relief." },
@@ -1511,7 +1511,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       heroSub: "PRPより強力な再生源——重度の関節・組織変性に適した治療。",
       eyebrow: "治療について",
       whatIs: "BMAC（Bone Marrow Aspirate Concentrate：骨髄吸引濃縮液）は患者様自身の骨髄から間葉系幹細胞・成長因子・抗炎症物質を含む濃縮液を採取し、変性した関節や組織に注射します。骨髄は血液より豊富な修復成分を含んでおり、PRPより高い修復ポテンシャルを持ちます。",
-      whyImportant: "重度の関節変性に対しては、PRPの修復効果が不十分な場合があります。BMACはより多くの幹細胞と成長因子を提供し、重度に損傷した組織がより多くの修復機会を得られる可能性があり、手術を延期または回避できる場合があります。",
+      whyImportant: "重度の関節変性に対しては、PRPの修復効果が不十分な場合があります。BMACはより多くの幹細胞と成長因子を提供し、重度に損傷した組織がより多くの修復機会を得られる可能性があり、手術を延期または回避できる場合があります。[1]",
       suitable: [
         "中〜重度の変形性関節症（膝・股関節）",
         "PRPで効果が限られ、より上位の治療を希望する方",
@@ -1526,7 +1526,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         "超音波ガイド下でターゲット部位に注射",
         "術後ケアと回復期の注意事項を説明",
       ],
-      clinicAdvantage: "BMACの採取と注射の両フェーズで、正確な骨髄採取位置と修復が必要な部位への正確な投与を確保するために精密な超音波ガイドが必要です。",
+      clinicAdvantage: "BMACの採取と注射の両フェーズで、正確な骨髄採取位置と修復が必要な部位への正確な投与を確保するために精密な超音波ガイドが必要です。[2][3]",
       pricingNote: "BMACは費用が高めの再生治療ですが、関節置換術と比べて費用も回復時間も大幅に少なくなります。料金ページをご参照ください。",
       faqItems: [
         { q: "骨髄採取は痛いですか？", a: "局所麻酔下で行います。採取中は圧迫感がありますが、強い痛みはありません。採取後は1〜2日程度の局所痠痛があり、通常の鎮痛薬で対処できます。" },

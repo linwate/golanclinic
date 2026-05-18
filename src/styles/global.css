@@ -3853,3 +3853,10 @@ details[open] .faq-q::after {
   color: #1a2f5e;
   border-color: #1a2f5e;
 }
+
+.reference-note {
+  font-size: 0.82rem;
+  color: #6b5e4f;
+  margin-bottom: 0.75rem;
+  font-style: italic;
+}
