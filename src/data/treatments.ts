@@ -28,12 +28,12 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       heroSub: "看得到才打得準，這是所有注射治療的基礎。",
       eyebrow: "治療說明",
       whatIs: "超音波導引注射是在超音波即時影像的監控下進行注射治療。醫師可以在螢幕上清楚看到針頭位置、目標結構和周圍組織，確保藥物精準到達需要治療的位置，避免傷害周圍神經和血管。",
-      whyImportant: "傳統的盲打注射依靠醫師的解剖知識和手感，即使經驗豐富的醫師也有一定的誤差率。研究顯示，肩膀關節注射若不使用超音波導引，準確率只有約 70%。超音波導引可以將準確率提升到 95% 以上，治療效果更穩定，併發症風險更低。[1]",
+      whyImportant: "傳統的盲打注射依靠醫師的解剖知識和手感，即使經驗豐富的醫師也有一定的誤差率。研究顯示，肩膀關節注射若不使用超音波導引，準確率只有約 70%。超音波導引可以將準確率提升到 95% 以上，治療效果更穩定，併發症風險更低。[1][2]",
       suitable: [
         "需要精準注射的深層結構（如關節腔、腱鞘、神經周圍）",
         "體型較大或解剖位置特殊的患者",
         "曾接受傳統注射但效果不佳",
-        "需要重複注射治療的慢性疼痛",
+        "需要重複注射治療的慢性疼痛。[3]",
       ],
       steps: [
         "超音波掃描確認目標位置和周圍結構",
@@ -42,7 +42,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         "超音波即時監控下進行注射",
         "確認藥物分布位置後完成治療",
       ],
-      clinicAdvantage: "林醫師的神經科訓練背景讓超音波判讀更精準，不只是找到目標位置，更能同時評估神經、血管和軟組織的狀況，在同一次門診完成診斷和治療。[2][3]",
+      clinicAdvantage: "林醫師的神經科訓練背景讓超音波判讀更精準，不只是找到目標位置，更能同時評估神經、血管和軟組織的狀況，在同一次門診完成診斷和治療。",
       pricingNote: "超音波導引注射的費用依注射部位和使用藥物而定，請參考費用說明頁面。",
       faqItems: [
         { q: "超音波導引注射會痛嗎？", a: "進針時會有輕微不適感，視注射部位和使用藥物而定。大部分患者表示可以接受，視需要可以先做局部麻醉。" },
@@ -666,12 +666,12 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       heroSub: "Seeing where you're going is the foundation of accurate injection treatment.",
       eyebrow: "Treatment Guide",
       whatIs: "Ultrasound-guided injection is performed under real-time ultrasound imaging. The physician can clearly see the needle position, target structure, and surrounding tissues on screen, ensuring medication reaches exactly where it is needed while avoiding nerves and blood vessels.",
-      whyImportant: "Traditional blind injections rely on the physician's anatomical knowledge and touch. Even experienced practitioners have a margin of error. Research shows that shoulder joint injections without ultrasound guidance achieve only about 70% accuracy. Ultrasound guidance raises accuracy above 95%, delivering more consistent results and lower complication risk. [1]",
+      whyImportant: "Traditional blind injections rely on the physician's anatomical knowledge and touch. Even experienced practitioners have a margin of error. Research shows that shoulder joint injections without ultrasound guidance achieve only about 70% accuracy. Ultrasound guidance raises accuracy above 95%, delivering more consistent results and lower complication risk. [1][2]",
       suitable: [
         "Deep structures requiring precise injection (joint cavities, tendon sheaths, nerve perineural spaces)",
         "Patients with larger body types or unusual anatomy",
         "Those who have had traditional injections with limited results",
-        "Chronic pain requiring repeated injection treatment",
+        "Chronic pain requiring repeated injection treatment. [3]",
       ],
       steps: [
         "Ultrasound scan to confirm target location and surrounding structures",
@@ -680,7 +680,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         "Injection performed under real-time ultrasound guidance",
         "Confirm medication distribution, complete treatment",
       ],
-      clinicAdvantage: "Dr. Lin's neurology training makes ultrasound interpretation more precise — not just locating the target, but assessing the condition of nerves, vessels, and soft tissue at the same time, completing diagnosis and treatment in a single appointment. [2][3]",
+      clinicAdvantage: "Dr. Lin's neurology training makes ultrasound interpretation more precise — not just locating the target, but assessing the condition of nerves, vessels, and soft tissue at the same time, completing diagnosis and treatment in a single appointment.",
       pricingNote: "Ultrasound-guided injection fees vary by site and medication. Please refer to the pricing page.",
       faqItems: [
         { q: "Does ultrasound-guided injection hurt?", a: "There is mild discomfort at needle entry, varying by site and medication. Most patients find it manageable. Local anesthesia is available if needed." },
@@ -1304,12 +1304,12 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       heroSub: "見ながら打つから正確。すべての注射治療の基盤となる技術です。",
       eyebrow: "治療について",
       whatIs: "超音波ガイド下注射は、超音波のリアルタイム画像を見ながら注射治療を行う手技です。医師はモニター上で針先の位置・目標構造・周囲組織を明確に確認しながら、薬剤を必要な場所に正確に届け、神経や血管への損傷を回避します。",
-      whyImportant: "従来のブラインド注射は医師の解剖学的知識と感覚に依存しており、熟練した医師であっても一定の誤差が生じます。研究によると、超音波ガイドなしで行う肩関節注射の正確性はおよそ70%程度です。超音波ガイドにより正確性を95%以上に高め、安定した治療効果と低い合併症リスクを実現します。[1]",
+      whyImportant: "従来のブラインド注射は医師の解剖学的知識と感覚に依存しており、熟練した医師であっても一定の誤差が生じます。研究によると、超音波ガイドなしで行う肩関節注射の正確性はおよそ70%程度です。超音波ガイドにより正確性を95%以上に高め、安定した治療効果と低い合併症リスクを実現します。[1][2]",
       suitable: [
         "精密な注射を要する深部構造（関節腔・腱鞘・神経周囲）",
         "体格が大きい方や解剖学的に特殊な患者様",
         "従来の注射で効果が不十分だった方",
-        "慢性疼痛で繰り返し注射治療が必要な方",
+        "慢性疼痛で繰り返し注射治療が必要な方。[3]",
       ],
       steps: [
         "超音波でターゲット位置と周囲構造を確認",
@@ -1318,7 +1318,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         "超音波リアルタイムモニタリング下で注射実施",
         "薬剤分布を確認し治療完了",
       ],
-      clinicAdvantage: "林医師の神経内科トレーニングにより超音波の読影がより精密になります。ターゲット位置を特定するだけでなく、神経・血管・軟部組織の状態を同時に評価し、1回の診察で診断と治療を完結させます。[2][3]",
+      clinicAdvantage: "林医師の神経内科トレーニングにより超音波の読影がより精密になります。ターゲット位置を特定するだけでなく、神経・血管・軟部組織の状態を同時に評価し、1回の診察で診断と治療を完結させます。",
       pricingNote: "超音波ガイド下注射の費用は注射部位と使用薬剤によって異なります。料金ページをご参照ください。",
       faqItems: [
         { q: "超音波ガイド下注射は痛いですか？", a: "刺入時に軽い不快感がありますが、部位や薬剤によって異なります。ほとんどの患者様は許容範囲と感じています。必要に応じて局所麻酔も可能です。" },
