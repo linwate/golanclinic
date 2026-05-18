@@ -155,7 +155,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         { q: "需要打幾次？", a: "一般建議 3–5 次為一個療程，每次間隔 2–4 週，視症狀和改善程度調整。" },
       ],
       references: [
-        { authors: "Ebbesen BH, et al.", title: "Dextrose Prolotherapy Versus Lidocaine Injection for Temporomandibular Dysfunction: A Pragmatic Randomized Controlled Trial", journal: "Pain Med", year: 2020, doi: "10.1093/pm/pnaa155" },
+        { authors: "Zarate MA, Frusso RD, Reeves KD, Cheng AL, Rabago D", title: "Dextrose Prolotherapy Versus Lidocaine Injection for Temporomandibular Dysfunction: A Pragmatic Randomized Controlled Trial", journal: "J Altern Complement Med", year: 2020, doi: "10.1089/acm.2020.0207" },
         { authors: "Hung CY, et al.", title: "Prolotherapy for the patients with chronic musculoskeletal pain: systematic review and meta-analysis", journal: "Pain Med", year: 2021, doi: "10.1093/pm/pnaa330" },
         { authors: "Ebnerasooli S, Barghi A, et al.", title: "Peri-articular Dextrose Prolotherapy: Investigating the Effect of Injection Site on Knee Osteoarthritis Pain", journal: "Anesth Pain Med", year: 2024, doi: "10.5812/aapm-140966" },
       ],
@@ -687,7 +687,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         { q: "How many sessions are needed?", a: "A typical course is 3–5 sessions spaced 2–4 weeks apart, adjusted based on symptom response." },
       ],
       references: [
-        { authors: "Ebbesen BH, et al.", title: "Dextrose Prolotherapy Versus Lidocaine Injection for Temporomandibular Dysfunction: A Pragmatic Randomized Controlled Trial", journal: "Pain Med", year: 2020, doi: "10.1093/pm/pnaa155" },
+        { authors: "Zarate MA, Frusso RD, Reeves KD, Cheng AL, Rabago D", title: "Dextrose Prolotherapy Versus Lidocaine Injection for Temporomandibular Dysfunction: A Pragmatic Randomized Controlled Trial", journal: "J Altern Complement Med", year: 2020, doi: "10.1089/acm.2020.0207" },
         { authors: "Hung CY, et al.", title: "Prolotherapy for the patients with chronic musculoskeletal pain: systematic review and meta-analysis", journal: "Pain Med", year: 2021, doi: "10.1093/pm/pnaa330" },
         { authors: "Ebnerasooli S, Barghi A, et al.", title: "Peri-articular Dextrose Prolotherapy: Investigating the Effect of Injection Site on Knee Osteoarthritis Pain", journal: "Anesth Pain Med", year: 2024, doi: "10.5812/aapm-140966" },
       ],
@@ -1219,7 +1219,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         { q: "何回必要ですか？", a: "通常は2〜4週間隔で3〜5回のコースを推奨し、症状と改善度に応じて調整します。" },
       ],
       references: [
-        { authors: "Ebbesen BH, et al.", title: "Dextrose Prolotherapy Versus Lidocaine Injection for Temporomandibular Dysfunction: A Pragmatic Randomized Controlled Trial", journal: "Pain Med", year: 2020, doi: "10.1093/pm/pnaa155" },
+        { authors: "Zarate MA, Frusso RD, Reeves KD, Cheng AL, Rabago D", title: "Dextrose Prolotherapy Versus Lidocaine Injection for Temporomandibular Dysfunction: A Pragmatic Randomized Controlled Trial", journal: "J Altern Complement Med", year: 2020, doi: "10.1089/acm.2020.0207" },
         { authors: "Hung CY, et al.", title: "Prolotherapy for the patients with chronic musculoskeletal pain: systematic review and meta-analysis", journal: "Pain Med", year: 2021, doi: "10.1093/pm/pnaa330" },
         { authors: "Ebnerasooli S, Barghi A, et al.", title: "Peri-articular Dextrose Prolotherapy: Investigating the Effect of Injection Site on Knee Osteoarthritis Pain", journal: "Anesth Pain Med", year: 2024, doi: "10.5812/aapm-140966" },
       ],
