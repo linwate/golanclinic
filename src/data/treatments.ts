@@ -102,7 +102,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       ],
       references: [
         { authors: "Lin MT, Wei KC, Wu CH", title: "Effectiveness of Platelet-Rich Plasma Injection in Rotator Cuff Tendinopathy: A Systematic Review and Meta-Analysis of Randomized Controlled Trials", journal: "Diagnostics", year: 2020, doi: "10.3390/diagnostics10040189" },
-        { authors: "Kwong CA, Woodmass JM, et al.", title: "Platelet-rich plasma in patients with partial-thickness rotator cuff tears or tendinopathy leads to significantly improved short-term pain relief and function compared with corticosteroid injection", journal: "Arthroscopy", year: 2021, doi: "10.1016/j.arthro.2020.10.037" },
+        { authors: "Kwong CA, Woodmass JM, et al.", title: "Platelet-Rich Plasma in Patients With Partial-Thickness Rotator Cuff Tears or Tendinopathy Leads to Significantly Improved Short-Term Pain Relief and Function Compared With Corticosteroid Injection: A Double-Blind Randomized Controlled Trial", journal: "Arthroscopy", year: 2021, doi: "10.1016/j.arthro.2020.10.037" },
         { authors: "Bahadir B, et al.", title: "Platelet-rich plasma in the management of rotator cuff tendinopathy", journal: "Jt Dis Relat Surg", year: 2024, doi: "10.52312/jdrs.2024.1586" },
       ],
       relatedSymptoms: [
@@ -634,7 +634,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       ],
       references: [
         { authors: "Lin MT, Wei KC, Wu CH", title: "Effectiveness of Platelet-Rich Plasma Injection in Rotator Cuff Tendinopathy: A Systematic Review and Meta-Analysis of Randomized Controlled Trials", journal: "Diagnostics", year: 2020, doi: "10.3390/diagnostics10040189" },
-        { authors: "Kwong CA, Woodmass JM, et al.", title: "Platelet-rich plasma in patients with partial-thickness rotator cuff tears or tendinopathy leads to significantly improved short-term pain relief and function compared with corticosteroid injection", journal: "Arthroscopy", year: 2021, doi: "10.1016/j.arthro.2020.10.037" },
+        { authors: "Kwong CA, Woodmass JM, et al.", title: "Platelet-Rich Plasma in Patients With Partial-Thickness Rotator Cuff Tears or Tendinopathy Leads to Significantly Improved Short-Term Pain Relief and Function Compared With Corticosteroid Injection: A Double-Blind Randomized Controlled Trial", journal: "Arthroscopy", year: 2021, doi: "10.1016/j.arthro.2020.10.037" },
         { authors: "Bahadir B, et al.", title: "Platelet-rich plasma in the management of rotator cuff tendinopathy", journal: "Jt Dis Relat Surg", year: 2024, doi: "10.52312/jdrs.2024.1586" },
       ],
       relatedSymptoms: [
@@ -1166,7 +1166,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       ],
       references: [
         { authors: "Lin MT, Wei KC, Wu CH", title: "Effectiveness of Platelet-Rich Plasma Injection in Rotator Cuff Tendinopathy: A Systematic Review and Meta-Analysis of Randomized Controlled Trials", journal: "Diagnostics", year: 2020, doi: "10.3390/diagnostics10040189" },
-        { authors: "Kwong CA, Woodmass JM, et al.", title: "Platelet-rich plasma in patients with partial-thickness rotator cuff tears or tendinopathy leads to significantly improved short-term pain relief and function compared with corticosteroid injection", journal: "Arthroscopy", year: 2021, doi: "10.1016/j.arthro.2020.10.037" },
+        { authors: "Kwong CA, Woodmass JM, et al.", title: "Platelet-Rich Plasma in Patients With Partial-Thickness Rotator Cuff Tears or Tendinopathy Leads to Significantly Improved Short-Term Pain Relief and Function Compared With Corticosteroid Injection: A Double-Blind Randomized Controlled Trial", journal: "Arthroscopy", year: 2021, doi: "10.1016/j.arthro.2020.10.037" },
         { authors: "Bahadir B, et al.", title: "Platelet-rich plasma in the management of rotator cuff tendinopathy", journal: "Jt Dis Relat Surg", year: 2024, doi: "10.52312/jdrs.2024.1586" },
       ],
       relatedSymptoms: [
