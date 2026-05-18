@@ -80,11 +80,11 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       whatIs: "PRP（Platelet-Rich Plasma）是從患者自身血液中分離出高濃度血小板的治療方式。血小板含有多種生長因子，可以促進組織修復、減少發炎、加速癒合。整個過程在門診完成，抽血、離心、注射約需 30–45 分鐘。",
       whyImportant: "很多慢性疼痛的根本原因是組織退化或損傷沒有完全修復。止痛藥和類固醇只是暫時壓制發炎，沒有修復受損的結構。PRP 提供組織修復所需的生長因子，有機會讓身體完成本來無法完成的修復過程。[1]",
       suitable: [
-        "肌腱退化（網球肘、足底筋膜炎、旋轉肌問題）",
+        "肌腱退化（網球肘、足底筋膜炎、旋轉肌問題）[2]",
         "關節軟骨磨損（膝蓋、肩膀、髖關節）",
         "韌帶損傷（腳踝扭傷後不穩定）",
         "糖尿病周邊神經病變（DPN）",
-        "類固醇注射效果不佳或不想使用類固醇",
+        "類固醇注射效果不佳或不想使用類固醇 [3]",
       ],
       steps: [
         "抽取患者靜脈血約 15–20cc",
@@ -93,7 +93,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         "超音波導引下精準注射 PRP",
         "說明術後注意事項和預期反應",
       ],
-      clinicAdvantage: "林醫師會依據超音波評估結果決定 PRP 的注射位置和劑量，不是每個人都打同一個位置。神經科背景讓 DPN 的 PRP 神經水解治療更精準，可以同時處理多個神經壓迫位置。[2][3]",
+      clinicAdvantage: "林醫師會依據超音波評估結果決定 PRP 的注射位置和劑量，不是每個人都打同一個位置。神經科背景讓 DPN 的 PRP 神經水解治療更精準，可以同時處理多個神經壓迫位置。",
       pricingNote: "PRP 費用依治療部位和療程次數而定，請參考費用說明頁面。通常建議 2–3 次為一個療程。",
       faqItems: [
         { q: "PRP 需要打幾次才有效？", a: "一般建議 2–3 次為一個療程，每次間隔 4–6 週。部分患者第一次就有明顯改善，也有些人需要完整療程才看到效果，和個人體質、損傷程度有關。" },
@@ -718,11 +718,11 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       whatIs: "PRP (Platelet-Rich Plasma) is prepared by concentrating platelets from the patient's own blood. Platelets contain multiple growth factors that promote tissue repair, reduce inflammation, and accelerate healing. The entire process — blood draw, centrifugation, and injection — takes place in the clinic in about 30–45 minutes.",
       whyImportant: "Many chronic pain conditions are rooted in tissue degeneration or incomplete healing. Pain medications and corticosteroids only suppress inflammation temporarily without repairing the damaged structure. PRP provides the growth factors tissue needs to complete the repair process the body was unable to finish on its own. [1]",
       suitable: [
-        "Tendon degeneration (tennis elbow, plantar fasciitis, rotator cuff issues)",
+        "Tendon degeneration (tennis elbow, plantar fasciitis, rotator cuff issues) [2]",
         "Joint cartilage wear (knee, shoulder, hip)",
         "Ligament injury (chronic ankle instability)",
         "Diabetic peripheral neuropathy (DPN)",
-        "Limited results from corticosteroid injections, or preference to avoid steroids",
+        "Limited results from corticosteroid injections, or preference to avoid steroids [3]",
       ],
       steps: [
         "Draw approximately 15–20cc of venous blood",
@@ -731,7 +731,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         "Precise injection under ultrasound guidance",
         "Post-treatment instructions and expected response",
       ],
-      clinicAdvantage: "Dr. Lin uses ultrasound assessment to determine the precise injection site and dosage for each patient — not a one-size-fits-all approach. His neurology background makes PRP neural hydrodissection for DPN more accurate, allowing multiple nerve compression sites to be addressed in one treatment. [2][3]",
+      clinicAdvantage: "Dr. Lin uses ultrasound assessment to determine the precise injection site and dosage for each patient — not a one-size-fits-all approach. His neurology background makes PRP neural hydrodissection for DPN more accurate, allowing multiple nerve compression sites to be addressed in one treatment.",
       pricingNote: "PRP fees vary by treatment site and number of sessions. Please refer to the pricing page. A course of 2–3 sessions is typically recommended.",
       faqItems: [
         { q: "How many PRP sessions are needed?", a: "A standard course is 2–3 sessions spaced 4–6 weeks apart. Some patients see significant improvement after the first session; others need the full course. Results depend on individual constitution and injury severity." },
@@ -1356,11 +1356,11 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
       whatIs: "PRP（Platelet-Rich Plasma：多血小板血漿）は患者様自身の血液から高濃度の血小板を分離して準備します。血小板には組織修復を促進し、炎症を軽減し、治癒を加速する複数の成長因子が含まれています。採血・遠心分離・注射の全工程をクリニック内で約30〜45分で完結します。",
       whyImportant: "多くの慢性疼痛の根本原因は組織の変性または不完全な修復です。鎮痛薬やステロイドは炎症を一時的に抑制するだけで、損傷した構造を修復しません。PRPは組織修復に必要な成長因子を提供し、体が本来完了できなかった修復プロセスを支援します。[1]",
       suitable: [
-        "腱の変性（テニス肘・足底筋膜炎・腱板の問題）",
+        "腱の変性（テニス肘・足底筋膜炎・腱板の問題）[2]",
         "関節軟骨の摩耗（膝・肩・股関節）",
         "靭帯損傷（慢性足関節不安定症）",
         "糖尿病性末梢神経障害（DPN）",
-        "ステロイド注射の効果が不十分、またはステロイドを避けたい方",
+        "ステロイド注射の効果が不十分、またはステロイドを避けたい方 [3]",
       ],
       steps: [
         "静脈血を約15〜20cc採血",
@@ -1369,7 +1369,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
         "超音波ガイド下で正確にPRPを注射",
         "術後の注意事項と予期される反応を説明",
       ],
-      clinicAdvantage: "林医師は超音波評価の結果に基づき、各患者様の注射部位と量を決定します。画一的なアプローチではありません。神経内科の背景により、DPNに対するPRP神経水解療法がより精密になり、複数の神経圧迫部位を1回の治療で対処できます。[2][3]",
+      clinicAdvantage: "林医師は超音波評価の結果に基づき、各患者様の注射部位と量を決定します。画一的なアプローチではありません。神経内科の背景により、DPNに対するPRP神経水解療法がより精密になり、複数の神経圧迫部位を1回の治療で対処できます。",
       pricingNote: "PRPの費用は治療部位と施術回数によって異なります。料金ページをご参照ください。通常2〜3回のコースを推奨しています。",
       faqItems: [
         { q: "PRPは何回必要ですか？", a: "通常は4〜6週間隔で2〜3回をコースとして推奨しています。初回から大きな改善を感じる方もいれば、フルコースが必要な方もいます。個人の体質と損傷の程度によって異なります。" },
