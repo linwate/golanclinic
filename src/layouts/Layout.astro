@@ -291,14 +291,6 @@ const hreflangOf: Record<Lang, string> = {
       });
     </script>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XE7D8EDT6B" is:inline></script>
-    <script is:inline>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-XE7D8EDT6B');
-    </script>
   </head>
   <body>
     <a href="#main" class="skip-link">Skip to content</a>
@@ -672,5 +664,14 @@ const hreflangOf: Record<Lang, string> = {
       </a>
 
     </div>
+
+    <!-- Google tag (gtag.js) -->
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-XE7D8EDT6B" is:inline></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XE7D8EDT6B');
+    </script>
   </body>
 </html>
