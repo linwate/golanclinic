@@ -1112,7 +1112,7 @@ export const treatments: Record<string, Record<string, TreatmentCard>> = {
     },
     'sportvis': {
       slug: 'sportvis',
-      metaTitle: 'SportVis Tendon & Ligament Repair | Colan Clinic · Luzhou Pain Treatment',
+      metaTitle: 'SportVis Tendon & Ligament Repair | Colan Clinic · Luzhou',
       metaDescription: 'SportVis is the only TFDA-approved hyaluronic acid injection for tendon and ligament repair. Standard course is just 2 doses — suitable for tennis elbow, ankle sprain, and rotator cuff injuries.',
       h1: 'SportVis Tendon & Ligament Repair',
       heroSub: 'The only TFDA-approved injectable for tendon and ligament repair — not lubrication, but regeneration.',
